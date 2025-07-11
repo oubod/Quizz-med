@@ -1,0 +1,992 @@
+[
+  {
+    "question": "Selon Claude Bernard, comment est appelÃ© le liquide dans lequel baignent les cellules d'un organisme pluricellulaire ?",
+    "options": {
+      "A": "Liquide cÃ©phalo-rachidien",
+      "B": "Milieu intÃ©rieur",
+      "C": "Liquide intracellulaire",
+      "D": "SÃ©rum sanguin"
+    },
+    "answer": "B",
+    "explanation": "Claude Bernard a dÃ©fini le 'Milieu IntÃ©rieur' (ou liquide extracellulaire) comme le liquide qui entoure les cellules, agissant comme un intermÃ©diaire entre la cellule et le milieu extÃ©rieur."
+  },
+  {
+    "question": "Quel terme, introduit par CANON, dÃ©signe la constance de la composition du milieu intÃ©rieur ?",
+    "options": {
+      "A": "HomogÃ©nÃ©itÃ©",
+      "B": "HÃ©mostase",
+      "C": "HomÃ©ostasie",
+      "D": "OsmolalitÃ©"
+    },
+    "answer": "C",
+    "explanation": "L'homÃ©ostasie est le terme utilisÃ© pour dÃ©crire la capacitÃ© de l'organisme Ã  maintenir la stabilitÃ© et la constance de son milieu intÃ©rieur malgrÃ© les variations de l'environnement externe."
+  },
+  {
+    "question": "Quelle est la formule de base du principe de dilution pour mesurer le volume d'un compartiment liquidien ?",
+    "options": {
+      "A": "V = M x C",
+      "B": "V = C / M",
+      "C": "V = M / C",
+      "D": "C = V / M"
+    },
+    "answer": "C",
+    "explanation": "Le volume (V) du compartiment est Ã©gal Ã  la masse (M) de traceur injectÃ©e divisÃ©e par la concentration (C) du traceur aprÃ¨s diffusion homogÃ¨ne."
+  },
+  {
+    "question": "Dans la pratique, comment dÃ©termine-t-on la concentration initiale (Co) d'un traceur pour calculer un volume de compartiment ?",
+    "options": {
+      "A": "En mesurant la concentration immÃ©diatement aprÃ¨s injection",
+      "B": "En faisant la moyenne de toutes les concentrations mesurÃ©es",
+      "C": "En extrapolant la courbe de dÃ©croissance Ã  l'instant zÃ©ro (t=0)",
+      "D": "En utilisant la derniÃ¨re concentration mesurÃ©e"
+    },
+    "answer": "C",
+    "explanation": "Comme le traceur est Ã©liminÃ©, sa concentration diminue. On trace la courbe de concentration en fonction du temps (souvent en Ã©chelle semi-log) et on l'extrapole jusqu'Ã  t=0 pour trouver la concentration thÃ©orique (Co) qui aurait existÃ© si la diffusion avait Ã©tÃ© instantanÃ©e."
+  },
+  {
+    "question": "Laquelle de ces propositions n'est PAS une caractÃ©ristique souhaitable d'un traceur ?",
+    "options": {
+      "A": "ÃŠtre non toxique",
+      "B": "Diffuser uniquement dans le compartiment Ã  mesurer",
+      "C": "ÃŠtre rapidement mÃ©tabolisÃ© ou Ã©liminÃ©",
+      "D": "ÃŠtre facilement mesurable"
+    },
+    "answer": "C",
+    "explanation": "Un traceur idÃ©al doit Ãªtre faiblement Ã©liminÃ© et/ou mÃ©tabolisÃ© pour que sa concentration reste stable le temps de la mesure et pour que l'extrapolation Ã  t=0 soit plus prÃ©cise."
+  },
+  {
+    "question": "Quel traceur est couramment utilisÃ© pour mesurer l'eau totale de l'organisme ?",
+    "options": {
+      "A": "Inuline",
+      "B": "Bleu Evans",
+      "C": "Eau tritiÃ©e (T2O)",
+      "D": "Albumine marquÃ©e"
+    },
+    "answer": "C",
+    "explanation": "Les isotopes de l'eau, comme l'eau deutÃ©riÃ©e (D2O) ou l'eau tritiÃ©e (T2O), sont utilisÃ©s car ils se distribuent dans tous les compartiments hydriques, tout comme l'eau elle-mÃªme."
+  },
+  {
+    "question": "Quel pourcentage de la masse corporelle l'eau totale reprÃ©sente-t-elle chez un adulte jeune de sexe masculin ?",
+    "options": {
+      "A": "40%",
+      "B": "50%",
+      "C": "60%",
+      "D": "75%"
+    },
+    "answer": "C",
+    "explanation": "Chez un adulte masculin de poids moyen, l'eau totale constitue environ 60% de sa masse corporelle. Ce pourcentage est plus faible chez la femme (environ 50%) en raison d'une plus grande proportion de tissu adipeux."
+  },
+  {
+    "question": "Comment Ã©volue la proportion d'eau dans l'organisme avec l'Ã¢ge ?",
+    "options": {
+      "A": "Elle augmente",
+      "B": "Elle reste constante",
+      "C": "Elle diminue",
+      "D": "Elle augmente puis diminue"
+    },
+    "answer": "C",
+    "explanation": "La proportion d'eau corporelle est maximale chez le nourrisson (environ 75%) et diminue progressivement avec l'Ã¢ge, atteignant environ 50% chez les personnes Ã¢gÃ©es."
+  },
+  {
+    "question": "Quel traceur est utilisÃ© pour mesurer le volume du compartiment extracellulaire ?",
+    "options": {
+      "A": "L'inuline",
+      "B": "L'eau tritiÃ©e (T2O)",
+      "C": "Les globules rouges marquÃ©s au Chrome",
+      "D": "L'antipyrine"
+    },
+    "answer": "A",
+    "explanation": "L'inuline ou le thiosulfate sont des substances qui diffusent dans le plasma et le liquide interstitiel mais ne peuvent pas traverser la membrane cellulaire. Elles permettent donc de mesurer le volume du compartiment extracellulaire."
+  },
+  {
+    "question": "Le compartiment extracellulaire reprÃ©sente environ quel pourcentage du poids du corps ?",
+    "options": {
+      "A": "10%",
+      "B": "20%",
+      "C": "40%",
+      "D": "60%"
+    },
+    "answer": "B",
+    "explanation": "Le compartiment extracellulaire (milieu intÃ©rieur), qui comprend le plasma et le liquide interstitiel, reprÃ©sente environ 20% du poids corporel total."
+  },
+  {
+    "question": "Comment calcule-t-on le volume du compartiment intracellulaire ?",
+    "options": {
+      "A": "Directement avec un traceur spÃ©cifique",
+      "B": "Volume de l'eau totale - Volume du compartiment extracellulaire",
+      "C": "Volume de l'eau totale - Volume plasmatique",
+      "D": "Volume du compartiment extracellulaire - Volume plasmatique"
+    },
+    "answer": "B",
+    "explanation": "Il n'existe pas de traceur pouvant mesurer directement le volume intracellulaire. On le calcule donc par diffÃ©rence : Volume Intracellulaire = Volume de l'Eau Totale - Volume Extracellulaire."
+  },
+  {
+    "question": "Le compartiment intracellulaire reprÃ©sente environ quel pourcentage de la masse corporelle ?",
+    "options": {
+      "A": "20%",
+      "B": "30%",
+      "C": "40%",
+      "D": "50%"
+    },
+    "answer": "C",
+    "explanation": "Ã‰tant la plus grande rÃ©serve d'eau, le compartiment intracellulaire reprÃ©sente environ 40% de la masse corporelle (soit 2/3 de l'eau totale)."
+  },
+  {
+    "question": "Quel traceur est utilisÃ© pour mesurer le volume plasmatique ?",
+    "options": {
+      "A": "L'inuline",
+      "B": "Le sodium radioactif (Na24)",
+      "C": "Le bleu Evans",
+      "D": "L'eau lourde (D2O)"
+    },
+    "answer": "C",
+    "explanation": "Le bleu Evans est un colorant qui se fixe fortement aux protÃ©ines plasmatiques (albumine) et ne peut donc pas quitter les vaisseaux sanguins. Il permet de mesurer le volume du compartiment oÃ¹ il se distribue : le plasma."
+  },
+  {
+    "question": "Comment calcule-t-on le volume du secteur interstitiel ?",
+    "options": {
+      "A": "Directement avec un traceur",
+      "B": "Volume de l'eau totale - Volume intracellulaire",
+      "C": "Volume extracellulaire - Volume plasmatique",
+      "D": "Volume sanguin total - Volume plasmatique"
+    },
+    "answer": "C",
+    "explanation": "Le volume interstitiel est calculÃ© indirectement en soustrayant le volume plasmatique (mesurÃ©) du volume extracellulaire total (mesurÃ©)."
+  },
+  {
+    "question": "Ã€ quoi est due la couleur rouge vif du sang artÃ©riel ?",
+    "options": {
+      "A": "Ã€ la prÃ©sence de dioxyde de carbone",
+      "B": "Ã€ l'oxyhÃ©moglobine (hÃ©moglobine liÃ©e Ã  l'O2)",
+      "C": "Ã€ la carboxyhÃ©moglobine (hÃ©moglobine liÃ©e au CO)",
+      "D": "Au plasma"
+    },
+    "answer": "B",
+    "explanation": "La couleur du sang varie avec son oxygÃ©nation. Le sang artÃ©riel, riche en oxygÃ¨ne, contient de l'oxyhÃ©moglobine qui lui donne une couleur rouge vif. Le sang veineux, pauvre en oxygÃ¨ne, est rouge sombre."
+  },
+  {
+    "question": "Quelle est la valeur normale du pH sanguin ?",
+    "options": {
+      "A": "7,0",
+      "B": "7,2",
+      "C": "7,4",
+      "D": "7,6"
+    },
+    "answer": "C",
+    "explanation": "Le pH du sang est maintenu de maniÃ¨re trÃ¨s stable dans une fourchette Ã©troite. Sa valeur normale est lÃ©gÃ¨rement alcaline, autour de 7,4."
+  },
+  {
+    "question": "Qu'est-ce que l'hÃ©matocrite (Ht) ?",
+    "options": {
+      "A": "La concentration en hÃ©moglobine dans le sang",
+      "B": "Le pourcentage du volume sanguin total occupÃ© par les globules rouges",
+      "C": "Le nombre total de globules blancs",
+      "D": "La vitesse de sÃ©dimentation du sang"
+    },
+    "answer": "B",
+    "explanation": "L'hÃ©matocrite est la proportion du volume sanguin total qui est constituÃ©e par les Ã©lÃ©ments figurÃ©s, principalement les globules rouges. Elle est mesurÃ©e aprÃ¨s centrifugation."
+  },
+  {
+    "question": "Quelle est la valeur normale de l'hÃ©matocrite chez l'homme adulte ?",
+    "options": {
+      "A": "20-25%",
+      "B": "30-35%",
+      "C": "40-45%",
+      "D": "55-60%"
+    },
+    "answer": "C",
+    "explanation": "L'hÃ©matocrite normal chez l'homme est d'environ 40 Ã  45%. Il est lÃ©gÃ¨rement plus faible chez la femme."
+  },
+  {
+    "question": "Une accÃ©lÃ©ration de la Vitesse de SÃ©dimentation (VS) est souvent le signe de quoi ?",
+    "options": {
+      "A": "D'une bonne santÃ©",
+      "B": "D'un Ã©tat pathologique (inflammation, infection, etc.)",
+      "C": "D'une dÃ©shydratation",
+      "D": "D'une anÃ©mie"
+    },
+    "answer": "B",
+    "explanation": "La VS est un test non spÃ©cifique. Une accÃ©lÃ©ration est souvent causÃ©e par une augmentation de certaines protÃ©ines plasmatiques (comme le fibrinogÃ¨ne) lors d'Ã©tats inflammatoires, infectieux ou nÃ©oplasiques."
+  },
+  {
+    "question": "Comment peut-on calculer le Volume Sanguin (VS) Ã  partir du Volume Plasmatique (Vp) et de l'HÃ©matocrite (Ht) ?",
+    "options": {
+      "A": "VS = Vp / Ht",
+      "B": "VS = Vp x Ht",
+      "C": "VS = Vp / (100 - Ht)",
+      "D": "VS = Vp / (1 - (Ht/100))"
+    },
+    "answer": "D",
+    "explanation": "Le volume plasmatique reprÃ©sente la fraction (1 - Ht/100) du volume sanguin total. Donc, pour trouver le volume total, on divise le volume plasmatique par cette fraction. La formule est VS = Vp / (100-Ht) x 100, qui est Ã©quivalente Ã  l'option D."
+  },
+  {
+    "question": "Quelle est la principale diffÃ©rence de composition entre le plasma et le sÃ©rum ?",
+    "options": {
+      "A": "Le sÃ©rum contient plus de globules rouges",
+      "B": "Le plasma contient des facteurs de coagulation (comme le fibrinogÃ¨ne), le sÃ©rum n'en contient pas",
+      "C": "Le sÃ©rum est plus riche en glucose",
+      "D": "Le plasma est plus acide que le sÃ©rum"
+    },
+    "answer": "B",
+    "explanation": "Le plasma est obtenu Ã  partir de sang anticoagulÃ©. Le sÃ©rum est le liquide qui se sÃ©pare aprÃ¨s la coagulation du sang ; il est donc dÃ©pourvu de fibrinogÃ¨ne et d'autres facteurs de coagulation qui ont Ã©tÃ© consommÃ©s pour former le caillot."
+  },
+  {
+    "question": "Quelle est la protÃ©ine plasmatique la plus abondante ?",
+    "options": {
+      "A": "FibrinogÃ¨ne",
+      "B": "Globulines alpha",
+      "C": "Globulines gamma",
+      "D": "Albumine"
+    },
+    "answer": "D",
+    "explanation": "L'albumine reprÃ©sente environ 60% du poids total des protÃ©ines plasmatiques. Elle joue un rÃ´le crucial dans le maintien de la pression oncotique et le transport de nombreuses substances."
+  },
+  {
+    "question": "Quelle technique est utilisÃ©e pour sÃ©parer les diffÃ©rentes fractions de protÃ©ines plasmatiques ?",
+    "options": {
+      "A": "Centrifugation",
+      "B": "Cryoscopie",
+      "C": "Ã‰lectrophorÃ¨se",
+      "D": "SpectromÃ©trie de masse"
+    },
+    "answer": "C",
+    "explanation": "L'Ã©lectrophorÃ¨se sÃ©pare les protÃ©ines en fonction de leur charge Ã©lectrique et de leur taille, permettant de les quantifier en diffÃ©rentes fractions (albumine, globulines Î±1, Î±2, Î², et Î³)."
+  },
+  {
+    "question": "Quel est le rÃ´le principal des globulines gamma (ou immunoglobulines) ?",
+    "options": {
+      "A": "Transport de l'oxygÃ¨ne",
+      "B": "Maintien de la pression oncotique",
+      "C": "DÃ©fense immunitaire (anticorps)",
+      "D": "Coagulation sanguine"
+    },
+    "answer": "C",
+    "explanation": "Les globulines gamma sont les anticorps de l'organisme, produits par les lymphocytes B (plasmocytes) en rÃ©ponse Ã  une infection ou une agression. Elles sont essentielles Ã  la dÃ©fense immunitaire."
+  },
+  {
+    "question": "La pression exercÃ©e par les protÃ©ines plasmatiques, qui retient l'eau dans les capillaires, est appelÃ©e :",
+    "options": {
+      "A": "Pression hydrostatique",
+      "B": "Pression osmotique",
+      "C": "Pression oncotique (ou colloÃ¯do-osmotique)",
+      "D": "Pression artÃ©rielle"
+    },
+    "answer": "C",
+    "explanation": "La pression oncotique est la forme de pression osmotique gÃ©nÃ©rÃ©e par les protÃ©ines (principalement l'albumine) qui ne traversent pas la paroi capillaire. Elle s'oppose Ã  la sortie d'eau des vaisseaux."
+  },
+  {
+    "question": "Quel est le principal cation (ion positif) du liquide extracellulaire (plasma et liquide interstitiel) ?",
+    "options": {
+      "A": "Potassium (K+)",
+      "B": "Sodium (Na+)",
+      "C": "Calcium (Ca++)",
+      "D": "MagnÃ©sium (Mg++)"
+    },
+    "answer": "B",
+    "explanation": "Le sodium (Na+) est le cation le plus abondant dans le compartiment extracellulaire, jouant un rÃ´le majeur dans la dÃ©termination de son osmolalitÃ© et de son volume."
+  },
+  {
+    "question": "Quel est le principal cation du liquide intracellulaire ?",
+    "options": {
+      "A": "Potassium (K+)",
+      "B": "Sodium (Na+)",
+      "C": "Calcium (Ca++)",
+      "D": "Chlorure (Cl-)"
+    },
+    "answer": "A",
+    "explanation": "Ã€ l'inverse du milieu extracellulaire, le milieu intracellulaire est trÃ¨s riche en potassium (K+), qui est essentiel pour le potentiel de membrane cellulaire et de nombreuses fonctions enzymatiques."
+  },
+  {
+    "question": "Quelle est la fonction principale des globules rouges (hÃ©maties) ?",
+    "options": {
+      "A": "Phagocytose des bactÃ©ries",
+      "B": "Transport de l'oxygÃ¨ne",
+      "C": "Production d'anticorps",
+      "D": "Coagulation"
+    },
+    "answer": "B",
+    "explanation": "Les globules rouges contiennent de l'hÃ©moglobine, une protÃ©ine spÃ©cialisÃ©e dans la liaison et le transport de l'oxygÃ¨ne des poumons vers les tissus."
+  },
+  {
+    "question": "Une carence en vitamine B12 peut entraÃ®ner quel type d'anÃ©mie ?",
+    "options": {
+      "A": "AnÃ©mie ferriprive (microcytaire)",
+      "B": "AnÃ©mie hÃ©molytique",
+      "C": "AnÃ©mie macrocytaire (ou mÃ©galoblastique)",
+      "D": "ThalassÃ©mie"
+    },
+    "answer": "C",
+    "explanation": "La vitamine B12 est nÃ©cessaire Ã  la maturation des globules rouges dans la moelle osseuse. Une carence entraÃ®ne la production de globules rouges de grande taille (macrocytes) et en nombre insuffisant."
+  },
+  {
+    "question": "Quelle est la fonction principale des leucocytes polynuclÃ©aires neutrophiles ?",
+    "options": {
+      "A": "RÃ©ponse allergique",
+      "B": "Production d'anticorps",
+      "C": "Phagocytose des bactÃ©ries",
+      "D": "Transport des lipides"
+    },
+    "answer": "C",
+    "explanation": "Les neutrophiles sont des phagocytes professionnels, formant la premiÃ¨re ligne de dÃ©fense de l'immunitÃ© innÃ©e contre les infections bactÃ©riennes."
+  },
+  {
+    "question": "Quel type de cellule sanguine est responsable de la production d'anticorps ?",
+    "options": {
+      "A": "Neutrophiles",
+      "B": "Plaquettes",
+      "C": "Lymphocytes (plasmocytes)",
+      "D": "Monocytes"
+    },
+    "answer": "C",
+    "explanation": "Les lymphocytes B, une fois activÃ©s, se diffÃ©rencient en plasmocytes, qui sont des usines Ã  produire des anticorps (immunoglobulines) spÃ©cifiques contre un antigÃ¨ne."
+  },
+  {
+    "question": "Quel est le rÃ´le des plaquettes (thrombocytes) ?",
+    "options": {
+      "A": "Transport de l'O2",
+      "B": "DÃ©fense immunitaire",
+      "C": "HÃ©mostase primaire et coagulation",
+      "D": "Phagocytose"
+    },
+    "answer": "C",
+    "explanation": "Les plaquettes sont essentielles Ã  l'arrÃªt des saignements (hÃ©mostase). Elles forment le 'clou plaquettaire' (hÃ©mostase primaire) et participent Ã  la cascade de la coagulation."
+  },
+  {
+    "question": "La composition du liquide interstitiel est trÃ¨s proche de celle du plasma, Ã  l'exception d'une concentration beaucoup plus faible en :",
+    "options": {
+      "A": "Sodium",
+      "B": "Glucose",
+      "C": "ProtÃ©ines",
+      "D": "Chlorure"
+    },
+    "answer": "C",
+    "explanation": "Le liquide interstitiel est un ultra-filtrat du plasma. La paroi capillaire Ã©tant peu permÃ©able aux grosses molÃ©cules, le liquide interstitiel contient trÃ¨s peu de protÃ©ines par rapport au plasma."
+  },
+  {
+    "question": "Selon le modÃ¨le de Starling, quelle force favorise la sortie d'eau du capillaire vers l'interstitium (filtration) ?",
+    "options": {
+      "A": "La pression oncotique plasmatique",
+      "B": "La pression hydrostatique interstitielle",
+      "C": "La pression hydrostatique capillaire",
+      "D": "La pression oncotique interstitielle"
+    },
+    "answer": "C",
+    "explanation": "La pression hydrostatique capillaire (pression sanguine) est la principale force qui pousse le liquide hors des capillaires vers l'espace interstitiel, surtout Ã  l'extrÃ©mitÃ© artÃ©rielle."
+  },
+  {
+    "question": "Selon le modÃ¨le de Starling, quelle force favorise le retour d'eau de l'interstitium vers le capillaire (rÃ©absorption) ?",
+    "options": {
+      "A": "La pression oncotique plasmatique",
+      "B": "La pression hydrostatique capillaire",
+      "C": "La pression artÃ©rielle",
+      "D": "La permÃ©abilitÃ© capillaire"
+    },
+    "answer": "A",
+    "explanation": "La pression oncotique plasmatique, due aux protÃ©ines, attire l'eau vers l'intÃ©rieur du capillaire. Elle devient la force dominante Ã  l'extrÃ©mitÃ© veineuse du capillaire, oÃ¹ la pression hydrostatique a diminuÃ©."
+  },
+  {
+    "question": "Que devient l'excÃ©dent de liquide filtrÃ© qui n'est pas rÃ©absorbÃ© par les capillaires veineux ?",
+    "options": {
+      "A": "Il s'Ã©vapore",
+      "B": "Il est stockÃ© dans les cellules adipeuses",
+      "C": "Il est drainÃ© par le systÃ¨me lymphatique",
+      "D": "Il est dÃ©truit par les macrophages"
+    },
+    "answer": "C",
+    "explanation": "Le systÃ¨me lymphatique collecte l'excÃ¨s de liquide interstitiel (environ 2-4 litres par jour), ainsi que les protÃ©ines qui ont fui, et le retourne Ã  la circulation sanguine."
+  },
+  {
+    "question": "Qu'est-ce qu'un Å“dÃ¨me ?",
+    "options": {
+      "A": "Une augmentation du volume sanguin",
+      "B": "Une accumulation anormale de liquide dans le secteur intracellulaire",
+      "C": "Une accumulation anormale de liquide dans le secteur interstitiel",
+      "D": "Une dÃ©shydratation des tissus"
+    },
+    "answer": "C",
+    "explanation": "L'Å“dÃ¨me est le gonflement visible des tissus causÃ© par une expansion du volume du liquide interstitiel."
+  },
+  {
+    "question": "Une diminution importante de l'albumine plasmatique (hypoalbuminÃ©mie), comme dans le syndrome nÃ©phrotique, peut causer un Å“dÃ¨me par quel mÃ©canisme ?",
+    "options": {
+      "A": "Augmentation de la pression hydrostatique capillaire",
+      "B": "Diminution de la pression oncotique plasmatique",
+      "C": "Obstruction lymphatique",
+      "D": "Augmentation de la permÃ©abilitÃ© capillaire"
+    },
+    "answer": "B",
+    "explanation": "L'albumine est le principal contributeur Ã  la pression oncotique. Sa diminution rÃ©duit la force qui retient l'eau dans les capillaires, favorisant ainsi la filtration et l'accumulation de liquide dans l'interstitium."
+  },
+  {
+    "question": "L'osmolalitÃ© efficace extracellulaire, qui rÃ©git les mouvements d'eau Ã  travers la membrane cellulaire, est principalement dÃ©terminÃ©e par la concentration de quel ion ?",
+    "options": {
+      "A": "Potassium (K+)",
+      "B": "Bicarbonate (HCO3-)",
+      "C": "Calcium (Ca++)",
+      "D": "Sodium (Na+)"
+    },
+    "answer": "D",
+    "explanation": "Le sodium et ses anions associÃ©s sont les principaux solutÃ©s efficaces du liquide extracellulaire. L'urÃ©e et le glucose diffusent plus librement et contribuent moins Ã  l'osmolalitÃ© 'efficace' qui crÃ©e des gradients osmotiques."
+  },
+  {
+    "question": "Si l'osmolalitÃ© du liquide extracellulaire diminue (hypo-osmolalitÃ©), que va-t-il se passer au niveau des cellules ?",
+    "options": {
+      "A": "L'eau va sortir des cellules, qui vont se rÃ©tracter (plasmolyse)",
+      "B": "L'eau va entrer dans les cellules, qui vont gonfler (turgescence)",
+      "C": "Le volume cellulaire ne changera pas",
+      "D": "Les cellules vont Ã©clater immÃ©diatement"
+    },
+    "answer": "B",
+    "explanation": "L'eau se dÃ©place toujours du compartiment le moins concentrÃ© (hypotonique) vers le plus concentrÃ© (hypertonique). Une hypo-osmolalitÃ© extracellulaire va donc provoquer un mouvement d'eau vers l'intÃ©rieur des cellules."
+  },
+  {
+    "question": "Quel est le principal mÃ©canisme de rÃ©gulation des entrÃ©es d'eau dans l'organisme ?",
+    "options": {
+      "A": "La faim",
+      "B": "La soif",
+      "C": "La sÃ©crÃ©tion d'aldostÃ©rone",
+      "D": "La filtration glomÃ©rulaire"
+    },
+    "answer": "B",
+    "explanation": "La soif est la sensation qui nous pousse Ã  boire, rÃ©gulant ainsi les apports hydriques. Elle est principalement dÃ©clenchÃ©e par une augmentation de l'osmolalitÃ© plasmatique."
+  },
+  {
+    "question": "Quelle hormone est le principal rÃ©gulateur des sorties rÃ©nales d'eau ?",
+    "options": {
+      "A": "AldostÃ©rone",
+      "B": "Hormone antidiurÃ©tique (ADH ou vasopressine)",
+      "C": "Insuline",
+      "D": "Cortisol"
+    },
+    "answer": "B",
+    "explanation": "L'ADH augmente la permÃ©abilitÃ© Ã  l'eau des tubes collecteurs du rein, ce qui permet une rÃ©absorption accrue d'eau et la production d'une urine plus concentrÃ©e. Elle rÃ©duit donc les pertes d'eau."
+  },
+  {
+    "question": "Quel est le principal stimulus pour la libÃ©ration d'ADH par la post-hypophyse ?",
+    "options": {
+      "A": "Une diminution de l'osmolalitÃ© plasmatique",
+      "B": "Une augmentation de l'osmolalitÃ© plasmatique",
+      "C": "Une augmentation de la glycÃ©mie",
+      "D": "Une diminution de la pression artÃ©rielle"
+    },
+    "answer": "B",
+    "explanation": "Les osmorÃ©cepteurs de l'hypothalamus sont trÃ¨s sensibles aux variations de l'osmolalitÃ©. Une augmentation, mÃªme faible (indiquant un dÃ©but de dÃ©shydratation), dÃ©clenche la libÃ©ration d'ADH."
+  },
+  {
+    "question": "En cas d'hypovolÃ©mie sÃ©vÃ¨re (baisse du volume sanguin), comment rÃ©agit la sÃ©crÃ©tion d'ADH ?",
+    "options": {
+      "A": "Elle diminue",
+      "B": "Elle n'est pas affectÃ©e",
+      "C": "Elle est fortement stimulÃ©e",
+      "D": "Elle est inhibÃ©e par l'aldostÃ©rone"
+    },
+    "answer": "C",
+    "explanation": "L'hypovolÃ©mie est un puissant stimulus (non osmotique) pour la libÃ©ration d'ADH. Le corps cherche Ã  retenir un maximum d'eau pour restaurer le volume sanguin, mÃªme si cela doit entraÃ®ner une hypo-osmolalitÃ©."
+  },
+  {
+    "question": "Une surcharge hydrique primitive (boire trop d'eau) conduit Ã  quel trouble biologique ?",
+    "options": {
+      "A": "HypernatrÃ©mie de dilution",
+      "B": "HyponatrÃ©mie de dilution",
+      "C": "HyperkaliÃ©mie",
+      "D": "HypocalcÃ©mie"
+    },
+    "answer": "B",
+    "explanation": "Un excÃ¨s d'eau pure dilue la concentration de sodium dans le compartiment extracellulaire, ce qui conduit Ã  une hyponatrÃ©mie. Cela provoque une hyperhydratation cellulaire."
+  },
+  {
+    "question": "Un dÃ©ficit primitif en eau (pas assez d'apport ou pertes excessives d'eau pure) se traduit par quel trouble biologique ?",
+    "options": {
+      "A": "HypernatrÃ©mie",
+      "B": "HyponatrÃ©mie",
+      "C": "NatrÃ©mie normale",
+      "D": "HyperkaliÃ©mie"
+    },
+    "answer": "A",
+    "explanation": "Une perte d'eau non accompagnÃ©e d'une perte de sel concentre le sodium dans le compartiment extracellulaire, menant Ã  une hypernatrÃ©mie. Cela provoque une dÃ©shydratation cellulaire."
+  },
+  {
+    "question": "Qu'est-ce que le SIADH (Syndrome de SÃ©crÃ©tion InappropriÃ©e d'ADH) ?",
+    "options": {
+      "A": "Un dÃ©ficit complet en ADH",
+      "B": "Une sÃ©crÃ©tion d'ADH persistante et non rÃ©gulÃ©e, malgrÃ© une osmolalitÃ© basse",
+      "C": "Une rÃ©sistance des reins Ã  l'action de l'ADH",
+      "D": "Une surproduction d'aldostÃ©rone"
+    },
+    "answer": "B",
+    "explanation": "Dans le SIADH, l'ADH est sÃ©crÃ©tÃ©e de faÃ§on inappropriÃ©e, provoquant une rÃ©tention d'eau, une hyponatrÃ©mie de dilution et une hyperhydratation cellulaire, alors que l'osmolalitÃ© est dÃ©jÃ  basse."
+  },
+  {
+    "question": "Une surcharge sodÃ©e primitive (apport excessif de sel) va entraÃ®ner quel type de trouble hydrique initial ?",
+    "options": {
+      "A": "Hyperhydratation cellulaire",
+      "B": "DÃ©shydratation cellulaire",
+      "C": "Aucun changement du volume cellulaire",
+      "D": "Hyperhydratation extracellulaire pure"
+    },
+    "answer": "B",
+    "explanation": "L'excÃ¨s de sel augmente l'osmolalitÃ© extracellulaire, ce qui attire l'eau hors des cellules par osmose, provoquant une dÃ©shydratation cellulaire et une sensation de soif intense."
+  },
+  {
+    "question": "Un dÃ©ficit sodÃ© (pertes de sel > pertes d'eau) entraÃ®ne quel type de trouble hydrique ?",
+    "options": {
+      "A": "DÃ©shydratation extracellulaire (hypovolÃ©mie)",
+      "B": "DÃ©shydratation cellulaire",
+      "C": "Hyperhydratation extracellulaire",
+      "D": "Hyperhydratation cellulaire"
+    },
+    "answer": "A",
+    "explanation": "Le sodium Ã©tant le principal dÃ©terminant du volume extracellulaire, sa perte entraÃ®ne une perte d'eau de ce compartiment, conduisant Ã  une hypovolÃ©mie (baisse du volume sanguin) et des signes de dÃ©shydratation extracellulaire (pli cutanÃ©, hypotension)."
+  },
+  {
+    "question": "Dans l'insuffisance cardiaque congestive, l'Å“dÃ¨me est principalement dÃ» Ã  :",
+    "options": {
+      "A": "Une diminution de la pression oncotique",
+      "B": "Une augmentation de la pression hydrostatique capillaire due Ã  une stase veineuse",
+      "C": "Une obstruction lymphatique",
+      "D": "Une perte de protÃ©ines"
+    },
+    "answer": "B",
+    "explanation": "L'incapacitÃ© du cÅ“ur Ã  pomper efficacement le sang provoque une augmentation de la pression dans les veines et les capillaires en amont, ce qui augmente la filtration et cause un Å“dÃ¨me."
+  },
+  {
+    "question": "Quel est le compartiment liquidien le plus volumineux de l'organisme ?",
+    "options": {
+      "A": "Le compartiment plasmatique",
+      "B": "Le compartiment interstitiel",
+      "C": "Le compartiment extracellulaire",
+      "D": "Le compartiment intracellulaire"
+    },
+    "answer": "D",
+    "explanation": "Le compartiment intracellulaire contient environ les deux tiers de l'eau totale du corps (environ 40% du poids corporel), ce qui en fait de loin le plus grand compartiment liquidien."
+  },
+  {
+    "question": "Le tissu graisseux contient-il plus ou moins d'eau que le tissu musculaire ?",
+    "options": {
+      "A": "Plus d'eau",
+      "B": "Moins d'eau",
+      "C": "La mÃªme quantitÃ© d'eau",
+      "D": "La quantitÃ© d'eau est la mÃªme mais sous forme liÃ©e"
+    },
+    "answer": "B",
+    "explanation": "Le tissu adipeux est hydrophobe et contient trÃ¨s peu d'eau (environ 30%) par rapport au tissu musculaire (environ 75%). C'est pourquoi une personne obÃ¨se a une plus faible proportion d'eau corporelle totale."
+  },
+  {
+    "question": "Quelle est la viscositÃ© du sang par rapport Ã  celle de l'eau ?",
+    "options": {
+      "A": "Elle est Ã©gale Ã  celle de l'eau",
+      "B": "Elle est 2 fois supÃ©rieure",
+      "C": "Elle est 5 fois supÃ©rieure",
+      "D": "Elle est 10 fois supÃ©rieure"
+    },
+    "answer": "C",
+    "explanation": "La viscositÃ© du sang est environ 5 fois supÃ©rieure Ã  celle de l'eau, principalement en raison de la prÃ©sence des cellules sanguines (hÃ©matocrite) et des protÃ©ines plasmatiques."
+  },
+  {
+    "question": "Qu'est-ce que l'eau transcellulaire ?",
+    "options": {
+      "A": "L'eau Ã  l'intÃ©rieur des cellules",
+      "B": "L'eau qui traverse les cellules",
+      "C": "Une partie du liquide extracellulaire situÃ©e dans des cavitÃ©s spÃ©cifiques (LCR, synoviales...)",
+      "D": "L'eau contenue dans le plasma"
+    },
+    "answer": "C",
+    "explanation": "L'eau transcellulaire est une sous-catÃ©gorie du liquide extracellulaire. C'est l'eau contenue dans des espaces dÃ©limitÃ©s par un Ã©pithÃ©lium, comme le liquide cÃ©phalo-rachidien, le liquide synovial, le liquide pÃ©ricardique, etc."
+  },
+  {
+    "question": "Quel est le rÃ´le du fibrinogÃ¨ne ?",
+    "options": {
+      "A": "Transport du fer",
+      "B": "DÃ©fense immunitaire",
+      "C": "PrÃ©curseur de la fibrine pour la coagulation",
+      "D": "Transport des lipides"
+    },
+    "answer": "C",
+    "explanation": "Le fibrinogÃ¨ne est une protÃ©ine plasmatique soluble qui, sous l'action de la thrombine, est transformÃ©e en fibrine insoluble, formant le maillage du caillot sanguin."
+  },
+  {
+    "question": "La crÃ©atinine plasmatique est un bon indicateur de quelle fonction organique ?",
+    "options": {
+      "A": "La fonction hÃ©patique",
+      "B": "La fonction respiratoire",
+      "C": "La fonction rÃ©nale (filtration glomÃ©rulaire)",
+      "D": "La fonction cardiaque"
+    },
+    "answer": "C",
+    "explanation": "La crÃ©atinine est un dÃ©chet musculaire produit Ã  un rythme constant et Ã©liminÃ© presque exclusivement par filtration rÃ©nale. Son accumulation dans le sang est un signe fiable d'une diminution de la fonction rÃ©nale."
+  },
+  {
+    "question": "Quelle est la durÃ©e de vie moyenne d'un globule rouge ?",
+    "options": {
+      "A": "10 jours",
+      "B": "30 jours",
+      "C": "120 jours",
+      "D": "1 an"
+    },
+    "answer": "C",
+    "explanation": "Les globules rouges circulent en moyenne 120 jours (environ 4 mois) avant d'Ãªtre dÃ©truits par les macrophages, principalement dans la rate et le foie (systÃ¨me rÃ©ticulo-endothÃ©lial)."
+  },
+  {
+    "question": "Dans la maladie de l'anÃ©mie falciforme (drÃ©panocytose), qu'est-ce qui est anormal ?",
+    "options": {
+      "A": "La vitamine B12",
+      "B": "La structure de la molÃ©cule d'hÃ©moglobine",
+      "C": "La membrane du globule rouge",
+      "D": "Le nombre de plaquettes"
+    },
+    "answer": "B",
+    "explanation": "Il s'agit d'une maladie gÃ©nÃ©tique oÃ¹ une mutation dans la chaÃ®ne bÃªta de l'hÃ©moglobine (HbS) la fait se polymÃ©riser en conditions de basse pression en oxygÃ¨ne, dÃ©formant le globule rouge en faucille."
+  },
+  {
+    "question": "Le terme 'diapÃ©dÃ¨se' dÃ©crit la capacitÃ© des leucocytes Ã  :",
+    "options": {
+      "A": "Se diviser rapidement",
+      "B": "Traverser la paroi des vaisseaux sanguins",
+      "C": "IngÃ©rer des particules (phagocytose)",
+      "D": "Produire de l'hÃ©moglobine"
+    },
+    "answer": "B",
+    "explanation": "La diapÃ©dÃ¨se est le processus par lequel les leucocytes quittent activement la circulation sanguine en passant entre les cellules endothÃ©liales des capillaires pour atteindre un site d'inflammation ou d'infection."
+  },
+  {
+    "question": "Quel est le principal anion (ion nÃ©gatif) du liquide extracellulaire ?",
+    "options": {
+      "A": "Phosphate (HPO4--)",
+      "B": "Sulfate (SO4--)",
+      "C": "Chlorure (Cl-)",
+      "D": "ProtÃ©ines"
+    },
+    "answer": "C",
+    "explanation": "Le chlorure (Cl-) est l'anion principal qui accompagne le cation principal, le sodium (Na+), dans le liquide extracellulaire pour maintenir l'Ã©lectroneutralitÃ©."
+  },
+  {
+    "question": "Quel est le principal anion du liquide intracellulaire ?",
+    "options": {
+      "A": "Chlorure (Cl-)",
+      "B": "Bicarbonate (HCO3-)",
+      "C": "Phosphate (HPO4--) et protÃ©ines",
+      "D": "Sulfate (SO4--)"
+    },
+    "answer": "C",
+    "explanation": "L'intÃ©rieur des cellules est riche en anions non diffusibles comme les phosphates (impliquÃ©s dans l'ATP, l'ADN, etc.) et les protÃ©ines intracellulaires chargÃ©es nÃ©gativement."
+  },
+  {
+    "question": "Une augmentation de la permÃ©abilitÃ© capillaire, comme lors d'une rÃ©action inflammatoire, cause un Å“dÃ¨me par :",
+    "options": {
+      "A": "Fuite de protÃ©ines du plasma vers l'interstitium",
+      "B": "Diminution de la pression hydrostatique",
+      "C": "Augmentation de la production d'albumine",
+      "D": "Blocage des veines"
+    },
+    "answer": "A",
+    "explanation": "L'inflammation augmente la permÃ©abilitÃ© des capillaires, permettant aux protÃ©ines plasmatiques de fuir dans l'interstitium. Cela augmente la pression oncotique interstitielle, attirant l'eau hors des vaisseaux et provoquant un Å“dÃ¨me localisÃ©."
+  },
+  {
+    "question": "La formule 'OsmolalitÃ© plasmatique â‰ˆ 2 x [Na+]' est une estimation de :",
+    "options": {
+      "A": "L'osmolalitÃ© totale mesurÃ©e",
+      "B": "L'osmolalitÃ© efficace",
+      "C": "La pression oncotique",
+      "D": "Le trou anionique"
+    },
+    "answer": "B",
+    "explanation": "Cette formule simple estime l'osmolalitÃ© efficace, car elle prend en compte le sodium (le principal cation) et ses anions correspondants, qui sont les principaux solutÃ©s ne traversant pas librement les membranes cellulaires."
+  },
+  {
+    "question": "En cas de restriction hydrique sÃ©vÃ¨re, que fait le rein pour conserver l'eau ?",
+    "options": {
+      "A": "Il produit une grande quantitÃ© d'urine trÃ¨s diluÃ©e",
+      "B": "Il cesse de filtrer le sang",
+      "C": "Il produit une petite quantitÃ© d'urine trÃ¨s concentrÃ©e",
+      "D": "Il augmente l'excrÃ©tion de sodium"
+    },
+    "answer": "C",
+    "explanation": "Sous l'effet d'un taux Ã©levÃ© d'ADH (stimulÃ© par la dÃ©shydratation), le rein maximise la rÃ©absorption d'eau, produisant un volume minimal d'urine avec une osmolalitÃ© maximale (jusqu'Ã  1200 mOsmol/kg)."
+  },
+  {
+    "question": "Quel est le rÃ´le de l'aldostÃ©rone dans le bilan hydrique ?",
+    "options": {
+      "A": "Elle favorise l'excrÃ©tion d'eau",
+      "B": "Elle augmente la rÃ©absorption du sodium (et donc indirectement de l'eau)",
+      "C": "Elle agit directement sur la sensation de soif",
+      "D": "Elle diminue la permÃ©abilitÃ© des capillaires"
+    },
+    "answer": "B",
+    "explanation": "L'aldostÃ©rone est une hormone qui stimule la rÃ©absorption du sodium par le rein. Comme 'l'eau suit le sel', cette rÃ©absorption de sodium entraÃ®ne une rÃ©absorption passive d'eau, contribuant Ã  maintenir le volume extracellulaire."
+  },
+  {
+    "question": "Un patient diabÃ©tique avec une hyperglycÃ©mie trÃ¨s Ã©levÃ©e peut prÃ©senter une polyurie (urine abondante). Quel est le mÃ©canisme ?",
+    "options": {
+      "A": "DiurÃ¨se osmotique",
+      "B": "Manque d'ADH",
+      "C": "ExcÃ¨s d'aldostÃ©rone",
+      "D": "Inflammation rÃ©nale"
+    },
+    "answer": "A",
+    "explanation": "Lorsque la glycÃ©mie dÃ©passe la capacitÃ© de rÃ©absorption du rein (TmG), le glucose en excÃ¨s reste dans le tubule rÃ©nal. Il agit comme un solutÃ© osmotique, retenant l'eau avec lui et provoquant une augmentation du volume urinaire (diurÃ¨se osmotique)."
+  },
+  {
+    "question": "Le compartiment vasculaire ou plasmatique reprÃ©sente environ quel pourcentage de la masse corporelle ?",
+    "options": {
+      "A": "1%",
+      "B": "5%",
+      "C": "15%",
+      "D": "20%"
+    },
+    "answer": "B",
+    "explanation": "Le volume plasmatique, contenu dans les vaisseaux sanguins, reprÃ©sente environ 4 Ã  5% de la masse corporelle totale, soit environ 3,5 litres pour un adulte de 70 kg."
+  },
+  {
+    "question": "Quel ion est essentiel Ã  la fois pour la contraction musculaire, la transmission nerveuse et la coagulation sanguine ?",
+    "options": {
+      "A": "Sodium (Na+)",
+      "B": "Potassium (K+)",
+      "C": "Calcium (Ca++)",
+      "D": "MagnÃ©sium (Mg++)"
+    },
+    "answer": "C",
+    "explanation": "Le calcium ionisÃ© (Ca++) joue un rÃ´le de second messager crucial dans de nombreux processus physiologiques, dont la contraction musculaire, la libÃ©ration de neurotransmetteurs et comme cofacteur dans la cascade de la coagulation."
+  },
+  {
+    "question": "La bilirubine est un produit de dÃ©gradation de quelle molÃ©cule ?",
+    "options": {
+      "A": "Glucose",
+      "B": "Albumine",
+      "C": "HÃ©moglobine",
+      "D": "CholestÃ©rol"
+    },
+    "answer": "C",
+    "explanation": "Lorsque les vieux globules rouges sont dÃ©truits, l'hÃ¨me de l'hÃ©moglobine est dÃ©gradÃ© en biliverdine puis en bilirubine, un pigment jaune qui est ensuite mÃ©tabolisÃ© par le foie."
+  },
+  {
+    "question": "Quel est le leucocyte le plus abondant dans le sang circulant ?",
+    "options": {
+      "A": "Lymphocyte",
+      "B": "Monocyte",
+      "C": "Eosinophile",
+      "D": "Neutrophile"
+    },
+    "answer": "D",
+    "explanation": "Les polynuclÃ©aires neutrophiles constituent la majoritÃ© des globules blancs, reprÃ©sentant environ 60-70% du total dans la formule sanguine d'un adulte en bonne santÃ©."
+  },
+  {
+    "question": "Le 'chimiotactisme' est le processus par lequel les leucocytes :",
+    "options": {
+      "A": "Sont attirÃ©s et se dÃ©placent vers un site d'inflammation en suivant un gradient chimique",
+      "B": "Communiquent entre eux en utilisant des hormones",
+      "C": "Changent de couleur en fonction du pH",
+      "D": "AdhÃ¨rent Ã  la paroi des vaisseaux"
+    },
+    "answer": "A",
+    "explanation": "Le chimiotactisme est le mouvement orientÃ© d'une cellule en rÃ©ponse Ã  un stimulus chimique. Des substances libÃ©rÃ©es sur un site d'infection (par les bactÃ©ries ou les tissus lÃ©sÃ©s) attirent les leucocytes."
+  },
+  {
+    "question": "Dans le modÃ¨le de Starling, Ã  l'extrÃ©mitÃ© artÃ©rielle d'un capillaire typique :",
+    "options": {
+      "A": "La pression nette favorise la rÃ©absorption",
+      "B": "La pression nette favorise la filtration",
+      "C": "Les pressions de filtration et de rÃ©absorption sont Ã©gales",
+      "D": "Seul l'oxygÃ¨ne sort du capillaire"
+    },
+    "answer": "B",
+    "explanation": "Ã€ l'extrÃ©mitÃ© artÃ©rielle, la pression hydrostatique capillaire est supÃ©rieure Ã  la somme des forces qui s'y opposent (pression oncotique plasmatique et pression hydrostatique interstitielle), rÃ©sultant en une sortie nette de liquide (filtration)."
+  },
+  {
+    "question": "Une dÃ©shydratation extracellulaire se manifeste cliniquement par :",
+    "options": {
+      "A": "Des Å“dÃ¨mes des membres infÃ©rieurs",
+      "B": "Une hypertension artÃ©rielle",
+      "C": "Un pli cutanÃ© persistant et une hypotension",
+      "D": "Un gonflement des cellules cÃ©rÃ©brales"
+    },
+    "answer": "C",
+    "explanation": "La perte de volume dans le secteur extracellulaire diminue la turgescence de la peau (signe du pli cutanÃ©) et le volume sanguin (hypovolÃ©mie), ce qui peut entraÃ®ner une hypotension artÃ©rielle."
+  },
+  {
+    "question": "Quel est le stimulus osmotique qui dÃ©clenche la soif ?",
+    "options": {
+      "A": "Une diminution de la concentration de potassium",
+      "B": "Une augmentation de l'osmolalitÃ© plasmatique efficace",
+      "C": "Une diminution de la concentration de glucose",
+      "D": "Une augmentation de la pression oncotique"
+    },
+    "answer": "B",
+    "explanation": "La soif est principalement dÃ©clenchÃ©e lorsque les osmorÃ©cepteurs hypothalamiques dÃ©tectent une augmentation de la concentration des solutÃ©s dans le plasma, signalant une dÃ©shydratation relative."
+  },
+  {
+    "question": "Un dÃ©ficit complet de sÃ©crÃ©tion d'ADH (diabÃ¨te insipide central) se caractÃ©rise par :",
+    "options": {
+      "A": "Une anurie (absence d'urine)",
+      "B": "Une polyurie (volume urinaire trÃ¨s Ã©levÃ©) avec une urine trÃ¨s diluÃ©e",
+      "C": "Une oligurie (faible volume urinaire) avec une urine trÃ¨s concentrÃ©e",
+      "D": "La prÃ©sence de sucre dans les urines"
+    },
+    "answer": "B",
+    "explanation": "Sans ADH, les reins ne peuvent pas rÃ©absorber l'eau. Cela conduit Ã  l'excrÃ©tion de grandes quantitÃ©s d'urine trÃ¨s hypotonique (diluÃ©e), ce qui peut entraÃ®ner une dÃ©shydratation sÃ©vÃ¨re si l'apport en eau n'est pas suffisant."
+  },
+  {
+    "question": "Quel est le principal rÃ´le de la transferrine dans le plasma ?",
+    "options": {
+      "A": "Transport du cuivre",
+      "B": "Transport des hormones thyroÃ¯diennes",
+      "C": "Transport du fer",
+      "D": "Transport du cholestÃ©rol"
+    },
+    "answer": "C",
+    "explanation": "La transferrine est la protÃ©ine plasmatique (une bÃªta-globuline) spÃ©cialisÃ©e dans le transport du fer dans le sang, de son site d'absorption ou de stockage vers les sites d'utilisation comme la moelle osseuse."
+  },
+  {
+    "question": "Une anÃ©mie microcytaire (VGM bas) est le plus souvent causÃ©e par une carence en :",
+    "options": {
+      "A": "Vitamine B12",
+      "B": "Acide folique",
+      "C": "Fer",
+      "D": "ProtÃ©ines"
+    },
+    "answer": "C",
+    "explanation": "Le fer est un composant essentiel de l'hÃ¨me dans l'hÃ©moglobine. Une carence en fer (anÃ©mie ferriprive) empÃªche la synthÃ¨se correcte de l'hÃ©moglobine, rÃ©sultant en des globules rouges petits (microcytes) et pÃ¢les (hypochromes)."
+  },
+  {
+    "question": "Quel est l'ion dont la concentration extracellulaire est maintenue dans des limites trÃ¨s strictes en raison de son effet majeur sur l'excitabilitÃ© neuromusculaire ?",
+    "options": {
+      "A": "Sodium (Na+)",
+      "B": "Chlorure (Cl-)",
+      "C": "Potassium (K+)",
+      "D": "Bicarbonate (HCO3-)"
+    },
+    "answer": "C",
+    "explanation": "Le gradient de concentration du potassium Ã  travers la membrane cellulaire est le principal dÃ©terminant du potentiel de repos. De faibles variations de la kaliÃ©mie (concentration de K+ dans le sang) peuvent donc avoir des effets profonds sur l'excitabilitÃ© des nerfs et des muscles, y compris le cÅ“ur."
+  },
+  {
+    "question": "Une hyperhydratation cellulaire est toujours la consÃ©quence d'une :",
+    "options": {
+      "A": "Hypo-osmolalitÃ© du secteur extracellulaire",
+      "B": "Hyper-osmolalitÃ© du secteur extracellulaire",
+      "C": "Augmentation de la pression hydrostatique",
+      "D": "Diminution de la pression oncotique"
+    },
+    "answer": "A",
+    "explanation": "L'eau se dÃ©place pour Ã©quilibrer les concentrations osmotiques. Pour que l'eau entre dans les cellules et les fasse gonfler, le milieu extÃ©rieur (extracellulaire) doit Ãªtre moins concentrÃ© (hypo-osmotique ou hypotonique) que le milieu intÃ©rieur."
+  },
+  {
+    "question": "Les macrophages sont des cellules phagocytaires puissantes qui dÃ©rivent de quel type de leucocyte sanguin ?",
+    "options": {
+      "A": "Neutrophile",
+      "B": "Lymphocyte T",
+      "C": "Basophile",
+      "D": "Monocyte"
+    },
+    "answer": "D",
+    "explanation": "Les monocytes circulent dans le sang pendant une courte pÃ©riode avant de migrer dans les tissus oÃ¹ ils se diffÃ©rencient en macrophages, des phagocytes de longue durÃ©e de vie rÃ©sidant dans les organes."
+  },
+  {
+    "question": "Lequel de ces compartiments est un 'ultra-filtrat' du plasma ?",
+    "options": {
+      "A": "Le liquide intracellulaire",
+      "B": "Le liquide interstitiel",
+      "C": "Le contenu des globules rouges",
+      "D": "Le sÃ©rum"
+    },
+    "answer": "B",
+    "explanation": "Le liquide interstitiel se forme par filtration du plasma Ã  travers la paroi capillaire. Ce processus retient la plupart des grosses protÃ©ines, d'oÃ¹ le terme 'ultra-filtrat'."
+  },
+  {
+    "question": "La pression oncotique plasmatique, d'environ 25 mmHg, est principalement due Ã  :",
+    "options": {
+      "A": "La concentration en sodium",
+      "B": "La concentration en glucose",
+      "C": "La concentration en albumine",
+      "D": "La concentration en globules rouges"
+    },
+    "answer": "C",
+    "explanation": "Bien que les protÃ©ines soient en faible concentration molaire par rapport aux ions, elles sont responsables de la pression oncotique car elles ne traversent pas la paroi capillaire. L'albumine, Ã©tant la plus abondante, en est le principal contributeur."
+  },
+  {
+    "question": "Une obstruction des vaisseaux lymphatiques d'une jambe (ex: filariose) peut provoquer un Å“dÃ¨me appelÃ© :",
+    "options": {
+      "A": "Å’dÃ¨me cardiaque",
+      "B": "Å’dÃ¨me rÃ©nal",
+      "C": "LymphÅ“dÃ¨me",
+      "D": "Å’dÃ¨me de dÃ©nutrition"
+    },
+    "answer": "C",
+    "explanation": "Le blocage du drainage lymphatique empÃªche l'Ã©vacuation du liquide interstitiel et des protÃ©ines qui ont filtrÃ©, provoquant leur accumulation et un Å“dÃ¨me riche en protÃ©ines, appelÃ© lymphÅ“dÃ¨me."
+  },
+  {
+    "question": "La valeur normale de la glycÃ©mie Ã  jeun est d'environ :",
+    "options": {
+      "A": "0,5 g/L",
+      "B": "1 g/L",
+      "C": "2 g/L",
+      "D": "5 g/L"
+    },
+    "answer": "B",
+    "explanation": "La glycÃ©mie normale Ã  jeun est maintenue autour de 1 gramme par litre (ou 5 mmol/L). Une valeur infÃ©rieure Ã  0,5 g/L est une hypoglycÃ©mie dangereuse."
+  },
+  {
+    "question": "L'urÃ©e plasmatique est le produit final du catabolisme de quelles molÃ©cules ?",
+    "options": {
+      "A": "Glucides",
+      "B": "Lipides",
+      "C": "Acides aminÃ©s (protÃ©ines)",
+      "D": "Acides nuclÃ©iques"
+    },
+    "answer": "C",
+    "explanation": "L'urÃ©e est synthÃ©tisÃ©e par le foie Ã  partir de l'ammoniac provenant de la dÃ©gradation des acides aminÃ©s. C'est la principale forme d'Ã©limination de l'azote par le corps."
+  },
+  {
+    "question": "Quelle est l'osmolalitÃ© normale du plasma ?",
+    "options": {
+      "A": "150 mOsm/kg",
+      "B": "290 mOsm/kg",
+      "C": "450 mOsm/kg",
+      "D": "600 mOsm/kg"
+    },
+    "answer": "B",
+    "explanation": "L'osmolalitÃ© plasmatique normale est maintenue dans une fourchette trÃ¨s Ã©troite, autour de 285-295 mOsmol/kg d'eau."
+  },
+  {
+    "question": "Quel organe est principalement responsable de la synthÃ¨se de la plupart des protÃ©ines plasmatiques (albumine, fibrinogÃ¨ne...) ?",
+    "options": {
+      "A": "Le rein",
+      "B": "Le foie",
+      "C": "La moelle osseuse",
+      "D": "La rate"
+    },
+    "answer": "B",
+    "explanation": "Le foie est l'usine mÃ©tabolique du corps et est responsable de la synthÃ¨se de la quasi-totalitÃ© des protÃ©ines plasmatiques, Ã  l'exception des immunoglobulines (produites par les plasmocytes)."
+  },
+  {
+    "question": "Une hypernatrÃ©mie reflÃ¨te toujours un Ã©tat de :",
+    "options": {
+      "A": "DÃ©shydratation cellulaire",
+      "B": "Hyperhydratation cellulaire",
+      "C": "ExcÃ¨s de potassium",
+      "D": "DÃ©ficit en albumine"
+    },
+    "answer": "A",
+    "explanation": "L'hypernatrÃ©mie signifie que le compartiment extracellulaire est hypertonique. Par osmose, l'eau quitte les cellules pour diluer le milieu extracellulaire, ce qui entraÃ®ne une dÃ©shydratation du compartiment intracellulaire."
+  },
+  {
+    "question": "Laquelle de ces situations peut mener Ã  une dÃ©shydratation Ã  la fois extracellulaire et intracellulaire ?",
+    "options": {
+      "A": "Boire une grande quantitÃ© d'eau pure",
+      "B": "Une perfusion de sÃ©rum salÃ© isotonique",
+      "C": "Une perte d'eau et de sel non compensÃ©e (ex: vomissements, diarrhÃ©e)",
+      "D": "Une sÃ©crÃ©tion inappropriÃ©e d'ADH"
+    },
+    "answer": "C",
+    "explanation": "La perte de liquide hypotonique ou isotonique (comme dans les vomissements ou la diarrhÃ©e) entraÃ®ne une dÃ©plÃ©tion du volume extracellulaire. Si les pertes d'eau dÃ©passent les pertes de sel ou si la dÃ©shydratation est sÃ©vÃ¨re, une hypernatrÃ©mie relative peut s'installer, provoquant Ã©galement une dÃ©shydratation cellulaire."
+  },
+  {
+    "question": "Le calcul du 'Volume Globulaire Moyen' (VGM) se fait par la formule :",
+    "options": {
+      "A": "Taux d'Hb / Nombre de GR",
+      "B": "HÃ©matocrite / Nombre de GR",
+      "C": "HÃ©matocrite / Taux d'Hb",
+      "D": "Nombre de GR / Volume sanguin"
+    },
+    "answer": "B",
+    "explanation": "Le VGM reprÃ©sente le volume moyen d'un globule rouge. Il est calculÃ© en divisant le volume total occupÃ© par les globules rouges (l'hÃ©matocrite, exprimÃ© en pourcentage) par leur nombre total."
+  }
+]

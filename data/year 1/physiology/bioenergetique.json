@@ -1,0 +1,702 @@
+[
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Comment la bioénergétique est-elle définie dans le texte ?",
+    "choices": [
+      "L'étude de la digestion des aliments",
+      "L'étude des échanges d'énergie dans l'organisme",
+      "L'étude des besoins en vitamines",
+      "L'étude de la circulation sanguine"
+    ],
+    "answer": "L'étude des échanges d'énergie dans l'organisme",
+    "explanation": "Le texte définit la BIOENERGETIQUE comme 'l'étude des échanges d'énergie dans l'organisme', soulignant que c'est une caractéristique fondamentale de la vie."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Quelle est la valeur énergétique de 1 gramme de lipides ?",
+    "choices": [
+      "4 Kcal",
+      "5 Kcal",
+      "7 Kcal",
+      "9 Kcal"
+    ],
+    "answer": "9 Kcal",
+    "explanation": "Le document précise la valeur énergétique des classes d'aliments : 9 Kcal/gramme pour les lipides, et 4 Kcal/gramme pour les glucides et les protides."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Qu'est-ce que le coefficient thermique de l'oxygène ?",
+    "choices": [
+      "La quantité d'O2 nécessaire pour oxyder 1g d'aliment",
+      "La température de l'oxygène consommé",
+      "La quantité d'énergie (en Kcal) produite par 1 litre d'O2 consommé",
+      "Le volume de CO2 produit par litre d'O2 consommé"
+    ],
+    "answer": "La quantité d'énergie (en Kcal) produite par 1 litre d'O2 consommé",
+    "explanation": "Le coefficient thermique de l'O2 est défini comme 'la quantité d'énergie (en Kcal) produite par 1 l d'O2 consommé pour l'oxydation d'un constituant alimentaire donné'."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Quelle est la valeur du Quotient Respiratoire (QR) pour un catabolisme exclusif des glucides ?",
+    "choices": [
+      "0,7",
+      "0,8",
+      "0,83",
+      "1"
+    ],
+    "answer": "1",
+    "explanation": "Le texte indique que pour les glucides, le QR (VCO2 / VO2) est égal à 1, ce qui témoigne d'un catabolisme exclusivement glucidique."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Qu'est-ce que l'Action Dynamique Spécifique (ADS) des aliments ?",
+    "choices": [
+      "L'énergie utilisée pour le travail digestif",
+      "Un supplément de chaleur représentant le coût énergétique des transformations des nutriments",
+      "L'énergie nécessaire à la contraction des muscles lisses digestifs",
+      "La chaleur produite par le frisson après un repas froid"
+    ],
+    "answer": "Un supplément de chaleur représentant le coût énergétique des transformations des nutriments",
+    "explanation": "L'ADS est un supplément de chaleur qui représente le coût énergétique des transformations des constituants alimentaires avant leur utilisation par les cellules. Elle n'est pas due au travail digestif."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Pour quel nutriment l'Action Dynamique Spécifique (ADS) est-elle la plus élevée ?",
+    "choices": [
+      "Les glucides",
+      "Les lipides",
+      "Les protides",
+      "Les vitamines"
+    ],
+    "answer": "Les protides",
+    "explanation": "L'ADS est nettement plus importante pour les protides, représentant 30% de leur valeur énergétique, contre 7% pour les graisses et 4% pour les glucides."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Selon le texte, dans quelles conditions le Métabolisme de Base (MB) est-il mesuré ?",
+    "choices": [
+      "Après un effort physique intense",
+      "Pendant le sommeil profond",
+      "Au repos complet, à jeun depuis 12h et en neutralité thermique",
+      "Immédiatement après un repas riche en protéines"
+    ],
+    "answer": "Au repos complet, à jeun depuis 12h et en neutralité thermique",
+    "explanation": "Le MB est défini comme l'énergie minimale dépensée par un adulte au repos physique complet, à jeun depuis 12H, et placé dans une ambiance de neutralité thermique."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Comment évolue le Métabolisme de Base (MB) avec l'âge ?",
+    "choices": [
+      "Il augmente constamment de la naissance à la vieillesse",
+      "Il est maximal à la naissance puis diminue",
+      "Il atteint un maximum à la fin de la 1ère année, puis diminue progressivement",
+      "Il reste stable tout au long de la vie"
+    ],
+    "answer": "Il atteint un maximum à la fin de la 1ère année, puis diminue progressivement",
+    "explanation": "Le MB du nouveau-né est inférieur à celui de l'adulte, mais il augmente pour atteindre un maximum à la fin de la première année, puis diminue progressivement avec l'âge."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Quelle est la dépense énergétique estimée pour un adulte moyen sédentaire ?",
+    "choices": [
+      "1500 Kcal/24H",
+      "2000 Kcal/24H",
+      "2500 Kcal/24H",
+      "3000 Kcal/24H"
+    ],
+    "answer": "2500 Kcal/24H",
+    "explanation": "Le texte donne un exemple de répartition des dépenses pour un adulte moyen sédentaire, avec un total de 2500 Kcal/24H."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Qu'est-ce que la 'loi de l'isodynamie' implique théoriquement ?",
+    "choices": [
+      "Que seuls les glucides peuvent fournir de l'énergie",
+      "Que les besoins énergétiques peuvent être couverts indifféremment par les glucides, lipides ou protides",
+      "Que les protides sont la source d'énergie préférée de l'organisme",
+      "Que les lipides ne sont pas une source d'énergie efficace"
+    ],
+    "answer": "Que les besoins énergétiques peuvent être couverts indifféremment par les glucides, lipides ou protides",
+    "explanation": "La loi de l'isodynamie postule que, du point de vue théorique, les besoins énergétiques peuvent être couverts indifféremment par les trois classes de nutriments énergétiques."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Qu'est-ce que la Dépense Minimale Azotée Endogène Spécifique (D.A.M.E.S.) ?",
+    "choices": [
+      "La quantité d'azote perdue lors d'un exercice intense",
+      "La dépense protidique minimale qui ne s'annule pas même si les besoins énergétiques sont couverts",
+      "La quantité totale d'azote dans l'alimentation",
+      "La dépense azotée nécessaire pour la croissance"
+    ],
+    "answer": "La dépense protidique minimale qui ne s'annule pas même si les besoins énergétiques sont couverts",
+    "explanation": "La D.A.M.E.S. est la dépense protidique minimale (correspondant à 2,5-3 g d'azote/jour) qui persiste même si un sujet est privé de protides mais que ses besoins énergétiques sont couverts par ailleurs."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Laquelle de ces protéines a la plus haute valeur biologique selon le texte ?",
+    "choices": [
+      "Celles du haricot (38%)",
+      "Celles du blé entier (67%)",
+      "Celles de la viande de bœuf (76%)",
+      "Celles des œufs frais (93%)"
+    ],
+    "answer": "Celles des œufs frais (93%)",
+    "explanation": "Le texte indique que la valeur biologique des protéines des œufs frais est de 93%, la plus élevée parmi les exemples cités."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Quel est le rôle des glucides dans l'épargne des protides ?",
+    "choices": [
+      "Ils transforment les protides en énergie",
+      "Ils diminuent l'élimination azotée en étant une source d'énergie préférentielle",
+      "Ils se combinent aux protides pour former des tissus",
+      "Ils n'ont aucun rôle dans le métabolisme des protides"
+    ],
+    "answer": "Ils diminuent l'élimination azotée en étant une source d'énergie préférentielle",
+    "explanation": "En cas de jeûne, le catabolisme des protides augmente. Si on ingère des glucides, cette élimination diminue car les cellules utilisent le glucose comme source préférentielle d'énergie, 'épargnant' ainsi les protides."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Une carence en glucides peut mener à quel trouble métabolique lié aux lipides ?",
+    "choices": [
+      "Une alcalose",
+      "Une hypoglycémie sévère",
+      "Une acidose métabolique due aux corps cétoniques",
+      "Une accumulation de graisse dans le foie"
+    ],
+    "answer": "Une acidose métabolique due aux corps cétoniques",
+    "explanation": "Le texte explique qu'en cas de manque de glucides, le catabolisme incomplet des lipides aboutit à la formation d'acides et de corps cétoniques, provoquant une acidose métabolique."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Lesquels de ces acides gras sont considérés comme essentiels pour l'homme ?",
+    "choices": [
+      "Acide palmitique et stéarique",
+      "Acides linoléique, linolénique et arachidonique",
+      "Acide butyrique et caproïque",
+      "Tous les acides gras saturés"
+    ],
+    "answer": "Acides linoléique, linolénique et arachidonique",
+    "explanation": "Le texte mentionne que trois acides gras sont dits essentiels pour l'homme : les acides linoléique, linolénique et arachidonique."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Quelle vitamine est aussi appelée 'antixérophtalmique' ?",
+    "choices": [
+      "Vitamine C",
+      "Vitamine D",
+      "Vitamine B1",
+      "Vitamine A"
+    ],
+    "answer": "Vitamine A",
+    "explanation": "La vitamine A est désignée comme 'Antixérophtalmique et de croissance', et sa carence peut mener à la xérophtalmie (dessèchement de la conjonctive)."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Une carence en Vitamine D peut causer quelle maladie chez l'enfant ?",
+    "choices": [
+      "Le scorbut",
+      "Le béribéri",
+      "Le rachitisme",
+      "La pellagre"
+    ],
+    "answer": "Le rachitisme",
+    "explanation": "La vitamine D est dite 'antirachitique' car elle est nécessaire au métabolisme phosphocalcique, et son manque aboutit au rachitisme."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "La pellagre, ou 'maladie des 3D', est due à une carence en quelle vitamine ?",
+    "choices": [
+      "Vitamine B12",
+      "Vitamine PP (Niacine)",
+      "Acide folique",
+      "Biotine"
+    ],
+    "answer": "Vitamine PP (Niacine)",
+    "explanation": "La carence en Vitamine PP (Niacine) donne la pellagre, aussi appelée maladie des 3D : diarrhée, dermite, démence."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Où sont situés les centres de la faim et de la satiété ?",
+    "choices": [
+      "Dans le cortex cérébral",
+      "Dans l'estomac",
+      "Dans l'hypothalamus",
+      "Dans le tronc cérébral"
+    ],
+    "answer": "Dans l'hypothalamus",
+    "explanation": "Le texte indique clairement que 'Les centres de la faim et de la satiété sont situés au niveau de l'hypothalamus'."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Quelle substance, sécrétée par les cellules adipeuses, agit comme un 'lipostat' pour réguler la prise alimentaire ?",
+    "choices": [
+      "L'insuline",
+      "Le glucagon",
+      "La leptine",
+      "L'adrénaline"
+    ],
+    "answer": "La leptine",
+    "explanation": "La leptine est une substance sécrétée par les cellules adipeuses qui informe les centres nerveux sur les réserves lipidiques et inhibe la prise alimentaire au niveau de l'hypothalamus."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Que se passe-t-il si l'énergie dépensée est supérieure à l'énergie apportée par les aliments ?",
+    "choices": [
+      "Le poids du sujet augmente",
+      "Le poids du sujet reste stable",
+      "Le poids du sujet diminue par utilisation des réserves",
+      "Le métabolisme de base augmente"
+    ],
+    "answer": "Le poids du sujet diminue par utilisation des réserves",
+    "explanation": "Le document décrit trois situations. Lorsque l'énergie dépensée est supérieure à l'apport, 'la différence provient de l'utilisation des réserves; le poids du sujet diminue'."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Quelle est la valeur du coefficient thermique moyen de l'O2 pour une alimentation équilibrée ?",
+    "choices": [
+      "4,0 Kcal/l d'O2",
+      "4,8 Kcal/l d'O2",
+      "5,0 Kcal/l d'O2",
+      "9,0 Kcal/l d'O2"
+    ],
+    "answer": "4,8 Kcal/l d'O2",
+    "explanation": "En cas d'alimentation équilibrée, on admet un coefficient thermique moyen de l'oxygène égal à 4,8 Kcal / 1 d'O2."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Un Quotient Respiratoire (QR) de 0,7 traduit un catabolisme exclusif de quel nutriment ?",
+    "choices": [
+      "Glucides",
+      "Protides",
+      "Lipides",
+      "Alcool"
+    ],
+    "answer": "Lipides",
+    "explanation": "Le texte indique qu'un QR égal à 0,7 traduit un catabolisme lipidique exclusif."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Comment le travail musculaire affecte-t-il la dépense énergétique ?",
+    "choices": [
+      "Il la diminue",
+      "Il n'a aucun effet",
+      "C'est la cause la plus importante de variation de la dépense énergétique",
+      "Il n'affecte que la dépense de protides"
+    ],
+    "answer": "C'est la cause la plus importante de variation de la dépense énergétique",
+    "explanation": "Le document stipule que 'L'activité musculaire est la cause la plus importante de la variation de la dépense énergétique'."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Un poids insuffisant pour la taille témoigne de quel type de sous-nutrition ?",
+    "choices": [
+      "Une sous-nutrition chronique",
+      "Une carence en vitamines",
+      "Une EMACIATION traduisant une sous-nutrition aiguë",
+      "Une obésité paradoxale"
+    ],
+    "answer": "Une EMACIATION traduisant une sous-nutrition aiguë",
+    "explanation": "Selon les critères de l'O.M.S. cités, 'Un poids insuffisant pour la taille témoigne d'une EMACIATION traduisant une sous-nutrition aiguë'."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Quel est le besoin protidique minimum recommandé par jour pour un adulte ?",
+    "choices": [
+      "0,5 g/kg de poids corporel",
+      "1 g/kg de poids corporel",
+      "2 g/kg de poids corporel",
+      "5 g/kg de poids corporel"
+    ],
+    "answer": "1 g/kg de poids corporel",
+    "explanation": "Pour couvrir tous les besoins, le texte estime qu'une ration équilibrée doit comporter au minimum 1g de protides/kg de poids corporel/24H."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Lesquels de ces acides aminés sont INDISPENSABLES chez l'homme ?",
+    "choices": [
+      "Alanine, Glycine, Proline",
+      "Acide glutamique, Acide aspartique",
+      "Lysine, Valine, Leucine, Tryptophane",
+      "Tous les acides aminés peuvent être synthétisés"
+    ],
+    "answer": "Lysine, Valine, Leucine, Tryptophane",
+    "explanation": "Le texte liste 8 acides aminés indispensables, dont la Lysine, la Valine, la Leucine et le Tryptophane."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Quelle est la principale cause de l'obésité selon le texte ?",
+    "choices": [
+      "Un excès d'exercice physique",
+      "Un excès des apports énergétiques par rapport aux sorties",
+      "Une consommation excessive de vitamines",
+      "Un métabolisme de base trop élevé"
+    ],
+    "answer": "Un excès des apports énergétiques par rapport aux sorties",
+    "explanation": "L'obésité est définie comme résultant d'un 'excès des apports énergétiques par rapport aux sorties'."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Une carence en fer peut aboutir à quelle pathologie ?",
+    "choices": [
+      "Un goitre",
+      "Une anémie",
+      "Un rachitisme",
+      "Une ostéomalacie"
+    ],
+    "answer": "Une anémie",
+    "explanation": "Le document indique que 'La carence en fer aboutit à une anémie'."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Le béribéri est causé par une carence en quelle vitamine ?",
+    "choices": [
+      "Vitamine C",
+      "Vitamine A",
+      "Vitamine B2 (Riboflavine)",
+      "Vitamine B1 (Thiamine)"
+    ],
+    "answer": "Vitamine B1 (Thiamine)",
+    "explanation": "La carence en Vitamine B1 (Thiamine), dite 'antinévritique' et 'antibéribérique', donne le béribéri."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Quel est le pourcentage recommandé de glucides dans une ration équilibrée d'entretien ?",
+    "choices": [
+      "15%",
+      "20%",
+      "40%",
+      "65%"
+    ],
+    "answer": "65%",
+    "explanation": "Pour une ration équilibrée, le texte suggère que l'apport calorique provienne à 65% des glucides, 20% des lipides et 15% des protides."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Comment calcule-t-on l'énergie apportée (Q) par une alimentation de G g de glucides, L g de lipides et P g de protides ?",
+    "choices": [
+      "Q = 9G + 4L + 4P",
+      "Q = 4G + 9L + 4P",
+      "Q = 4G + 4L + 9P",
+      "Q = G + L + P"
+    ],
+    "answer": "Q = 4G + 9L + 4P",
+    "explanation": "La formule donnée est Q (Kcal) = (G x 4) + (L x 9) + (P x 4)."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Quels sont les deux types de besoins que l'homme doit satisfaire pour sa survie ?",
+    "choices": [
+      "Besoins en sommeil et en repos",
+      "Besoins intellectuels et sociaux",
+      "Besoins énergétiques et besoins plastiques",
+      "Besoins en oxygène et en eau uniquement"
+    ],
+    "answer": "Besoins énergétiques et besoins plastiques",
+    "explanation": "Le texte distingue les besoins énergétiques (pour l'entretien des fonctions) et les besoins plastiques (pour l'édification et le renouvellement des tissus)."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "En diabète sucré, comment le QR évolue-t-il typiquement ?",
+    "choices": [
+      "Il augmente vers 1",
+      "Il baisse par manque d'utilisation du glucose",
+      "Il reste stable à 0,83",
+      "Il devient négatif"
+    ],
+    "answer": "Il baisse par manque d'utilisation du glucose",
+    "explanation": "Dans le diabète sucré, le QR baisse à cause de la diminution de l'utilisation du glucose. L'insuline, en revanche, le fait remonter."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Qu'arrive-t-il au bilan azoté si l'apport en protides est supérieur au minimum nécessaire ?",
+    "choices": [
+      "Il devient fortement positif (stockage de protéines)",
+      "Il devient négatif",
+      "L'organisme ne met pas de protéines en réserve et un nouvel équilibre s'établit",
+      "La D.A.M.E.S. augmente"
+    ],
+    "answer": "L'organisme ne met pas de protéines en réserve et un nouvel équilibre s'établit",
+    "explanation": "Le texte stipule que l'ingestion de protéines au-delà du minimum ne perturbe pas l'équilibre azoté; un nouvel équilibre s'établit par augmentation de l'élimination urinaire, car l'organisme ne stocke pas les protéines."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Le scorbut est une maladie due à la carence en :",
+    "choices": [
+      "Vitamine A",
+      "Vitamine B6",
+      "Vitamine C",
+      "Vitamine K"
+    ],
+    "answer": "Vitamine C",
+    "explanation": "La carence en Vitamine C (acide ascorbique), dite antiscorbutique, se manifeste par le scorbut."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Quel est le rôle de la distension gastro-intestinale dans la régulation de la prise alimentaire ?",
+    "choices": [
+      "Elle stimule la faim",
+      "Elle est à l'origine d'une inhibition de la faim",
+      "Elle n'a aucun effet sur la faim",
+      "Elle augmente l'appétit pour les sucres"
+    ],
+    "answer": "Elle est à l'origine d'une inhibition de la faim",
+    "explanation": "La distension gastro-intestinale est un facteur de régulation à court terme qui 'est à l'origine d'une inhibition de la faim', limitant la prise alimentaire lors d'un repas abondant."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Quelle est la zone de confort thermique pour un homme légèrement habillé ?",
+    "choices": [
+      "10-15°C",
+      "15-18°C",
+      "20-22°C",
+      "28-32°C"
+    ],
+    "answer": "20-22°C",
+    "explanation": "La zone de neutralité thermique (ou confort thermique) où la dépense pour la thermorégulation est minimale se situe entre 20° et 22°C pour l'homme légèrement habillé."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Quel est le principal facteur qui détermine la 'valeur biologique' d'une protéine ?",
+    "choices": [
+      "Sa teneur en calories",
+      "Sa teneur et sa proportion en acides aminés indispensables",
+      "Sa couleur et sa texture",
+      "Sa digestibilité uniquement"
+    ],
+    "answer": "Sa teneur et sa proportion en acides aminés indispensables",
+    "explanation": "La valeur biologique dépend du Coefficient d'Utilisation Digestive (CUD) mais 'surtout de sa teneur en certains acides aminés... indispensables'."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Quel est le besoin quotidien en Calcium pour un adulte ?",
+    "choices": [
+      "100 mg",
+      "500 mg",
+      "1 g",
+      "5 g"
+    ],
+    "answer": "1 g",
+    "explanation": "Le texte liste les besoins quotidiens en minéraux et indique pour le Calcium : '1 g chez l'adulte'."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Une carence en iode est à l'origine de quelle pathologie ?",
+    "choices": [
+      "Anémie",
+      "Hypertrophie de la glande thyroïde (goitre)",
+      "Pellagre",
+      "Diabète"
+    ],
+    "answer": "Hypertrophie de la glande thyroïde (goitre)",
+    "explanation": "La carence iodée est spécifiquement mentionnée comme étant 'à l'origine d'une hypertrophie de la glande thyroïde (goitre)'."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Laquelle de ces vitamines est liposoluble ?",
+    "choices": [
+      "Vitamine C",
+      "Vitamine B1",
+      "Vitamine K",
+      "Vitamine B12"
+    ],
+    "answer": "Vitamine K",
+    "explanation": "Le texte distingue les vitamines liposolubles (A, D, E, K) des vitamines hydrosolubles."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "L'anémie mégaloblastique de BIERMER est liée à une carence en :",
+    "choices": [
+      "Fer",
+      "Acide folique",
+      "Vitamine B12 (Cyanocobalamine)",
+      "Vitamine B6"
+    ],
+    "answer": "Vitamine B12 (Cyanocobalamine)",
+    "explanation": "La carence en Vitamine B12 se manifeste par une 'Anémie mégaloblastique (anémie de BIERMER)'."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Quelle est la différence entre 'satiété' et 'appétit' ?",
+    "choices": [
+      "Il n'y a pas de différence",
+      "La satiété est la fin de la faim, l'appétit est un désir spécifique pour un aliment",
+      "L'appétit est la faim, la satiété est un trouble alimentaire",
+      "La satiété est une sensation de faim, l'appétit est le plaisir de manger"
+    ],
+    "answer": "La satiété est la fin de la faim, l'appétit est un désir spécifique pour un aliment",
+    "explanation": "Le texte définit la SATIETE comme l'opposé de la faim (sensation de plénitude) et l'APPETIT comme un désir spécifique de certains types d'aliments."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Le rendement du muscle lors d'un exercice est d'environ :",
+    "choices": [
+      "5%",
+      "20%",
+      "50%",
+      "100%"
+    ],
+    "answer": "20%",
+    "explanation": "Le texte définit le rendement du muscle comme le rapport du travail mécanique sur l'énergie dépensée et précise qu'il est 'd'environ 20%'."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Quelle est l'une des principales fonctions des lipides dans l'alimentation, outre leur rôle énergétique ?",
+    "choices": [
+      "Fournir des fibres",
+      "L'absorption des vitamines liposolubles (A,D,E,K)",
+      "La synthèse des glucides",
+      "La régulation de la température corporelle"
+    ],
+    "answer": "L'absorption des vitamines liposolubles (A,D,E,K)",
+    "explanation": "Le document indique que 'Les lipides sont d'abord nécessaires pour l'absorption de certaines vitamines: les vitamines liposolubles (A.D.E.K)'."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Comment le corps réagit-il à un apport alimentaire insuffisant ?",
+    "choices": [
+      "Il augmente le métabolisme de base",
+      "Il utilise ses réserves et le poids diminue",
+      "Il diminue l'absorption des nutriments",
+      "Il transforme les muscles en graisse"
+    ],
+    "answer": "Il utilise ses réserves et le poids diminue",
+    "explanation": "Si l'alimentation fournit moins d'énergie que la quantité dépensée, 'l'organisme utilise ses réserves et son poids diminue'."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Une taille insuffisante pour l'âge traduit quel type de problème nutritionnel ?",
+    "choices": [
+      "Une obésité",
+      "Une sous-nutrition aiguë",
+      "Un retard de croissance dû à une sous-nutrition chronique",
+      "Une carence en eau"
+    ],
+    "answer": "Un retard de croissance dû à une sous-nutrition chronique",
+    "explanation": "Le texte précise qu'une 'taille insuffisante pour l'âge traduit un retard de croissance dû à une sous nutrition chronique'."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Comment le bilan azoté peut-il devenir positif ?",
+    "choices": [
+      "En mangeant beaucoup de protides",
+      "Pendant une maladie grave",
+      "En cas de convalescence, de grossesse ou de lactation",
+      "Il ne peut jamais être positif"
+    ],
+    "answer": "En cas de convalescence, de grossesse ou de lactation",
+    "explanation": "Le bilan azoté peut devenir positif (plus d'entrées que de sorties) en cas de convalescence, de grossesse, de lactation ou pendant la croissance, car le corps construit de nouveaux tissus."
+  },
+  {
+    "directory": "/bioenergetique/year_1/",
+    "topic": "Bioénergétique et Rations Alimentaires",
+    "year": "1",
+    "question": "Quel est le risque qualitatif principal de la malnutrition dans les pays riches ?",
+    "choices": [
+      "Manque de disponibilité des aliments",
+      "Excès de graisse et d'hydrate de carbone",
+      "Manque d'eau potable",
+      "Carence en protides"
+    ],
+    "answer": "Excès de graisse et d'hydrate de carbone",
+    "explanation": "Le texte explique que beaucoup de gens dans les pays riches souffrent de malnutrition par 'déséquilibre qualitatif de la ration (excès de graisse et d'hydrate de carbone dans l'alimentation)'."
+  }
+]

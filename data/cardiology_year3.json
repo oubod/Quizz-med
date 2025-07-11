@@ -1,0 +1,18 @@
+[
+  {
+    "topic": "Cardiology",
+    "year": "3",
+    "question": "What is the normal PR interval on an ECG?",
+    "choices": ["<120ms", "120-200ms", "200-300ms", ">300ms"],
+    "answer": "120-200ms",
+    "explanation": "A normal PR interval, representing the time for atrial depolarization and conduction through the AV node, is between 120 and 200 milliseconds."
+  },
+  {
+    "topic": "Cardiology",
+    "year": "3",
+    "question": "Which valve separates the left atrium from the left ventricle?",
+    "choices": ["Aortic Valve", "Tricuspid Valve", "Pulmonary Valve", "Mitral Valve"],
+    "answer": "Mitral Valve",
+    "explanation": "The mitral valve (or bicuspid valve) is located between the left atrium and the left ventricle, ensuring blood flows in one direction."
+  }
+]

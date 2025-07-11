@@ -1,0 +1,702 @@
+[
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Quelle est l'unité anatomique et fonctionnelle du système nerveux ?",
+    "choices": [
+      "La synapse",
+      "La cellule gliale",
+      "Le neurone",
+      "La fibre nerveuse"
+    ],
+    "answer": "Le neurone",
+    "explanation": "Le texte définit le neurone comme 'l'unité anatomique et fonctionnelle du système nerveux', une cellule spécialisée."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Comment s'appelle la substance chimique qui assure la transmission du message nerveux au niveau d'une synapse ?",
+    "choices": [
+      "Hormone",
+      "Enzyme",
+      "Neurotransmetteur",
+      "Potentiel d'action"
+    ],
+    "answer": "Neurotransmetteur",
+    "explanation": "La transmission synaptique s'effectue par l'intermédiaire d'une substance chimique appelée NEUROTRANSMETTEUR."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Quelle est la principale caractéristique de l'axone ?",
+    "choices": [
+      "Recevoir l'information",
+      "Synthétiser les protéines",
+      "Conduire l'information sur de longues distances",
+      "Se diviser pour créer de nouveaux neurones"
+    ],
+    "answer": "Conduire l'information sur de longues distances",
+    "explanation": "La principale caractéristique de l'axone est de 'conduire l'information (influx nerveux) sur de longues distances et de la transmettre'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Qu'est-ce que le potentiel de repos de la membrane d'un neurone ?",
+    "choices": [
+      "Une absence de potentiel électrique",
+      "Un potentiel positif à l'intérieur de la cellule",
+      "Une différence de potentiel, avec l'intérieur négatif par rapport à l'extérieur",
+      "Le potentiel atteint lors d'une stimulation maximale"
+    ],
+    "answer": "Une différence de potentiel, avec l'intérieur négatif par rapport à l'extérieur",
+    "explanation": "Le potentiel de repos est une différence de potentiel (d.d.p.) d'environ -70 mV, l'intérieur de la fibre étant ÉLECTRONÉGATIF et l'extérieur ÉLECTROPOSITIF."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Quelle est la principale cause du potentiel de repos membranaire ?",
+    "choices": [
+      "Le flux actif de Na+ vers l'intérieur",
+      "La haute perméabilité de la membrane aux protéines",
+      "La haute perméabilité de la membrane au K+ et sa concentration élevée à l'intérieur",
+      "L'équilibre des charges de chaque côté de la membrane"
+    ],
+    "answer": "La haute perméabilité de la membrane au K+ et sa concentration élevée à l'intérieur",
+    "explanation": "L'origine du potentiel de repos est due à l'inégalité de répartition des ions (riche en K+ à l'intérieur) et à une perméabilité sélective 'nettement plus perméable au K+ qu'au Na+'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Quel mécanisme actif maintient le potentiel de repos ?",
+    "choices": [
+      "La diffusion passive",
+      "Les canaux ioniques voltage-dépendants",
+      "La pompe Na+/K+-ATPase",
+      "Le transport axonal"
+    ],
+    "answer": "La pompe Na+/K+-ATPase",
+    "explanation": "Le maintien du potentiel de repos est assuré par des mécanismes actifs, les pompes membranaires comme la 'Pompe à Na+/K+-ATPase', qui annulent les flux passifs."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Qu'est-ce qu'un potentiel d'action (PA) ?",
+    "choices": [
+      "Une diminution permanente de la polarité membranaire",
+      "Une inversion transitoire de la polarité membranaire qui se propage",
+      "Une réponse graduable à une stimulation infraliminaire",
+      "Un signal chimique"
+    ],
+    "answer": "Une inversion transitoire de la polarité membranaire qui se propage",
+    "explanation": "Le potentiel d'action est une 'inversion brutale du Potentiel de Membrane' qui se propage. Il est décrit comme une inversion transitoire de la polarité."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Que signifie la loi du 'tout ou rien' pour le potentiel d'action ?",
+    "choices": [
+      "Le PA a une amplitude proportionnelle à la stimulation",
+      "Le PA n'apparaît que si la stimulation est suffisante (liminaire) et atteint d'emblée son amplitude maximale",
+      "Toutes les stimulations créent un PA",
+      "Le PA peut être arrêté une fois déclenché"
+    ],
+    "answer": "Le PA n'apparaît que si la stimulation est suffisante (liminaire) et atteint d'emblée son amplitude maximale",
+    "explanation": "La loi du 'tout ou rien' signifie que le PA n'apparaît que si l'intensité est suffisante (liminaire) et, quand il apparaît, il 'atteint d'emblée son amplitude MAXIMALE'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Quel ion est principalement responsable de la phase de dépolarisation (ascendante) du potentiel d'action ?",
+    "choices": [
+      "L'ion potassium (K+)",
+      "L'ion sodium (Na+)",
+      "L'ion calcium (Ca++)",
+      "L'ion chlorure (Cl-)"
+    ],
+    "answer": "L'ion sodium (Na+)",
+    "explanation": "La dépolarisation est due à une augmentation de la perméabilité aux ions Na+, qui inondent l'intérieur de la cellule. Ceci correspond à la phase ascendante du PA."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Qu'est-ce que la période réfractaire absolue ?",
+    "choices": [
+      "Une période où la fibre est hyper-excitable",
+      "Une période pendant laquelle la fibre est totalement INEXCITABLE",
+      "Une période où seule une stimulation forte peut déclencher un PA",
+      "La période de repos entre deux PA"
+    ],
+    "answer": "Une période pendant laquelle la fibre est totalement INEXCITABLE",
+    "explanation": "La période réfractaire absolue (PRA) correspond à la durée de la pointe, pendant laquelle 'la fibre est totalement INEXCITABLE' et 'toute stimulation est inefficace'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Comment la propagation de l'influx nerveux se fait-elle dans une fibre myélinisée ?",
+    "choices": [
+      "De proche en proche sur toute la longueur",
+      "Par conduction saltatoire, en 'sautant' d'un nœud de Ranvier à l'autre",
+      "Uniquement dans le sens antidromique",
+      "Elle ne se propage pas dans les fibres myélinisées"
+    ],
+    "answer": "Par conduction saltatoire, en 'sautant' d'un nœud de Ranvier à l'autre",
+    "explanation": "Dans les fibres myélinisées, la propagation se fait par 'saut' d'un nœud de Ranvier à l'autre, un mécanisme dit SALTATOIRE, qui est plus rapide."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Quels sont les trois composants d'une synapse chimique ?",
+    "choices": [
+      "Soma, dendrite, axone",
+      "Région présynaptique, fente synaptique, région postsynaptique",
+      "Canal ionique, pompe, récepteur",
+      "Myéline, nœud de Ranvier, axone"
+    ],
+    "answer": "Région présynaptique, fente synaptique, région postsynaptique",
+    "explanation": "La synapse est formée de 3 parties : la région présynaptique, l'intervalle ou fente synaptique, et la région post-synaptique."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Quel ion est essentiel pour la libération du neurotransmetteur par la terminaison présynaptique ?",
+    "choices": [
+      "Sodium (Na+)",
+      "Potassium (K+)",
+      "Calcium (Ca++)",
+      "Chlorure (Cl-)"
+    ],
+    "answer": "Calcium (Ca++)",
+    "explanation": "L'arrivée d'un PA entraîne une ouverture des canaux calciques voltage-dépendants, provoquant une 'entrée massive de CA++' qui déclenche la libération du neurotransmetteur."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Qu'est-ce qu'un Potentiel Postsynaptique Excitateur (PPSE) ?",
+    "choices": [
+      "Une hyperpolarisation de la membrane postsynaptique",
+      "Une dépolarisation locale de la membrane postsynaptique",
+      "Un potentiel d'action postsynaptique",
+      "Le potentiel de repos de la synapse"
+    ],
+    "answer": "Une dépolarisation locale de la membrane postsynaptique",
+    "explanation": "Un PPSE est une dépolarisation de la membrane postsynaptique, causée par la liaison d'un neurotransmetteur excitateur, qui augmente la perméabilité aux ions Na+."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Quel est le neurotransmetteur au niveau de la jonction neuromusculaire ?",
+    "choices": [
+      "Dopamine",
+      "Sérotonine",
+      "GABA",
+      "Acétylcholine (ACh)"
+    ],
+    "answer": "Acétylcholine (ACh)",
+    "explanation": "Plusieurs études ont prouvé que le NT au niveau de la jonction neuromusculaire est l'ACETYLCHOLINE."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Comment le curare agit-il au niveau de la jonction neuromusculaire ?",
+    "choices": [
+      "Il augmente la libération d'ACh",
+      "Il inhibe la dégradation de l'ACh",
+      "Il bloque les récepteurs cholinergiques, empêchant la transmission",
+      "Il provoque une dépolarisation massive"
+    ],
+    "answer": "Il bloque les récepteurs cholinergiques, empêchant la transmission",
+    "explanation": "Le curare a une affinité pour les récepteurs cholinergiques et 'bloque la transmission synaptique d'où sa toxicité', entraînant une paralysie."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Qu'est-ce que la sommation spatiale dans les synapses du SNC ?",
+    "choices": [
+      "L'addition d'influx venant d'un même neurone à des temps rapprochés",
+      "L'addition d'influx venant de plusieurs neurones différents en même temps",
+      "La propagation du PA le long de l'axone",
+      "La vitesse de conduction de l'influx"
+    ],
+    "answer": "L'addition d'influx venant de plusieurs neurones différents en même temps",
+    "explanation": "Quand les influx proviennent de plusieurs neurones, on parle de facilitation SPATIALE. C'est l'intégration des effets de synapses localisées à différents endroits sur le neurone."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Un Potentiel Postsynaptique Inhibiteur (PPSI) est généralement une...",
+    "choices": [
+      "Dépolarisation",
+      "Hyperpolarisation",
+      "Inversion de polarité",
+      "Absence de changement de potentiel"
+    ],
+    "answer": "Hyperpolarisation",
+    "explanation": "Un PPSI est une 'hyperpolarisation appelée PPS Inhibiteur' qui rend plus difficile le déclenchement d'un potentiel d'action."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Quel est le rôle du transport axonal rétrograde ?",
+    "choices": [
+      "Acheminer des protéines nouvelles vers l'axone",
+      "Véhiculer les déchets cellulaires des terminaisons vers le soma",
+      "Transmettre l'influx nerveux",
+      "Renouveler le cytosquelette de l'axone"
+    ],
+    "answer": "Véhiculer les déchets cellulaires des terminaisons vers le soma",
+    "explanation": "Le transport axonal rétrograde (des terminaisons vers le soma) 'véhicule les déchets cellulaires en vue de les éliminer'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Une hypokaliémie (baisse de K+ extracellulaire) provoque quelle modification de l'excitabilité neuronale ?",
+    "choices": [
+      "Une hyperexcitabilité",
+      "Une hypoexcitabilité",
+      "Aucun effet",
+      "Une dépolarisation spontanée"
+    ],
+    "answer": "Une hypoexcitabilité",
+    "explanation": "Le texte indique que 'L'hypokaliémie est à l'origine d'une hypoexcitabilité du neurone'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Lequel de ces facteurs augmente la vitesse de conduction nerveuse ?",
+    "choices": [
+      "Un faible diamètre de la fibre",
+      "Une basse température",
+      "L'absence de myéline",
+      "Un grand diamètre de la fibre"
+    ],
+    "answer": "Un grand diamètre de la fibre",
+    "explanation": "La vitesse de conduction varie avec plusieurs facteurs, dont 'le diamètre de la fibre: plus le diamètre de la fibre est important plus la vitesse de conduction est rapide'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Les récepteurs ionotropes sont des récepteurs...",
+    "choices": [
+      "Liés à une protéine de transduction avec un effet lent",
+      "Qui ne se lient jamais aux neurotransmetteurs",
+      "Qui sont eux-mêmes des canaux ioniques et ont un effet rapide",
+      "Situés uniquement sur la membrane présynaptique"
+    ],
+    "answer": "Qui sont eux-mêmes des canaux ioniques et ont un effet rapide",
+    "explanation": "Certains récepteurs sont liés à un canal ionique (récepteurs ionotropes); 'leur activation produit un effet membranaire rapide'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "La principale surface de réception de l'information d'un neurone est constituée par...",
+    "choices": [
+      "L'axone et ses terminaisons",
+      "La gaine de myéline",
+      "Les dendrites et le soma",
+      "Uniquement le cône d'émergence"
+    ],
+    "answer": "Les dendrites et le soma",
+    "explanation": "Les dendrites et le soma reçoivent de nombreux contacts synaptiques et 'constituent la principale surface de réception de l'information du neurone'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Quelle est la durée typique du délai synaptique ?",
+    "choices": [
+      "Instantanné (0 ms)",
+      "0,5 ms",
+      "20 ms",
+      "100 ms"
+    ],
+    "answer": "0,5 ms",
+    "explanation": "La transmission de l'influx au niveau de la synapse 'met un certain temps appelé délai synaptique, de l'ordre de 0,5 ms'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Un agent 'agoniste' d'un neurotransmetteur...",
+    "choices": [
+      "Bloque l'action du neurotransmetteur",
+      "Exerce des effets analogues à ceux du neurotransmetteur",
+      "Détruit le neurotransmetteur",
+      "Empêche la synthèse du neurotransmetteur"
+    ],
+    "answer": "Exerce des effets analogues à ceux du neurotransmetteur",
+    "explanation": "Certaines substances exercent des effets analogues à ceux d'un NT; elles sont dites 'agonistes' ou 'mimétiques' du NT considéré."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "La phase de repolarisation (descendante) du PA est principalement due à la sortie de quel ion ?",
+    "choices": [
+      "Sodium (Na+)",
+      "Potassium (K+)",
+      "Calcium (Ca++)",
+      "Protéinates (A-)"
+    ],
+    "answer": "Potassium (K+)",
+    "explanation": "La phase descendante (repolarisation membranaire) correspond à une augmentation de la perméabilité au K+, ce qui mène à 'une sortie massive de cet ion'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Quel est le potentiel membranaire seuil qui doit être atteint pour déclencher un PA ?",
+    "choices": [
+      "-90 mV",
+      "-70 mV (potentiel de repos)",
+      "Une valeur critique au-dessus du potentiel de repos",
+      "0 mV"
+    ],
+    "answer": "Une valeur critique au-dessus du potentiel de repos",
+    "explanation": "Le prépotentiel est la dépolarisation qui fait passer le potentiel de membrane 'à une valeur critique (potentiel seuil) au dessus de laquelle la pointe apparait'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Qu'est-ce qu'un prépotentiel ?",
+    "choices": [
+      "Un potentiel d'action complet",
+      "Une hyperpolarisation locale",
+      "Une dépolarisation locale, graduable et sommable",
+      "La période réfractaire"
+    ],
+    "answer": "Une dépolarisation locale, graduable et sommable",
+    "explanation": "Le prépotentiel est une dépolarisation locale qui possède les caractéristiques d'être graduable (son amplitude dépend de l'intensité du courant) et sommable."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "La myasthénie est une maladie de la plaque motrice caractérisée par...",
+    "choices": [
+      "Un excès de récepteurs cholinergiques",
+      "Une diminution des récepteurs cholinergiques",
+      "Une libération excessive d'acétylcholine",
+      "Une démyélinisation de l'axone moteur"
+    ],
+    "answer": "Une diminution des récepteurs cholinergiques",
+    "explanation": "La myasthénie est une maladie de la plaque motrice 'caractérisée par une diminution des récepteurs cholinergiques au niveau de la région postsynaptique'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Que sont les 'quanta' d'acétylcholine ?",
+    "choices": [
+      "De très grandes quantités d'ACh libérées pendant un PA",
+      "Les récepteurs de l'ACh",
+      "De très faibles quantités d'ACh libérées de façon aléatoire au repos",
+      "L'enzyme qui dégrade l'ACh"
+    ],
+    "answer": "De très faibles quantités d'ACh libérées de façon aléatoire au repos",
+    "explanation": "Au repos, il y a une libération aléatoire de 'très faibles quantités d'acétylcholine appelé QUANTA', qui provoquent les potentiels miniatures."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Le phénomène de 'COLOCALISATION' signifie que...",
+    "choices": [
+      "Un neurone libère plusieurs NT en des lieux différents",
+      "Un neuromodulateur et un NT principal sont localisés dans les mêmes terminaisons axonales",
+      "Deux neurones partagent la même synapse",
+      "Les récepteurs sont localisés loin de la synapse"
+    ],
+    "answer": "Un neuromodulateur et un NT principal sont localisés dans les mêmes terminaisons axonales",
+    "explanation": "Les neuromodulateurs (NM) sont 'localisés dans les mêmes terminaisons axonales que le NT principal (COLOCALISATION)'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Quel est l'effet d'une substance 'antagoniste' ou 'bloquante' ?",
+    "choices": [
+      "Elle imite l'action du NT",
+      "Elle bloque l'action du NT en se combinant avec son récepteur",
+      "Elle augmente la synthèse du NT",
+      "Elle n'a aucun effet pharmacologique"
+    ],
+    "answer": "Elle bloque l'action du NT en se combinant avec son récepteur",
+    "explanation": "Les substances qui 'bloquent l'action du NT en se combinant avec son récepteur' sont dites 'antagonistes' ou 'bloquantes'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Comment l'effet d'un neurotransmetteur est-il arrêté dans la fente synaptique ?",
+    "choices": [
+      "Uniquement par diffusion",
+      "Par dégradation enzymatique, diffusion et recapture active",
+      "Le neurotransmetteur reste actif indéfiniment",
+      "Par une inversion du potentiel d'action"
+    ],
+    "answer": "Par dégradation enzymatique, diffusion et recapture active",
+    "explanation": "Le NT libéré est inactivé par plusieurs mécanismes : dégradation enzymatique, dilution et diffusion, et recapture active par la terminaison présynaptique."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "L'hypocalcémie (baisse de Ca++ extracellulaire) provoque :",
+    "choices": [
+      "Une hypoexcitabilité neuronale",
+      "Une hyperexcitabilité neuronale",
+      "Aucun changement d'excitabilité",
+      "Une meilleure stabilisation de la membrane"
+    ],
+    "answer": "Une hyperexcitabilité neuronale",
+    "explanation": "Le texte indique que 'L'hypocalcémie est à l'origine d'une hyperexcitabilité neuronale', car l'ion calcium stabilise normalement la membrane."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Le sens orthodromique de propagation du PA dans un neurone est :",
+    "choices": [
+      "De l'axone vers le corps cellulaire",
+      "Du corps cellulaire vers les terminaisons de l'axone",
+      "Dans les deux sens simultanément",
+      "Uniquement au niveau des dendrites"
+    ],
+    "answer": "Du corps cellulaire vers les terminaisons de l'axone",
+    "explanation": "On appelle sens orthodromique 'celui du corps cellulaire vers l'extrémité de l'axone'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Quel est l'effet de la stimulation du neurone postsynaptique dans une synapse inhibitrice ?",
+    "choices": [
+      "Un PPSE se produit",
+      "Un PPSI se produit, rendant le neurone moins excitable",
+      "Un potentiel d'action est toujours généré",
+      "La libération de neurotransmetteur augmente"
+    ],
+    "answer": "Un PPSI se produit, rendant le neurone moins excitable",
+    "explanation": "Dans les synapses inhibitrices, la liaison du NT provoque une hyperpolarisation (PPSI), ce qui 'diminue l'excitabilité du neurone'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "La sommation temporelle se produit quand...",
+    "choices": [
+      "Plusieurs synapses différentes sont activées en même temps",
+      "Une seule synapse est activée de façon répétée et rapprochée dans le temps",
+      "Un neurone est au repos",
+      "La température du neurone change"
+    ],
+    "answer": "Une seule synapse est activée de façon répétée et rapprochée dans le temps",
+    "explanation": "Quand les influx proviennent d'un même neurone préganglionnaire à des temps rapprochés, on parle de facilitation TEMPORELLE."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Où se trouve la plus forte concentration de canaux Na+ voltage-dépendants dans un neurone myélinisé ?",
+    "choices": [
+      "Dans le corps cellulaire",
+      "Sous la gaine de myéline (internodes)",
+      "Au niveau des nœuds de Ranvier",
+      "Dans les terminaisons axonales"
+    ],
+    "answer": "Au niveau des nœuds de Ranvier",
+    "explanation": "Dans les fibres myélinisées, les courants ne traversent la membrane qu'au niveau des nœuds de Ranvier, qui sont des zones de moindre résistance électrique où sont concentrés les canaux ioniques."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Lequel de ces neurotransmetteurs est typiquement inhibiteur dans le SNC ?",
+    "choices": [
+      "Glutamate",
+      "Acétylcholine",
+      "Noradrénaline",
+      "GABA"
+    ],
+    "answer": "GABA",
+    "explanation": "Le texte liste des exemples de NT dans le SNC et cite le GABA et la Glycine comme étant des inhibiteurs."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Le potentiel de plaque motrice (PPM) est un potentiel...",
+    "choices": [
+      "De type 'tout ou rien'",
+      "Local, graduable et sommable",
+      "Inhibiteur par nature",
+      "Qui se propage sans décrément"
+    ],
+    "answer": "Local, graduable et sommable",
+    "explanation": "Le PPM, qui est la dépolarisation locale au niveau de la jonction neuromusculaire, est 'un potentiel local, graduable et sommable'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Quel est le rôle du 'cône d'émergence' de l'axone ?",
+    "choices": [
+      "C'est la principale zone de réception des synapses",
+      "C'est la zone où l'axone se termine",
+      "C'est la zone de naissance de l'axone, souvent le site d'initiation du PA",
+      "C'est la zone où la myéline est la plus épaisse"
+    ],
+    "answer": "C'est la zone de naissance de l'axone, souvent le site d'initiation du PA",
+    "explanation": "L'axone prend naissance au niveau d'une région du soma appelée cône d'émergence. C'est le point de départ de l'axone où le PA est généralement initié dans les synapses du SNC."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "L'inhibition présynaptique agit en...",
+    "choices": [
+      "Bloquant les récepteurs postsynaptiques",
+      "Provoquant une hyperpolarisation postsynaptique",
+      "Diminuant la quantité de NT libérée par la terminaison présynaptique",
+      "Augmentant la sensibilité des récepteurs postsynaptiques"
+    ],
+    "answer": "Diminuant la quantité de NT libérée par la terminaison présynaptique",
+    "explanation": "L'inhibition présynaptique, exercée par des synapses axo-axonales, 'diminuent la quantité de NT quand elles sont activées'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "La polarité de la membrane pendant la pointe du potentiel d'action est :",
+    "choices": [
+      "Intérieur négatif, extérieur positif",
+      "Intérieur positif, extérieur négatif",
+      "Neutre des deux côtés",
+      "Identique au potentiel de repos"
+    ],
+    "answer": "Intérieur positif, extérieur négatif",
+    "explanation": "Pendant le versant ascendant de la pointe, le potentiel 's'inverse (la membrane devient électronégative à sa face externe et électropositive à sa face interne)'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Les récepteurs métabotropes agissent via...",
+    "choices": [
+      "Un canal ionique direct",
+      "Une protéine membranaire de transduction, produisant un effet lent",
+      "Uniquement par changement de voltage",
+      "La destruction du neurotransmetteur"
+    ],
+    "answer": "Une protéine membranaire de transduction, produisant un effet lent",
+    "explanation": "Les récepteurs métabotropes sont 'liés à une protéine membranaire de transduction; l'effet de leur activation est lent'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Quel est l'effet de l'alcalose sur l'excitabilité du neurone ?",
+    "choices": [
+      "Elle la diminue",
+      "Elle provoque une augmentation de l'excitabilité",
+      "Elle n'a aucun effet",
+      "Elle stabilise la membrane"
+    ],
+    "answer": "Elle provoque une augmentation de l'excitabilité",
+    "explanation": "Le texte stipule que 'L'alcalose provoque une augmentation de l'excitabilité du neurone'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Le phénomène de 'convergence' dans les synapses signifie que...",
+    "choices": [
+      "Un neurone innerve plusieurs autres neurones",
+      "Une cellule postsynaptique reçoit des terminaisons de plusieurs cellules présynaptiques",
+      "Tous les neurotransmetteurs convergent vers un seul récepteur",
+      "Les potentiels d'action convergent vers le soma"
+    ],
+    "answer": "Une cellule postsynaptique reçoit des terminaisons de plusieurs cellules présynaptiques",
+    "explanation": "La convergence se produit lorsqu'une 'cellule postsynaptique reçoit les terminaisons de plusieurs autres cellules présynaptiques'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "La cholinesterase est une enzyme qui...",
+    "choices": [
+      "Synthétise l'acétylcholine",
+      "Détruit l'acétylcholine dans la fente synaptique",
+      "Bloque les récepteurs à l'acétylcholine",
+      "Transporte l'acétylcholine dans les vésicules"
+    ],
+    "answer": "Détruit l'acétylcholine dans la fente synaptique",
+    "explanation": "L'acétylcholine 'subit une destruction rapide sous l'effet d'une enzyme, la cholinesterase'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "La période réfractaire relative est une phase où...",
+    "choices": [
+      "Aucune stimulation ne peut déclencher de PA",
+      "L'excitabilité est normale",
+      "L'excitabilité est diminuée mais des courants forts peuvent déclencher un PA",
+      "L'excitabilité est augmentée"
+    ],
+    "answer": "L'excitabilité est diminuée mais des courants forts peuvent déclencher un PA",
+    "explanation": "Durant la période réfractaire relative, l'excitabilité est 'très diminuée', mais elle augmente progressivement et des 'courants sous liminaires peuvent déclencher une pointe'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "L'équilibre de Gibbs-Donnan dans la cellule est lié à...",
+    "choices": [
+      "L'activité de la pompe Na+/K+",
+      "La présence de grosses molécules protéiques non diffusibles à l'intérieur",
+      "La perméabilité sélective aux ions Na+",
+      "La structure de la gaine de myéline"
+    ],
+    "answer": "La présence de grosses molécules protéiques non diffusibles à l'intérieur",
+    "explanation": "Le gradient osmotique ou équilibre de Gibbs-Donnan est 'lié à la présence de grosses molécules protéiques non diffusibles à l'intérieur de la cellule'."
+  },
+  {
+    "directory": "/physiologie_nerveuse/year_1/",
+    "topic": "Physiologie de la Cellule Nerveuse",
+    "year": "1",
+    "question": "Une 'Unité Motrice' est constituée par :",
+    "choices": [
+      "Une seule fibre musculaire",
+      "L'ensemble des muscles d'un membre",
+      "Un motoneurone et les fibres musculaires qu'il innerve",
+      "La synapse neuromusculaire seule"
+    ],
+    "answer": "Un motoneurone et les fibres musculaires qu'il innerve",
+    "explanation": "L'ensemble motoneurone et les fibres musculaires qu'il innerve forme 'L'UNITE MOTRICE qui est l'unité fonctionnelle du muscle'."
+  }
+]

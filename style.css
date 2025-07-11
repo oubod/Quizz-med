@@ -1,0 +1,12 @@
+/* Custom button feedback styles for correct/incorrect choices */
+.correct {
+    background-color: #22c55e !important; /* Tailwind's green-500 */
+    border-color: #16a34a !important; /* green-600 */
+    color: white !important;
+}
+
+.incorrect {
+    background-color: #ef4444 !important; /* Tailwind's red-500 */
+    border-color: #dc2626 !important; /* red-600 */
+    color: white !important;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizUp Med | University of Medicine</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-slate-900 text-white flex items-center justify-center min-h-screen font-[Poppins]">
+
+    <div class="container w-full max-w-2xl mx-auto p-4">
+
+        <!-- Start Screen -->
+        <div id="start-screen" class="text-center">
+            <h1 class="text-4xl font-bold mb-2">Medical Faculty Trivia</h1>
+            <p class="text-slate-400 mb-8">Select a topic to begin!</p>
+            
+            <div class="flex flex-col items-center gap-4 w-full max-w-sm mx-auto">
+                <!-- Selections for Year, Module, Topic -->
+                <div class="w-full">
+                    <label for="year-select" class="block text-left text-sm font-medium text-slate-400 mb-1">Year</label>
+                    <select id="year-select" class="bg-slate-800 text-white p-3 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-sky-500"></select>
+                </div>
+                <div class="w-full">
+                    <label for="module-select" class="block text-left text-sm font-medium text-slate-400 mb-1">Module</label>
+                    <select id="module-select" disabled class="bg-slate-800 text-white p-3 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-sky-500 disabled:opacity-50 disabled:cursor-not-allowed"></select>
+                </div>
+                <div class="w-full">
+                    <label for="topic-select" class="block text-left text-sm font-medium text-slate-400 mb-1">Topic</label>
+                    <select id="topic-select" disabled class="bg-slate-800 text-white p-3 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-sky-500 disabled:opacity-50 disabled:cursor-not-allowed"></select>
+                </div>
+
+                <!-- NEW: Question Count Selection -->
+                <div class="w-full">
+                    <label for="question-count-select" class="block text-left text-sm font-medium text-slate-400 mb-1">Number of Questions</label>
+                    <select id="question-count-select" class="bg-slate-800 text-white p-3 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-sky-500">
+                        <option value="5">5</option>
+                        <option value="10" selected>10</option>
+                        <option value="20">20</option>
+                        <option value="all">All</option>
+                    </select>
+                </div>
+
+                <!-- Start Button -->
+                <button id="start-btn" disabled class="bg-sky-600 hover:bg-sky-700 text-white font-bold py-3 px-12 rounded-lg text-xl w-full mt-4 disabled:bg-slate-700 disabled:cursor-not-allowed">
+                    Start Quiz
+                </button>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="hidden">
+            <div class="flex justify-between items-center mb-4">
+                <p class="text-lg">Score: <span id="score" class="font-bold">0</span></p>
+                <div class="bg-slate-800 text-sky-400 font-bold rounded-full w-16 h-16 flex items-center justify-center text-2xl">
+                    <span id="timer">10</span>
+                </div>
+                <p class="text-lg">Q: <span id="question-counter">1/10</span></p>
+            </div>
+            <div class="bg-slate-800 p-6 rounded-lg shadow-lg">
+                <h2 id="question-text" class="text-2xl font-semibold mb-6 text-center">Loading question...</h2>
+                <div id="choices-container" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+                
+                <!-- NEW: Explanation Box -->
+                <div id="explanation-box" class="hidden mt-6 p-4 bg-slate-700 rounded-lg">
+                    <p class="font-bold">Explanation:</p>
+                    <p id="explanation-text" class="text-slate-300"></p>
+                </div>
+            </div>
+            <!-- NEW: Next Button -->
+            <div class="text-center mt-4">
+                <button id="next-btn" class="hidden bg-sky-600 hover:bg-sky-700 text-white font-bold py-2 px-10 rounded-lg">Next</button>
+            </div>
+        </div>
+
+        <!-- End Screen -->
+        <div id="end-screen" class="hidden text-center">
+            <h2 class="text-5xl font-bold mb-4">Quiz Finished!</h2>
+            <p class="text-2xl mb-8">Your Final Score: <span id="final-score" class="text-sky-400 font-bold">0</span></p>
+            <button id="restart-btn" class="bg-sky-600 hover:bg-sky-700 text-white font-bold py-3 px-12 rounded-lg text-xl">
+                Play Again
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

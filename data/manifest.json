@@ -1,0 +1,18 @@
+{
+  "Year 1": {
+    "physiology": {
+      "Milieu interieur": "data/Year 1/physiology/mi.json",
+      "Physiologie nerveuse": "data/Year 1/physiology/nerveux.json",
+      "bioenergetique": "data/Year 1/physiology/thermoregulation.json",
+      "Thermoregulation": "data/Year 1/physiology/bioenergetique.json"
+    }
+
+
+  },
+  "Year 3": {
+    "Cardiology": {
+      "ECG Basics": "data/Year 3/Cardiology/ECG Basics.json",
+      "Heart Valves": "data/Year 3/Cardiology/Heart Valves.json"
+    }
+  }
+}

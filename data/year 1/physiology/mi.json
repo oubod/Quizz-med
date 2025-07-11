@@ -1,0 +1,1172 @@
+[
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Selon Claude Bernard, comment est appelé le liquide dans lequel baignent les cellules d'un organisme pluricellulaire ?",
+    "choices": [
+      "Liquide céphalo-rachidien",
+      "Milieu intérieur",
+      "Liquide intracellulaire",
+      "Sérum sanguin"
+    ],
+    "answer": "Milieu intérieur",
+    "explanation": "Claude Bernard a défini le 'Milieu Intérieur' (ou liquide extracellulaire) comme le liquide qui entoure les cellules, agissant comme un intermédiaire entre la cellule et le milieu extérieur."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel terme, introduit par CANON, désigne la constance de la composition du milieu intérieur ?",
+    "choices": [
+      "Homogénéité",
+      "Hémostase",
+      "Homéostasie",
+      "Osmolalité"
+    ],
+    "answer": "Homéostasie",
+    "explanation": "L'homéostasie est le terme utilisé pour décrire la capacité de l'organisme à maintenir la stabilité et la constance de son milieu intérieur malgré les variations de l'environnement externe."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quelle est la formule de base du principe de dilution pour mesurer le volume d'un compartiment liquidien ?",
+    "choices": [
+      "V = M x C",
+      "V = C / M",
+      "V = M / C",
+      "C = V / M"
+    ],
+    "answer": "V = M / C",
+    "explanation": "Le volume (V) du compartiment est égal à la masse (M) de traceur injectée divisée par la concentration (C) du traceur après diffusion homogène."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Dans la pratique, comment détermine-t-on la concentration initiale (Co) d'un traceur pour calculer un volume de compartiment ?",
+    "choices": [
+      "En mesurant la concentration immédiatement après injection",
+      "En faisant la moyenne de toutes les concentrations mesurées",
+      "En extrapolant la courbe de décroissance à l'instant zéro (t=0)",
+      "En utilisant la dernière concentration mesurée"
+    ],
+    "answer": "En extrapolant la courbe de décroissance à l'instant zéro (t=0)",
+    "explanation": "Comme le traceur est éliminé, sa concentration diminue. On trace la courbe de concentration en fonction du temps (souvent en échelle semi-log) et on l'extrapole jusqu'à t=0 pour trouver la concentration théorique (Co) qui aurait existé si la diffusion avait été instantanée."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Laquelle de ces propositions n'est PAS une caractéristique souhaitable d'un traceur ?",
+    "choices": [
+      "Être non toxique",
+      "Diffuser uniquement dans le compartiment à mesurer",
+      "Être rapidement métabolisé ou éliminé",
+      "Être facilement mesurable"
+    ],
+    "answer": "Être rapidement métabolisé ou éliminé",
+    "explanation": "Un traceur idéal doit être faiblement éliminé et/ou métabolisé pour que sa concentration reste stable le temps de la mesure et pour que l'extrapolation à t=0 soit plus précise."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel traceur est couramment utilisé pour mesurer l'eau totale de l'organisme ?",
+    "choices": [
+      "Inuline",
+      "Bleu Evans",
+      "Eau tritiée (T2O)",
+      "Albumine marquée"
+    ],
+    "answer": "Eau tritiée (T2O)",
+    "explanation": "Les isotopes de l'eau, comme l'eau deutériée (D2O) ou l'eau tritiée (T2O), sont utilisés car ils se distribuent dans tous les compartiments hydriques, tout comme l'eau elle-même."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel pourcentage de la masse corporelle l'eau totale représente-t-elle chez un adulte jeune de sexe masculin ?",
+    "choices": [
+      "40%",
+      "50%",
+      "60%",
+      "75%"
+    ],
+    "answer": "60%",
+    "explanation": "Chez un adulte masculin de poids moyen, l'eau totale constitue environ 60% de sa masse corporelle. Ce pourcentage est plus faible chez la femme (environ 50%) en raison d'une plus grande proportion de tissu adipeux."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Comment évolue la proportion d'eau dans l'organisme avec l'âge ?",
+    "choices": [
+      "Elle augmente",
+      "Elle reste constante",
+      "Elle diminue",
+      "Elle augmente puis diminue"
+    ],
+    "answer": "Elle diminue",
+    "explanation": "La proportion d'eau corporelle est maximale chez le nourrisson (environ 75%) et diminue progressivement avec l'âge, atteignant environ 50% chez les personnes âgées."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel traceur est utilisé pour mesurer le volume du compartiment extracellulaire ?",
+    "choices": [
+      "L'inuline",
+      "L'eau tritiée (T2O)",
+      "Les globules rouges marqués au Chrome",
+      "L'antipyrine"
+    ],
+    "answer": "L'inuline",
+    "explanation": "L'inuline ou le thiosulfate sont des substances qui diffusent dans le plasma et le liquide interstitiel mais ne peuvent pas traverser la membrane cellulaire. Elles permettent donc de mesurer le volume du compartiment extracellulaire."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Le compartiment extracellulaire représente environ quel pourcentage du poids du corps ?",
+    "choices": [
+      "10%",
+      "20%",
+      "40%",
+      "60%"
+    ],
+    "answer": "20%",
+    "explanation": "Le compartiment extracellulaire (milieu intérieur), qui comprend le plasma et le liquide interstitiel, représente environ 20% du poids corporel total."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Comment calcule-t-on le volume du compartiment intracellulaire ?",
+    "choices": [
+      "Directement avec un traceur spécifique",
+      "Volume de l'eau totale - Volume du compartiment extracellulaire",
+      "Volume de l'eau totale - Volume plasmatique",
+      "Volume du compartiment extracellulaire - Volume plasmatique"
+    ],
+    "answer": "Volume de l'eau totale - Volume du compartiment extracellulaire",
+    "explanation": "Il n'existe pas de traceur pouvant mesurer directement le volume intracellulaire. On le calcule donc par différence : Volume Intracellulaire = Volume de l'Eau Totale - Volume Extracellulaire."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Le compartiment intracellulaire représente environ quel pourcentage de la masse corporelle ?",
+    "choices": [
+      "20%",
+      "30%",
+      "40%",
+      "50%"
+    ],
+    "answer": "40%",
+    "explanation": "Étant la plus grande réserve d'eau, le compartiment intracellulaire représente environ 40% de la masse corporelle (soit 2/3 de l'eau totale)."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel traceur est utilisé pour mesurer le volume plasmatique ?",
+    "choices": [
+      "L'inuline",
+      "Le sodium radioactif (Na24)",
+      "Le bleu Evans",
+      "L'eau lourde (D2O)"
+    ],
+    "answer": "Le bleu Evans",
+    "explanation": "Le bleu Evans est un colorant qui se fixe fortement aux protéines plasmatiques (albumine) et ne peut donc pas quitter les vaisseaux sanguins. Il permet de mesurer le volume du compartiment où il se distribue : le plasma."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Comment calcule-t-on le volume du secteur interstitiel ?",
+    "choices": [
+      "Directement avec un traceur",
+      "Volume de l'eau totale - Volume intracellulaire",
+      "Volume extracellulaire - Volume plasmatique",
+      "Volume sanguin total - Volume plasmatique"
+    ],
+    "answer": "Volume extracellulaire - Volume plasmatique",
+    "explanation": "Le volume interstitiel est calculé indirectement en soustrayant le volume plasmatique (mesuré) du volume extracellulaire total (mesuré)."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "À quoi est due la couleur rouge vif du sang artériel ?",
+    "choices": [
+      "À la présence de dioxyde de carbone",
+      "À l'oxyhémoglobine (hémoglobine liée à l'O2)",
+      "À la carboxyhémoglobine (hémoglobine liée au CO)",
+      "Au plasma"
+    ],
+    "answer": "À l'oxyhémoglobine (hémoglobine liée à l'O2)",
+    "explanation": "La couleur du sang varie avec son oxygénation. Le sang artériel, riche en oxygène, contient de l'oxyhémoglobine qui lui donne une couleur rouge vif. Le sang veineux, pauvre en oxygène, est rouge sombre."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quelle est la valeur normale du pH sanguin ?",
+    "choices": [
+      "7,0",
+      "7,2",
+      "7,4",
+      "7,6"
+    ],
+    "answer": "7,4",
+    "explanation": "Le pH du sang est maintenu de manière très stable dans une fourchette étroite. Sa valeur normale est légèrement alcaline, autour de 7,4."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Qu'est-ce que l'hématocrite (Ht) ?",
+    "choices": [
+      "La concentration en hémoglobine dans le sang",
+      "Le pourcentage du volume sanguin total occupé par les globules rouges",
+      "Le nombre total de globules blancs",
+      "La vitesse de sédimentation du sang"
+    ],
+    "answer": "Le pourcentage du volume sanguin total occupé par les globules rouges",
+    "explanation": "L'hématocrite est la proportion du volume sanguin total qui est constituée par les éléments figurés, principalement les globules rouges. Elle est mesurée après centrifugation."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quelle est la valeur normale de l'hématocrite chez l'homme adulte ?",
+    "choices": [
+      "20-25%",
+      "30-35%",
+      "40-45%",
+      "55-60%"
+    ],
+    "answer": "40-45%",
+    "explanation": "L'hématocrite normal chez l'homme est d'environ 40 à 45%. Il est légèrement plus faible chez la femme."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Une accélération de la Vitesse de Sédimentation (VS) est souvent le signe de quoi ?",
+    "choices": [
+      "D'une bonne santé",
+      "D'un état pathologique (inflammation, infection, etc.)",
+      "D'une déshydratation",
+      "D'une anémie"
+    ],
+    "answer": "D'un état pathologique (inflammation, infection, etc.)",
+    "explanation": "La VS est un test non spécifique. Une accélération est souvent causée par une augmentation de certaines protéines plasmatiques (comme le fibrinogène) lors d'états inflammatoires, infectieux ou néoplasiques."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Comment peut-on calculer le Volume Sanguin (VS) à partir du Volume Plasmatique (Vp) et de l'Hématocrite (Ht) ?",
+    "choices": [
+      "VS = Vp / Ht",
+      "VS = Vp x Ht",
+      "VS = Vp / (100 - Ht)",
+      "VS = Vp / (1 - (Ht/100))"
+    ],
+    "answer": "VS = Vp / (1 - (Ht/100))",
+    "explanation": "Le volume plasmatique représente la fraction (1 - Ht/100) du volume sanguin total. Donc, pour trouver le volume total, on divise le volume plasmatique par cette fraction. La formule est VS = Vp / (100-Ht) x 100, qui est équivalente à l'option D."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quelle est la principale différence de composition entre le plasma et le sérum ?",
+    "choices": [
+      "Le sérum contient plus de globules rouges",
+      "Le plasma contient des facteurs de coagulation (comme le fibrinogène), le sérum n'en contient pas",
+      "Le sérum est plus riche en glucose",
+      "Le plasma est plus acide que le sérum"
+    ],
+    "answer": "Le plasma contient des facteurs de coagulation (comme le fibrinogène), le sérum n'en contient pas",
+    "explanation": "Le plasma est obtenu à partir de sang anticoagulé. Le sérum est le liquide qui se sépare après la coagulation du sang ; il est donc dépourvu de fibrinogène et d'autres facteurs de coagulation qui ont été consommés pour former le caillot."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quelle est la protéine plasmatique la plus abondante ?",
+    "choices": [
+      "Fibrinogène",
+      "Globulines alpha",
+      "Globulines gamma",
+      "Albumine"
+    ],
+    "answer": "Albumine",
+    "explanation": "L'albumine représente environ 60% du poids total des protéines plasmatiques. Elle joue un rôle crucial dans le maintien de la pression oncotique et le transport de nombreuses substances."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quelle technique est utilisée pour séparer les différentes fractions de protéines plasmatiques ?",
+    "choices": [
+      "Centrifugation",
+      "Cryoscopie",
+      "Électrophorèse",
+      "Spectrométrie de masse"
+    ],
+    "answer": "Électrophorèse",
+    "explanation": "L'électrophorèse sépare les protéines en fonction de leur charge électrique et de leur taille, permettant de les quantifier en différentes fractions (albumine, globulines α1, α2, β, et γ)."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel est le rôle principal des globulines gamma (ou immunoglobulines) ?",
+    "choices": [
+      "Transport de l'oxygène",
+      "Maintien de la pression oncotique",
+      "Défense immunitaire (anticorps)",
+      "Coagulation sanguine"
+    ],
+    "answer": "Défense immunitaire (anticorps)",
+    "explanation": "Les globulines gamma sont les anticorps de l'organisme, produits par les lymphocytes B (plasmocytes) en réponse à une infection ou une agression. Elles sont essentielles à la défense immunitaire."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "La pression exercée par les protéines plasmatiques, qui retient l'eau dans les capillaires, est appelée :",
+    "choices": [
+      "Pression hydrostatique",
+      "Pression osmotique",
+      "Pression oncotique (ou colloïdo-osmotique)",
+      "Pression artérielle"
+    ],
+    "answer": "Pression oncotique (ou colloïdo-osmotique)",
+    "explanation": "La pression oncotique est la forme de pression osmotique générée par les protéines (principalement l'albumine) qui ne traversent pas la paroi capillaire. Elle s'oppose à la sortie d'eau des vaisseaux."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel est le principal cation (ion positif) du liquide extracellulaire (plasma et liquide interstitiel) ?",
+    "choices": [
+      "Potassium (K+)",
+      "Sodium (Na+)",
+      "Calcium (Ca++)",
+      "Magnésium (Mg++)"
+    ],
+    "answer": "Sodium (Na+)",
+    "explanation": "Le sodium (Na+) est le cation le plus abondant dans le compartiment extracellulaire, jouant un rôle majeur dans la détermination de son osmolalité et de son volume."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel est le principal cation du liquide intracellulaire ?",
+    "choices": [
+      "Potassium (K+)",
+      "Sodium (Na+)",
+      "Calcium (Ca++)",
+      "Chlorure (Cl-)"
+    ],
+    "answer": "Potassium (K+)",
+    "explanation": "À l'inverse du milieu extracellulaire, le milieu intracellulaire est très riche en potassium (K+), qui est essentiel pour le potentiel de membrane cellulaire et de nombreuses fonctions enzymatiques."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quelle est la fonction principale des globules rouges (hématies) ?",
+    "choices": [
+      "Phagocytose des bactéries",
+      "Transport de l'oxygène",
+      "Production d'anticorps",
+      "Coagulation"
+    ],
+    "answer": "Transport de l'oxygène",
+    "explanation": "Les globules rouges contiennent de l'hémoglobine, une protéine spécialisée dans la liaison et le transport de l'oxygène des poumons vers les tissus."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Une carence en vitamine B12 peut entraîner quel type d'anémie ?",
+    "choices": [
+      "Anémie ferriprive (microcytaire)",
+      "Anémie hémolytique",
+      "Anémie macrocytaire (ou mégaloblastique)",
+      "Thalassémie"
+    ],
+    "answer": "Anémie macrocytaire (ou mégaloblastique)",
+    "explanation": "La vitamine B12 est nécessaire à la maturation des globules rouges dans la moelle osseuse. Une carence entraîne la production de globules rouges de grande taille (macrocytes) et en nombre insuffisant."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quelle est la fonction principale des leucocytes polynucléaires neutrophiles ?",
+    "choices": [
+      "Réponse allergique",
+      "Production d'anticorps",
+      "Phagocytose des bactéries",
+      "Transport des lipides"
+    ],
+    "answer": "Phagocytose des bactéries",
+    "explanation": "Les neutrophiles sont des phagocytes professionnels, formant la première ligne de défense de l'immunité innée contre les infections bactériennes."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel type de cellule sanguine est responsable de la production d'anticorps ?",
+    "choices": [
+      "Neutrophiles",
+      "Plaquettes",
+      "Lymphocytes (plasmocytes)",
+      "Monocytes"
+    ],
+    "answer": "Lymphocytes (plasmocytes)",
+    "explanation": "Les lymphocytes B, une fois activés, se différencient en plasmocytes, qui sont des usines à produire des anticorps (immunoglobulines) spécifiques contre un antigène."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel est le rôle des plaquettes (thrombocytes) ?",
+    "choices": [
+      "Transport de l'O2",
+      "Défense immunitaire",
+      "Hémostase primaire et coagulation",
+      "Phagocytose"
+    ],
+    "answer": "Hémostase primaire et coagulation",
+    "explanation": "Les plaquettes sont essentielles à l'arrêt des saignements (hémostase). Elles forment le 'clou plaquettaire' (hémostase primaire) et participent à la cascade de la coagulation."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "La composition du liquide interstitiel est très proche de celle du plasma, à l'exception d'une concentration beaucoup plus faible en :",
+    "choices": [
+      "Sodium",
+      "Glucose",
+      "Protéines",
+      "Chlorure"
+    ],
+    "answer": "Protéines",
+    "explanation": "Le liquide interstitiel est un ultra-filtrat du plasma. La paroi capillaire étant peu perméable aux grosses molécules, le liquide interstitiel contient très peu de protéines par rapport au plasma."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Selon le modèle de Starling, quelle force favorise la sortie d'eau du capillaire vers l'interstitium (filtration) ?",
+    "choices": [
+      "La pression oncotique plasmatique",
+      "La pression hydrostatique interstitielle",
+      "La pression hydrostatique capillaire",
+      "La pression oncotique interstitielle"
+    ],
+    "answer": "La pression hydrostatique capillaire",
+    "explanation": "La pression hydrostatique capillaire (pression sanguine) est la principale force qui pousse le liquide hors des capillaires vers l'espace interstitiel, surtout à l'extrémité artérielle."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Selon le modèle de Starling, quelle force favorise le retour d'eau de l'interstitium vers le capillaire (réabsorption) ?",
+    "choices": [
+      "La pression oncotique plasmatique",
+      "La pression hydrostatique capillaire",
+      "La pression artérielle",
+      "La perméabilité capillaire"
+    ],
+    "answer": "La pression oncotique plasmatique",
+    "explanation": "La pression oncotique plasmatique, due aux protéines, attire l'eau vers l'intérieur du capillaire. Elle devient la force dominante à l'extrémité veineuse du capillaire, où la pression hydrostatique a diminué."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Que devient l'excédent de liquide filtré qui n'est pas réabsorbé par les capillaires veineux ?",
+    "choices": [
+      "Il s'évapore",
+      "Il est stocké dans les cellules adipeuses",
+      "Il est drainé par le système lymphatique",
+      "Il est détruit par les macrophages"
+    ],
+    "answer": "Il est drainé par le système lymphatique",
+    "explanation": "Le système lymphatique collecte l'excès de liquide interstitiel (environ 2-4 litres par jour), ainsi que les protéines qui ont fui, et le retourne à la circulation sanguine."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Qu'est-ce qu'un œdème ?",
+    "choices": [
+      "Une augmentation du volume sanguin",
+      "Une accumulation anormale de liquide dans le secteur intracellulaire",
+      "Une accumulation anormale de liquide dans le secteur interstitiel",
+      "Une déshydratation des tissus"
+    ],
+    "answer": "Une accumulation anormale de liquide dans le secteur interstitiel",
+    "explanation": "L'œdème est le gonflement visible des tissus causé par une expansion du volume du liquide interstitiel."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Une diminution importante de l'albumine plasmatique (hypoalbuminémie), comme dans le syndrome néphrotique, peut causer un œdème par quel mécanisme ?",
+    "choices": [
+      "Augmentation de la pression hydrostatique capillaire",
+      "Diminution de la pression oncotique plasmatique",
+      "Obstruction lymphatique",
+      "Augmentation de la perméabilité capillaire"
+    ],
+    "answer": "Diminution de la pression oncotique plasmatique",
+    "explanation": "L'albumine est le principal contributeur à la pression oncotique. Sa diminution réduit la force qui retient l'eau dans les capillaires, favorisant ainsi la filtration et l'accumulation de liquide dans l'interstitium."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "L'osmolalité efficace extracellulaire, qui régit les mouvements d'eau à travers la membrane cellulaire, est principalement déterminée par la concentration de quel ion ?",
+    "choices": [
+      "Potassium (K+)",
+      "Bicarbonate (HCO3-)",
+      "Calcium (Ca++)",
+      "Sodium (Na+)"
+    ],
+    "answer": "Sodium (Na+)",
+    "explanation": "Le sodium et ses anions associés sont les principaux solutés efficaces du liquide extracellulaire. L'urée et le glucose diffusent plus librement et contribuent moins à l'osmolalité 'efficace' qui crée des gradients osmotiques."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Si l'osmolalité du liquide extracellulaire diminue (hypo-osmolalité), que va-t-il se passer au niveau des cellules ?",
+    "choices": [
+      "L'eau va sortir des cellules, qui vont se rétracter (plasmolyse)",
+      "L'eau va entrer dans les cellules, qui vont gonfler (turgescence)",
+      "Le volume cellulaire ne changera pas",
+      "Les cellules vont éclater immédiatement"
+    ],
+    "answer": "L'eau va entrer dans les cellules, qui vont gonfler (turgescence)",
+    "explanation": "L'eau se déplace toujours du compartiment le moins concentré (hypotonique) vers le plus concentré (hypertonique). Une hypo-osmolalité extracellulaire va donc provoquer un mouvement d'eau vers l'intérieur des cellules."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel est le principal mécanisme de régulation des entrées d'eau dans l'organisme ?",
+    "choices": [
+      "La faim",
+      "La soif",
+      "La sécrétion d'aldostérone",
+      "La filtration glomérulaire"
+    ],
+    "answer": "La soif",
+    "explanation": "La soif est la sensation qui nous pousse à boire, régulant ainsi les apports hydriques. Elle est principalement déclenchée par une augmentation de l'osmolalité plasmatique."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quelle hormone est le principal régulateur des sorties rénales d'eau ?",
+    "choices": [
+      "Aldostérone",
+      "Hormone antidiurétique (ADH ou vasopressine)",
+      "Insuline",
+      "Cortisol"
+    ],
+    "answer": "Hormone antidiurétique (ADH ou vasopressine)",
+    "explanation": "L'ADH augmente la perméabilité à l'eau des tubes collecteurs du rein, ce qui permet une réabsorption accrue d'eau et la production d'une urine plus concentrée. Elle réduit donc les pertes d'eau."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel est le principal stimulus pour la libération d'ADH par la post-hypophyse ?",
+    "choices": [
+      "Une diminution de l'osmolalité plasmatique",
+      "Une augmentation de l'osmolalité plasmatique",
+      "Une augmentation de la glycémie",
+      "Une diminution de la pression artérielle"
+    ],
+    "answer": "Une augmentation de l'osmolalité plasmatique",
+    "explanation": "Les osmorécepteurs de l'hypothalamus sont très sensibles aux variations de l'osmolalité. Une augmentation, même faible (indiquant un début de déshydratation), déclenche la libération d'ADH."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "En cas d'hypovolémie sévère (baisse du volume sanguin), comment réagit la sécrétion d'ADH ?",
+    "choices": [
+      "Elle diminue",
+      "Elle n'est pas affectée",
+      "Elle est fortement stimulée",
+      "Elle est inhibée par l'aldostérone"
+    ],
+    "answer": "Elle est fortement stimulée",
+    "explanation": "L'hypovolémie est un puissant stimulus (non osmotique) pour la libération d'ADH. Le corps cherche à retenir un maximum d'eau pour restaurer le volume sanguin, même si cela doit entraîner une hypo-osmolalité."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Une surcharge hydrique primitive (boire trop d'eau) conduit à quel trouble biologique ?",
+    "choices": [
+      "Hypernatrémie de dilution",
+      "Hyponatrémie de dilution",
+      "Hyperkaliémie",
+      "Hypocalcémie"
+    ],
+    "answer": "Hyponatrémie de dilution",
+    "explanation": "Un excès d'eau pure dilue la concentration de sodium dans le compartiment extracellulaire, ce qui conduit à une hyponatrémie. Cela provoque une hyperhydratation cellulaire."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Un déficit primitif en eau (pas assez d'apport ou pertes excessives d'eau pure) se traduit par quel trouble biologique ?",
+    "choices": [
+      "Hypernatrémie",
+      "Hyponatrémie",
+      "Natrémie normale",
+      "Hyperkaliémie"
+    ],
+    "answer": "Hypernatrémie",
+    "explanation": "Une perte d'eau non accompagnée d'une perte de sel concentre le sodium dans le compartiment extracellulaire, menant à une hypernatrémie. Cela provoque une déshydratation cellulaire."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Qu'est-ce que le SIADH (Syndrome de Sécrétion Inappropriée d'ADH) ?",
+    "choices": [
+      "Un déficit complet en ADH",
+      "Une sécrétion d'ADH persistante et non régulée, malgré une osmolalité basse",
+      "Une résistance des reins à l'action de l'ADH",
+      "Une surproduction d'aldostérone"
+    ],
+    "answer": "Une sécrétion d'ADH persistante et non régulée, malgré une osmolalité basse",
+    "explanation": "Dans le SIADH, l'ADH est sécrétée de façon inappropriée, provoquant une rétention d'eau, une hyponatrémie de dilution et une hyperhydratation cellulaire, alors que l'osmolalité est déjà basse."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Une surcharge sodée primitive (apport excessif de sel) va entraîner quel type de trouble hydrique initial ?",
+    "choices": [
+      "Hyperhydratation cellulaire",
+      "Déshydratation cellulaire",
+      "Aucun changement du volume cellulaire",
+      "Hyperhydratation extracellulaire pure"
+    ],
+    "answer": "Déshydratation cellulaire",
+    "explanation": "L'excès de sel augmente l'osmolalité extracellulaire, ce qui attire l'eau hors des cellules par osmose, provoquant une déshydratation cellulaire et une sensation de soif intense."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Un déficit sodé (pertes de sel > pertes d'eau) entraîne quel type de trouble hydrique ?",
+    "choices": [
+      "Déshydratation extracellulaire (hypovolémie)",
+      "Déshydratation cellulaire",
+      "Hyperhydratation extracellulaire",
+      "Hyperhydratation cellulaire"
+    ],
+    "answer": "Déshydratation extracellulaire (hypovolémie)",
+    "explanation": "Le sodium étant le principal déterminant du volume extracellulaire, sa perte entraîne une perte d'eau de ce compartiment, conduisant à une hypovolémie (baisse du volume sanguin) et des signes de déshydratation extracellulaire (pli cutané, hypotension)."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Dans l'insuffisance cardiaque congestive, l'œdème est principalement dû à :",
+    "choices": [
+      "Une diminution de la pression oncotique",
+      "Une augmentation de la pression hydrostatique capillaire due à une stase veineuse",
+      "Une obstruction lymphatique",
+      "Une perte de protéines"
+    ],
+    "answer": "Une augmentation de la pression hydrostatique capillaire due à une stase veineuse",
+    "explanation": "L'incapacité du cœur à pomper efficacement le sang provoque une augmentation de la pression dans les veines et les capillaires en amont, ce qui augmente la filtration et cause un œdème."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel est le compartiment liquidien le plus volumineux de l'organisme ?",
+    "choices": [
+      "Le compartiment plasmatique",
+      "Le compartiment interstitiel",
+      "Le compartiment extracellulaire",
+      "Le compartiment intracellulaire"
+    ],
+    "answer": "Le compartiment intracellulaire",
+    "explanation": "Le compartiment intracellulaire contient environ les deux tiers de l'eau totale du corps (environ 40% du poids corporel), ce qui en fait de loin le plus grand compartiment liquidien."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Le tissu graisseux contient-il plus ou moins d'eau que le tissu musculaire ?",
+    "choices": [
+      "Plus d'eau",
+      "Moins d'eau",
+      "La même quantité d'eau",
+      "La quantité d'eau est la même mais sous forme liée"
+    ],
+    "answer": "Moins d'eau",
+    "explanation": "Le tissu adipeux est hydrophobe et contient très peu d'eau (environ 30%) par rapport au tissu musculaire (environ 75%). C'est pourquoi une personne obèse a une plus faible proportion d'eau corporelle totale."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quelle est la viscosité du sang par rapport à celle de l'eau ?",
+    "choices": [
+      "Elle est égale à celle de l'eau",
+      "Elle est 2 fois supérieure",
+      "Elle est 5 fois supérieure",
+      "Elle est 10 fois supérieure"
+    ],
+    "answer": "Elle est 5 fois supérieure",
+    "explanation": "La viscosité du sang est environ 5 fois supérieure à celle de l'eau, principalement en raison de la présence des cellules sanguines (hématocrite) et des protéines plasmatiques."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Qu'est-ce que l'eau transcellulaire ?",
+    "choices": [
+      "L'eau à l'intérieur des cellules",
+      "L'eau qui traverse les cellules",
+      "Une partie du liquide extracellulaire située dans des cavités spécifiques (LCR, synoviales...)",
+      "L'eau contenue dans le plasma"
+    ],
+    "answer": "Une partie du liquide extracellulaire située dans des cavités spécifiques (LCR, synoviales...)",
+    "explanation": "L'eau transcellulaire est une sous-catégorie du liquide extracellulaire. C'est l'eau contenue dans des espaces délimités par un épithélium, comme le liquide céphalo-rachidien, le liquide synovial, le liquide péricardique, etc."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel est le rôle du fibrinogène ?",
+    "choices": [
+      "Transport du fer",
+      "Défense immunitaire",
+      "Précurseur de la fibrine pour la coagulation",
+      "Transport des lipides"
+    ],
+    "answer": "Précurseur de la fibrine pour la coagulation",
+    "explanation": "Le fibrinogène est une protéine plasmatique soluble qui, sous l'action de la thrombine, est transformée en fibrine insoluble, formant le maillage du caillot sanguin."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "La créatinine plasmatique est un bon indicateur de quelle fonction organique ?",
+    "choices": [
+      "La fonction hépatique",
+      "La fonction respiratoire",
+      "La fonction rénale (filtration glomérulaire)",
+      "La fonction cardiaque"
+    ],
+    "answer": "La fonction rénale (filtration glomérulaire)",
+    "explanation": "La créatinine est un déchet musculaire produit à un rythme constant et éliminé presque exclusivement par filtration rénale. Son accumulation dans le sang est un signe fiable d'une diminution de la fonction rénale."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quelle est la durée de vie moyenne d'un globule rouge ?",
+    "choices": [
+      "10 jours",
+      "30 jours",
+      "120 jours",
+      "1 an"
+    ],
+    "answer": "120 jours",
+    "explanation": "Les globules rouges circulent en moyenne 120 jours (environ 4 mois) avant d'être détruits par les macrophages, principalement dans la rate et le foie (système réticulo-endothélial)."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Dans la maladie de l'anémie falciforme (drépanocytose), qu'est-ce qui est anormal ?",
+    "choices": [
+      "La vitamine B12",
+      "La structure de la molécule d'hémoglobine",
+      "La membrane du globule rouge",
+      "Le nombre de plaquettes"
+    ],
+    "answer": "La structure de la molécule d'hémoglobine",
+    "explanation": "Il s'agit d'une maladie génétique où une mutation dans la chaîne bêta de l'hémoglobine (HbS) la fait se polymériser en conditions de basse pression en oxygène, déformant le globule rouge en faucille."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Le terme 'diapédèse' décrit la capacité des leucocytes à :",
+    "choices": [
+      "Se diviser rapidement",
+      "Traverser la paroi des vaisseaux sanguins",
+      "Ingérer des particules (phagocytose)",
+      "Produire de l'hémoglobine"
+    ],
+    "answer": "Traverser la paroi des vaisseaux sanguins",
+    "explanation": "La diapédèse est le processus par lequel les leucocytes quittent activement la circulation sanguine en passant entre les cellules endothéliales des capillaires pour atteindre un site d'inflammation ou d'infection."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel est le principal anion (ion négatif) du liquide extracellulaire ?",
+    "choices": [
+      "Phosphate (HPO4--)",
+      "Sulfate (SO4--)",
+      "Chlorure (Cl-)",
+      "Protéines"
+    ],
+    "answer": "Chlorure (Cl-)",
+    "explanation": "Le chlorure (Cl-) est l'anion principal qui accompagne le cation principal, le sodium (Na+), dans le liquide extracellulaire pour maintenir l'électroneutralité."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel est le principal anion du liquide intracellulaire ?",
+    "choices": [
+      "Chlorure (Cl-)",
+      "Bicarbonate (HCO3-)",
+      "Phosphate (HPO4--) et protéines",
+      "Sulfate (SO4--)"
+    ],
+    "answer": "Phosphate (HPO4--) et protéines",
+    "explanation": "L'intérieur des cellules est riche en anions non diffusibles comme les phosphates (impliqués dans l'ATP, l'ADN, etc.) et les protéines intracellulaires chargées négativement."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Une augmentation de la perméabilité capillaire, comme lors d'une réaction inflammatoire, cause un œdème par :",
+    "choices": [
+      "Fuite de protéines du plasma vers l'interstitium",
+      "Diminution de la pression hydrostatique",
+      "Augmentation de la production d'albumine",
+      "Blocage des veines"
+    ],
+    "answer": "Fuite de protéines du plasma vers l'interstitium",
+    "explanation": "L'inflammation augmente la perméabilité des capillaires, permettant aux protéines plasmatiques de fuir dans l'interstitium. Cela augmente la pression oncotique interstitielle, attirant l'eau hors des vaisseaux et provoquant un œdème localisé."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "La formule 'Osmolalité plasmatique ≈ 2 x [Na+]' est une estimation de :",
+    "choices": [
+      "L'osmolalité totale mesurée",
+      "L'osmolalité efficace",
+      "La pression oncotique",
+      "Le trou anionique"
+    ],
+    "answer": "L'osmolalité efficace",
+    "explanation": "Cette formule simple estime l'osmolalité efficace, car elle prend en compte le sodium (le principal cation) et ses anions correspondants, qui sont les principaux solutés ne traversant pas librement les membranes cellulaires."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "En cas de restriction hydrique sévère, que fait le rein pour conserver l'eau ?",
+    "choices": [
+      "Il produit une grande quantité d'urine très diluée",
+      "Il cesse de filtrer le sang",
+      "Il produit une petite quantité d'urine très concentrée",
+      "Il augmente l'excrétion de sodium"
+    ],
+    "answer": "Il produit une petite quantité d'urine très concentrée",
+    "explanation": "Sous l'effet d'un taux élevé d'ADH (stimulé par la déshydratation), le rein maximise la réabsorption d'eau, produisant un volume minimal d'urine avec une osmolalité maximale (jusqu'à 1200 mOsmol/kg)."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel est le rôle de l'aldostérone dans le bilan hydrique ?",
+    "choices": [
+      "Elle favorise l'excrétion d'eau",
+      "Elle augmente la réabsorption du sodium (et donc indirectement de l'eau)",
+      "Elle agit directement sur la sensation de soif",
+      "Elle diminue la perméabilité des capillaires"
+    ],
+    "answer": "Elle augmente la réabsorption du sodium (et donc indirectement de l'eau)",
+    "explanation": "L'aldostérone est une hormone qui stimule la réabsorption du sodium par le rein. Comme 'l'eau suit le sel', cette réabsorption de sodium entraîne une réabsorption passive d'eau, contribuant à maintenir le volume extracellulaire."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Un patient diabétique avec une hyperglycémie très élevée peut présenter une polyurie (urine abondante). Quel est le mécanisme ?",
+    "choices": [
+      "Diurèse osmotique",
+      "Manque d'ADH",
+      "Excès d'aldostérone",
+      "Inflammation rénale"
+    ],
+    "answer": "Diurèse osmotique",
+    "explanation": "Lorsque la glycémie dépasse la capacité de réabsorption du rein (TmG), le glucose en excès reste dans le tubule rénal. Il agit comme un soluté osmotique, retenant l'eau avec lui et provoquant une augmentation du volume urinaire (diurèse osmotique)."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Le compartiment vasculaire ou plasmatique représente environ quel pourcentage de la masse corporelle ?",
+    "choices": [
+      "1%",
+      "5%",
+      "15%",
+      "20%"
+    ],
+    "answer": "5%",
+    "explanation": "Le volume plasmatique, contenu dans les vaisseaux sanguins, représente environ 4 à 5% de la masse corporelle totale, soit environ 3,5 litres pour un adulte de 70 kg."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel ion est essentiel à la fois pour la contraction musculaire, la transmission nerveuse et la coagulation sanguine ?",
+    "choices": [
+      "Sodium (Na+)",
+      "Potassium (K+)",
+      "Calcium (Ca++)",
+      "Magnésium (Mg++)"
+    ],
+    "answer": "Calcium (Ca++)",
+    "explanation": "Le calcium ionisé (Ca++) joue un rôle de second messager crucial dans de nombreux processus physiologiques, dont la contraction musculaire, la libération de neurotransmetteurs et comme cofacteur dans la cascade de la coagulation."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "La bilirubine est un produit de dégradation de quelle molécule ?",
+    "choices": [
+      "Glucose",
+      "Albumine",
+      "Hémoglobine",
+      "Cholestérol"
+    ],
+    "answer": "Hémoglobine",
+    "explanation": "Lorsque les vieux globules rouges sont détruits, l'hème de l'hémoglobine est dégradé en biliverdine puis en bilirubine, un pigment jaune qui est ensuite métabolisé par le foie."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel est le leucocyte le plus abondant dans le sang circulant ?",
+    "choices": [
+      "Lymphocyte",
+      "Monocyte",
+      "Eosinophile",
+      "Neutrophile"
+    ],
+    "answer": "Neutrophile",
+    "explanation": "Les polynucléaires neutrophiles constituent la majorité des globules blancs, représentant environ 60-70% du total dans la formule sanguine d'un adulte en bonne santé."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Le 'chimiotactisme' est le processus par lequel les leucocytes :",
+    "choices": [
+      "Sont attirés et se déplacent vers un site d'inflammation en suivant un gradient chimique",
+      "Communiquent entre eux en utilisant des hormones",
+      "Changent de couleur en fonction du pH",
+      "Adhèrent à la paroi des vaisseaux"
+    ],
+    "answer": "Sont attirés et se déplacent vers un site d'inflammation en suivant un gradient chimique",
+    "explanation": "Le chimiotactisme est le mouvement orienté d'une cellule en réponse à un stimulus chimique. Des substances libérées sur un site d'infection (par les bactéries ou les tissus lésés) attirent les leucocytes."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Dans le modèle de Starling, à l'extrémité artérielle d'un capillaire typique :",
+    "choices": [
+      "La pression nette favorise la réabsorption",
+      "La pression nette favorise la filtration",
+      "Les pressions de filtration et de réabsorption sont égales",
+      "Seul l'oxygène sort du capillaire"
+    ],
+    "answer": "La pression nette favorise la filtration",
+    "explanation": "À l'extrémité artérielle, la pression hydrostatique capillaire est supérieure à la somme des forces qui s'y opposent (pression oncotique plasmatique et pression hydrostatique interstitielle), résultant en une sortie nette de liquide (filtration)."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Une déshydratation extracellulaire se manifeste cliniquement par :",
+    "choices": [
+      "Des œdèmes des membres inférieurs",
+      "Une hypertension artérielle",
+      "Un pli cutané persistant et une hypotension",
+      "Un gonflement des cellules cérébrales"
+    ],
+    "answer": "Un pli cutané persistant et une hypotension",
+    "explanation": "La perte de volume dans le secteur extracellulaire diminue la turgescence de la peau (signe du pli cutané) et le volume sanguin (hypovolémie), ce qui peut entraîner une hypotension artérielle."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel est le stimulus osmotique qui déclenche la soif ?",
+    "choices": [
+      "Une diminution de la concentration de potassium",
+      "Une augmentation de l'osmolalité plasmatique efficace",
+      "Une diminution de la concentration de glucose",
+      "Une augmentation de la pression oncotique"
+    ],
+    "answer": "Une augmentation de l'osmolalité plasmatique efficace",
+    "explanation": "La soif est principalement déclenchée lorsque les osmorécepteurs hypothalamiques détectent une augmentation de la concentration des solutés dans le plasma, signalant une déshydratation relative."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Un déficit complet de sécrétion d'ADH (diabète insipide central) se caractérise par :",
+    "choices": [
+      "Une anurie (absence d'urine)",
+      "Une polyurie (volume urinaire très élevé) avec une urine très diluée",
+      "Une oligurie (faible volume urinaire) avec une urine très concentrée",
+      "La présence de sucre dans les urines"
+    ],
+    "answer": "Une polyurie (volume urinaire très élevé) avec une urine très diluée",
+    "explanation": "Sans ADH, les reins ne peuvent pas réabsorber l'eau. Cela conduit à l'excrétion de grandes quantités d'urine très hypotonique (diluée), ce qui peut entraîner une déshydratation sévère si l'apport en eau n'est pas suffisant."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel est le principal rôle de la transferrine dans le plasma ?",
+    "choices": [
+      "Transport du cuivre",
+      "Transport des hormones thyroïdiennes",
+      "Transport du fer",
+      "Transport du cholestérol"
+    ],
+    "answer": "Transport du fer",
+    "explanation": "La transferrine est la protéine plasmatique (une bêta-globuline) spécialisée dans le transport du fer dans le sang, de son site d'absorption ou de stockage vers les sites d'utilisation comme la moelle osseuse."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Une anémie microcytaire (VGM bas) est le plus souvent causée par une carence en :",
+    "choices": [
+      "Vitamine B12",
+      "Acide folique",
+      "Fer",
+      "Protéines"
+    ],
+    "answer": "Fer",
+    "explanation": "Le fer est un composant essentiel de l'hème dans l'hémoglobine. Une carence en fer (anémie ferriprive) empêche la synthèse correcte de l'hémoglobine, résultant en des globules rouges petits (microcytes) et pâles (hypochromes)."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel est l'ion dont la concentration extracellulaire est maintenue dans des limites très strictes en raison de son effet majeur sur l'excitabilité neuromusculaire ?",
+    "choices": [
+      "Sodium (Na+)",
+      "Chlorure (Cl-)",
+      "Potassium (K+)",
+      "Bicarbonate (HCO3-)"
+    ],
+    "answer": "Potassium (K+)",
+    "explanation": "Le gradient de concentration du potassium à travers la membrane cellulaire est le principal déterminant du potentiel de repos. De faibles variations de la kaliémie (concentration de K+ dans le sang) peuvent donc avoir des effets profonds sur l'excitabilité des nerfs et des muscles, y compris le cœur."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Une hyperhydratation cellulaire est toujours la conséquence d'une :",
+    "choices": [
+      "Hypo-osmolalité du secteur extracellulaire",
+      "Hyper-osmolalité du secteur extracellulaire",
+      "Augmentation de la pression hydrostatique",
+      "Diminution de la pression oncotique"
+    ],
+    "answer": "Hypo-osmolalité du secteur extracellulaire",
+    "explanation": "L'eau se déplace pour équilibrer les concentrations osmotiques. Pour que l'eau entre dans les cellules et les fasse gonfler, le milieu extérieur (extracellulaire) doit être moins concentré (hypo-osmotique ou hypotonique) que le milieu intérieur."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Les macrophages sont des cellules phagocytaires puissantes qui dérivent de quel type de leucocyte sanguin ?",
+    "choices": [
+      "Neutrophile",
+      "Lymphocyte T",
+      "Basophile",
+      "Monocyte"
+    ],
+    "answer": "Monocyte",
+    "explanation": "Les monocytes circulent dans le sang pendant une courte période avant de migrer dans les tissus où ils se différencient en macrophages, des phagocytes de longue durée de vie résidant dans les organes."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Lequel de ces compartiments est un 'ultra-filtrat' du plasma ?",
+    "choices": [
+      "Le liquide intracellulaire",
+      "Le liquide interstitiel",
+      "Le contenu des globules rouges",
+      "Le sérum"
+    ],
+    "answer": "Le liquide interstitiel",
+    "explanation": "Le liquide interstitiel se forme par filtration du plasma à travers la paroi capillaire. Ce processus retient la plupart des grosses protéines, d'où le terme 'ultra-filtrat'."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "La pression oncotique plasmatique, d'environ 25 mmHg, est principalement due à :",
+    "choices": [
+      "La concentration en sodium",
+      "La concentration en glucose",
+      "La concentration en albumine",
+      "La concentration en globules rouges"
+    ],
+    "answer": "La concentration en albumine",
+    "explanation": "Bien que les protéines soient en faible concentration molaire par rapport aux ions, elles sont responsables de la pression oncotique car elles ne traversent pas la paroi capillaire. L'albumine, étant la plus abondante, en est le principal contributeur."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Une obstruction des vaisseaux lymphatiques d'une jambe (ex: filariose) peut provoquer un œdème appelé :",
+    "choices": [
+      "Œdème cardiaque",
+      "Œdème rénal",
+      "Lymphœdème",
+      "Œdème de dénutrition"
+    ],
+    "answer": "Lymphœdème",
+    "explanation": "Le blocage du drainage lymphatique empêche l'évacuation du liquide interstitiel et des protéines qui ont filtré, provoquant leur accumulation et un œdème riche en protéines, appelé lymphœdème."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "La valeur normale de la glycémie à jeun est d'environ :",
+    "choices": [
+      "0,5 g/L",
+      "1 g/L",
+      "2 g/L",
+      "5 g/L"
+    ],
+    "answer": "1 g/L",
+    "explanation": "La glycémie normale à jeun est maintenue autour de 1 gramme par litre (ou 5 mmol/L). Une valeur inférieure à 0,5 g/L est une hypoglycémie dangereuse."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "L'urée plasmatique est le produit final du catabolisme de quelles molécules ?",
+    "choices": [
+      "Glucides",
+      "Lipides",
+      "Acides aminés (protéines)",
+      "Acides nucléiques"
+    ],
+    "answer": "Acides aminés (protéines)",
+    "explanation": "L'urée est synthétisée par le foie à partir de l'ammoniac provenant de la dégradation des acides aminés. C'est la principale forme d'élimination de l'azote par le corps."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quelle est l'osmolalité normale du plasma ?",
+    "choices": [
+      "150 mOsm/kg",
+      "290 mOsm/kg",
+      "450 mOsm/kg",
+      "600 mOsm/kg"
+    ],
+    "answer": "290 mOsm/kg",
+    "explanation": "L'osmolalité plasmatique normale est maintenue dans une fourchette très étroite, autour de 285-295 mOsmol/kg d'eau."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Quel organe est principalement responsable de la synthèse de la plupart des protéines plasmatiques (albumine, fibrinogène...) ?",
+    "choices": [
+      "Le rein",
+      "Le foie",
+      "La moelle osseuse",
+      "La rate"
+    ],
+    "answer": "Le foie",
+    "explanation": "Le foie est l'usine métabolique du corps et est responsable de la synthèse de la quasi-totalité des protéines plasmatiques, à l'exception des immunoglobulines (produites par les plasmocytes)."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Une hypernatrémie reflète toujours un état de :",
+    "choices": [
+      "Déshydratation cellulaire",
+      "Hyperhydratation cellulaire",
+      "Excès de potassium",
+      "Déficit en albumine"
+    ],
+    "answer": "Déshydratation cellulaire",
+    "explanation": "L'hypernatrémie signifie que le compartiment extracellulaire est hypertonique. Par osmose, l'eau quitte les cellules pour diluer le milieu extracellulaire, ce qui entraîne une déshydratation du compartiment intracellulaire."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Laquelle de ces situations peut mener à une déshydratation à la fois extracellulaire et intracellulaire ?",
+    "choices": [
+      "Boire une grande quantité d'eau pure",
+      "Une perfusion de sérum salé isotonique",
+      "Une perte d'eau et de sel non compensée (ex: vomissements, diarrhée)",
+      "Une sécrétion inappropriée d'ADH"
+    ],
+    "answer": "Une perte d'eau et de sel non compensée (ex: vomissements, diarrhée)",
+    "explanation": "La perte de liquide hypotonique ou isotonique (comme dans les vomissements ou la diarrhée) entraîne une déplétion du volume extracellulaire. Si les pertes d'eau dépassent les pertes de sel ou si la déshydratation est sévère, une hypernatrémie relative peut s'installer, provoquant également une déshydratation cellulaire."
+  },
+  {
+    "topic": "Milieu Intérieur",
+    "year": "1",
+    "question": "Le calcul du 'Volume Globulaire Moyen' (VGM) se fait par la formule :",
+    "choices": [
+      "Taux d'Hb / Nombre de GR",
+      "Hématocrite / Nombre de GR",
+      "Hématocrite / Taux d'Hb",
+      "Nombre de GR / Volume sanguin"
+    ],
+    "answer": "Hématocrite / Nombre de GR",
+    "explanation": "Le VGM représente le volume moyen d'un globule rouge. Il est calculé en divisant le volume total occupé par les globules rouges (l'hématocrite, exprimé en pourcentage) par leur nombre total."
+  }
+]

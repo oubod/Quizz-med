@@ -1,0 +1,688 @@
+[
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Comment appelle-t-on les espèces qui maintiennent leur température corporelle constante malgré les variations ambiantes ?",
+    "choices": [
+      "Poikilothermes",
+      "Homéothermes",
+      "Ectothermes",
+      "Endothermes"
+    ],
+    "answer": "Homéothermes",
+    "explanation": "Les espèces comme les oiseaux et les mammifères qui 'maintiennent leur température corporelle pratiquement constante en dépit des variations de la température ambiante' sont appelées homéothermes."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Quelles sont les deux parties du corps distinguées dans le modèle thermique de l'organisme ?",
+    "choices": [
+      "La tête et le tronc",
+      "Le noyau central et l'écorce",
+      "Les membres supérieurs et inférieurs",
+      "La peau et les organes internes"
+    ],
+    "answer": "Le noyau central et l'écorce",
+    "explanation": "Du point de vue thermique, le texte divise le corps en deux compartiments : le noyau central et l'écorce."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Quel mécanisme principal assure le transfert de chaleur du noyau vers l'écorce ?",
+    "choices": [
+      "Uniquement la conduction tissulaire",
+      "La radiation infrarouge",
+      "La convection par la circulation sanguine",
+      "L'évaporation"
+    ],
+    "answer": "La convection par la circulation sanguine",
+    "explanation": "La majeure partie des transports de chaleur du noyau vers l'écorce se fait par convection, grâce à la circulation cutanée. Le texte précise que la conduction joue aussi un rôle."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Laquelle de ces modalités d'échange de chaleur sert uniquement à perdre de la chaleur ?",
+    "choices": [
+      "La conduction",
+      "La convection",
+      "La radiation",
+      "L'évaporation"
+    ],
+    "answer": "L'évaporation",
+    "explanation": "L'évaporation de la sueur est une modalité qui 'ne sert qu'à perdre de la chaleur (thermolyse)'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Qu'est-ce que la 'perspiration' ?",
+    "choices": [
+      "La production active de sueur",
+      "La perte de chaleur par la respiration",
+      "Une perte d'eau insensible par évaporation immédiate à travers la peau",
+      "La chair de poule"
+    ],
+    "answer": "Une perte d'eau insensible par évaporation immédiate à travers la peau",
+    "explanation": "La perspiration est 'appelée aussi perte insensible car l'évaporation de l'eau est immédiate' à travers la surface cutanée."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Comment appelle-t-on les adaptations de l'organisme pour produire de la chaleur (frisson, hormones) ?",
+    "choices": [
+      "Thermorégulation physique",
+      "Thermorégulation comportementale",
+      "Thermolyse",
+      "Thermorégulation chimique"
+    ],
+    "answer": "Thermorégulation chimique",
+    "explanation": "Les adaptations de la thermogenèse (production de chaleur) sont appelées 'thermorégulation chimique' et sont mises en jeu surtout dans la lutte contre le froid."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Quel est le principal mécanisme de lutte contre le froid chez l'homme ?",
+    "choices": [
+      "L'augmentation de la sudation",
+      "La vasodilatation cutanée",
+      "L'augmentation du tonus musculaire et le frisson thermique",
+      "La diminution du métabolisme de base"
+    ],
+    "answer": "L'augmentation du tonus musculaire et le frisson thermique",
+    "explanation": "Le texte indique que 'l'augmentation du tonus musculaire et le frisson sont probablement les seules réponses thermorégulatrices augmentant la production de chaleur chez l'homme'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Quelle glande endocrine a un rôle dans l'adaptation tardive (48h) au froid ?",
+    "choices": [
+      "La médullosurrénale",
+      "Le pancréas",
+      "La glande thyroïde",
+      "L'hypophyse"
+    ],
+    "answer": "La glande thyroïde",
+    "explanation": "Les hormones thyroïdiennes augmentent la thermogenèse. Leurs effets 'sont cependant plus tardifs, se manifestant au bout de 48 heures', jouant un rôle dans l'adaptation au froid."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Quel est le principal mécanisme de lutte contre le chaud ?",
+    "choices": [
+      "La vasoconstriction cutanée",
+      "L'augmentation de la thermogenèse",
+      "L'augmentation de la thermolyse (vasodilatation et sudation)",
+      "Le frisson"
+    ],
+    "answer": "L'augmentation de la thermolyse (vasodilatation et sudation)",
+    "explanation": "Dans la lutte contre le chaud, 'L'augmentation de la thermolyse est seule à intervenir. La vasomotricité cutanée et la sudation sont les réponses thermorégulatrices les plus efficaces'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Où sont situés les principaux centres thermorégulateurs ?",
+    "choices": [
+      "Dans la peau",
+      "Dans la moelle épinière",
+      "Au niveau de l'hypothalamus",
+      "Dans le cervelet"
+    ],
+    "answer": "Au niveau de l'hypothalamus",
+    "explanation": "Des expériences ont montré que 'les centres thermorégulateurs sont situés au niveau de l'hypothalamus'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Quelle partie de l'hypothalamus commande les réactions de lutte contre le froid ?",
+    "choices": [
+      "L'hypothalamus antérieur",
+      "L'hypothalamus postérieur",
+      "L'hypothalamus médian",
+      "L'hypothalamus latéral"
+    ],
+    "answer": "L'hypothalamus postérieur",
+    "explanation": "L'hypothalamus postérieur commande les réactions de lutte contre le froid (frisson, vasoconstriction)."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Qu'est-ce que la fièvre ?",
+    "choices": [
+      "Un échec complet de la thermorégulation",
+      "Une baisse de la température centrale",
+      "Un changement de la valeur de consigne du thermostat hypothalamique",
+      "Une simple augmentation de la production de chaleur"
+    ],
+    "answer": "Un changement de la valeur de consigne du thermostat hypothalamique",
+    "explanation": "La fièvre est le dérèglement le plus fréquent et 'consiste en un changement de la valeur de consigne au niveau du thermostat hypothalamique'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Pendant la phase d'ascension thermique de la fièvre, quelles réactions observe-t-on ?",
+    "choices": [
+      "Sudation et vasodilatation",
+      "Frisson et vasoconstriction cutanée",
+      "Une sensation de chaleur intense",
+      "Une baisse du tonus musculaire"
+    ],
+    "answer": "Frisson et vasoconstriction cutanée",
+    "explanation": "Durant la phase de début de la fièvre, la température centrale est inférieure à la nouvelle consigne, ce qui déclenche des 'réactions de lutte contre le froid: frisson, vasoconstriction cutanée'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Qu'est-ce qu'un coup de chaleur avec hyperthermie ?",
+    "choices": [
+      "Une fièvre d'origine infectieuse",
+      "Une situation où le système thermorégulateur est dépassé par une ambiance chaude et humide",
+      "Une réaction normale à l'exposition au soleil",
+      "Une forme d'hypothermie"
+    ],
+    "answer": "Une situation où le système thermorégulateur est dépassé par une ambiance chaude et humide",
+    "explanation": "Un coup de chaleur avec hyperthermie peut survenir lors d'une exposition à une ambiance chaude et humide. 'Le système thermorégulateur est dépassé'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "À partir de quelle température centrale le système thermorégulateur cesse-t-il de lutter contre l'hypothermie ?",
+    "choices": [
+      "37 °C",
+      "35 °C",
+      "33 °C",
+      "30 °C"
+    ],
+    "answer": "30 °C",
+    "explanation": "A partir de 30 °C, 'le système thermorégulateur cesse de lutter contre l'hypothermie'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "La température de l'écorce est-elle constante ?",
+    "choices": [
+      "Oui, toujours à 37°C",
+      "Oui, mais plus basse que le noyau",
+      "Non, elle n'est pas constante et subit l'influence du noyau et du milieu extérieur",
+      "Non, elle est toujours plus chaude que le noyau"
+    ],
+    "answer": "Non, elle n'est pas constante et subit l'influence du noyau et du milieu extérieur",
+    "explanation": "Le texte indique que 'La température de l'écorce n'est pas constante' car elle est soumise à deux influences : celle du noyau et celle du milieu extérieur."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Quel est le rôle de la vasoconstriction cutanée dans la lutte contre le froid ?",
+    "choices": [
+      "Augmenter la perte de chaleur",
+      "Augmenter la production de chaleur",
+      "Limiter l'apport de chaleur du noyau vers la peau",
+      "Provoquer le frisson"
+    ],
+    "answer": "Limiter l'apport de chaleur du noyau vers la peau",
+    "explanation": "La vasoconstriction cutanée ralentit la circulation, et la peau se refroidit 'par limitation de l'apport de chaleur à partir du noyau'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Le frisson thermique est une activité musculaire...",
+    "choices": [
+      "Volontaire et rythmique",
+      "Non volontaire et rythmique",
+      "Volontaire et continue",
+      "Non volontaire et continue"
+    ],
+    "answer": "Non volontaire et rythmique",
+    "explanation": "C'est une 'activité musculaire rythmique non volontaire contrôlée par l'innervation extrapyramidale'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "L'action thermogénique de l'adrénaline est...",
+    "choices": [
+      "Lente et durable",
+      "Rapide et de courte durée",
+      "Nulle chez l'homme",
+      "Uniquement active en cas de fièvre"
+    ],
+    "answer": "Rapide et de courte durée",
+    "explanation": "L'action des hormones médullosurrénaliennes (adrénaline) est 'rapide (quelques minutes après l'injection) avec un maximum après 30 mn', représentant la réponse immédiate au froid."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Quand la transpiration (sudation) apparaît-elle typiquement ?",
+    "choices": [
+      "Quand la température extérieure est inférieure à 15°C",
+      "Quand la température extérieure dépasse 28°C",
+      "Uniquement pendant le frisson",
+      "Elle est constante à toute température"
+    ],
+    "answer": "Quand la température extérieure dépasse 28°C",
+    "explanation": "La transpiration, par opposition à la perspiration, 'n'apparaît que si la température extérieure dépasse 28 °C par mise en jeu du système sudoripare'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Comment l'organisme peut-il gagner de la chaleur par radiation ?",
+    "choices": [
+      "En s'exposant à des surfaces plus froides",
+      "Uniquement par sa propre production de chaleur",
+      "En s'exposant à des sources rayonnantes comme le soleil",
+      "Par le contact direct avec un objet chaud"
+    ],
+    "answer": "En s'exposant à des sources rayonnantes comme le soleil",
+    "explanation": "On peut avoir un transfert de chaleur en sens inverse, à partir de surfaces rayonnantes (naturelles comme le soleil ou artificielles) vers le corps."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Quel est le rôle des thermorécepteurs périphériques (cutanés) ?",
+    "choices": [
+      "Déclencher des réactions curatives une fois la température centrale modifiée",
+      "Mesurer la température du noyau central",
+      "Déclencher des réactions préventives en anticipant les variations de température centrale",
+      "Uniquement de provoquer la sensation de douleur"
+    ],
+    "answer": "Déclencher des réactions préventives en anticipant les variations de température centrale",
+    "explanation": "Les réactions déclenchées par les récepteurs cutanés 'anticipent ainsi une variation éventuelle de la température centrale. Ces réactions ont ainsi un caractère préventif'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Quel est l'effet de l'épaississement du pannicule adipeux sur la thermorégulation ?",
+    "choices": [
+      "Il augmente les pertes de chaleur",
+      "Il constitue une adaptation de l'organisme au froid en isolant le noyau",
+      "Il augmente la production de chaleur",
+      "Il n'a aucun rôle thermique"
+    ],
+    "answer": "Il constitue une adaptation de l'organisme au froid en isolant le noyau",
+    "explanation": "L'accumulation de graisse dans le tissu sous-cutané 'constitue une adaptation de l'organisme au froid', permettant de maintenir une température centrale plus élevée pour une même température cutanée."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Comment agissent les substances antipyrétiques comme l'aspirine ?",
+    "choices": [
+      "Elles augmentent la valeur de consigne du thermostat",
+      "Elles provoquent le frisson",
+      "Elles peuvent rétablir le niveau de contrôle normal du thermostat hypothalamique",
+      "Elles bloquent la sudation"
+    ],
+    "answer": "Elles peuvent rétablir le niveau de contrôle normal du thermostat hypothalamique",
+    "explanation": "Le texte indique que 'Certaines substances antipirétiques comme l'aspirine peuvent rétablir le niveau de contrôle normal'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "La vasodilatation cutanée est une réponse à :",
+    "choices": [
+      "Une exposition au froid",
+      "Une exposition au chaud",
+      "Une baisse de la température centrale",
+      "Une forte activité digestive"
+    ],
+    "answer": "Une exposition au chaud",
+    "explanation": "La vasodilatation des vaisseaux cutanés augmente le débit sanguin cutané, ce qui favorise la perte de chaleur. C'est une réponse à l'exposition au chaud."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Qu'est-ce que l'horripilation ('chair de poule') ?",
+    "choices": [
+      "Une réaction de thermolyse importante",
+      "Une réaction qui donne lieu à une faible production de chaleur",
+      "Un signe d'exposition au chaud",
+      "Une contraction volontaire des muscles"
+    ],
+    "answer": "Une réaction qui donne lieu à une faible production de chaleur",
+    "explanation": "L'horripilation, due à la mise en jeu des muscles horripilateurs, 'donne lieu à une faible production de chaleur chez l'homme d'où sa faible importance'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "La convection 'forcée' se distingue de la convection 'naturelle' par :",
+    "choices": [
+      "La température du fluide",
+      "Le fait que les mouvements du fluide sont causés par un élément externe (ex: le vent)",
+      "Le fait qu'elle ne transfère pas de chaleur",
+      "Le fait qu'elle se produit uniquement dans l'eau"
+    ],
+    "answer": "Le fait que les mouvements du fluide sont causés par un élément externe (ex: le vent)",
+    "explanation": "La convection est dite 'forcée' lorsque les mouvements du fluide sont causés par un autre élément indépendant des changements de température, comme le vent ou un ventilateur."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Que se passe-t-il lorsque l'air est saturé de vapeur d'eau ?",
+    "choices": [
+      "L'évaporation de la sueur est maximale",
+      "L'évaporation de la sueur devient nulle",
+      "La production de sueur s'arrête",
+      "La température corporelle baisse rapidement"
+    ],
+    "answer": "L'évaporation de la sueur devient nulle",
+    "explanation": "L'évaporation de sueur devient nulle lorsque l'air est saturé de vapeur d'eau. La sueur qui se forme alors ruisselle sans contribuer à la perte de chaleur."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Quelle est la principale source de chaleur de l'organisme ?",
+    "choices": [
+      "Le système nerveux",
+      "La digestion",
+      "L'activité musculaire",
+      "La radiation solaire absorbée"
+    ],
+    "answer": "L'activité musculaire",
+    "explanation": "Bien que tous les tissus produisent de la chaleur, 'le foie et le muscle jouent le rôle le plus important'. Le texte mentionne que 'l'activité musculaire est la principale source de chaleur de l'organisme' (page 12)."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "L'immersion dans un bain froid déclenche un frisson alors que la température centrale n'a pas encore diminué. Cela montre une régulation à partir de :",
+    "choices": [
+      "Récepteurs centraux",
+      "Récepteurs périphériques",
+      "Hormones uniquement",
+      "L'hypothalamus postérieur uniquement"
+    ],
+    "answer": "Récepteurs périphériques",
+    "explanation": "Cet exemple montre que la réaction peut être déclenchée à partir des récepteurs périphériques (cutanés) qui détectent le froid avant que la température centrale ne change. C'est une réaction préventive."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Les adaptations de la thermolyse (vasomotricité, sudation) sont regroupées sous le terme de :",
+    "choices": [
+      "Thermorégulation chimique",
+      "Thermorégulation physique",
+      "Thermogenèse",
+      "Réponse hormonale"
+    ],
+    "answer": "Thermorégulation physique",
+    "explanation": "Les adaptations de la thermolyse aux besoins de l'organisme sont appelées 'thermorégulation physique' et entrent en jeu surtout dans la lutte contre le chaud."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Pourquoi une sudation abondante peut-elle provoquer des crampes musculaires ?",
+    "choices": [
+      "A cause de la déshydratation",
+      "A cause d'une perte importante de chlore et de sel",
+      "A cause du refroidissement de la peau",
+      "A cause de l'effort musculaire de la sudation"
+    ],
+    "answer": "A cause d'une perte importante de chlore et de sel",
+    "explanation": "La sudation abondante s'accompagne d'une perte importante de sel. Le texte mentionne que les crampes musculaires 'seraient dues à une perte importante de chlore'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Quelle est la valeur de consigne approximative du thermostat hypothalamique chez l'homme ?",
+    "choices": [
+      "35 °C",
+      "36 °C",
+      "37 °C",
+      "38 °C"
+    ],
+    "answer": "37 °C",
+    "explanation": "L'hypothalamus fonctionne chez l'homme comme un thermostat réglé à une 'valeur de consigne de 37 °C'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Quels sont les effecteurs de la thermorégulation ?",
+    "choices": [
+      "Uniquement l'hypothalamus",
+      "Les récepteurs cutanés et centraux",
+      "Les artérioles cutanées, les muscles striés et les glandes sudoripares",
+      "Les hormones thyroïdiennes et l'adrénaline"
+    ],
+    "answer": "Les artérioles cutanées, les muscles striés et les glandes sudoripares",
+    "explanation": "Le texte liste les trois grandes réponses thermorégulatrices et leurs effecteurs : les artérioles cutanées, les muscles striés squelettiques et les glandes sudoripares."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Comment le corps réagit-il lors de la phase de défervescence d'une fièvre ?",
+    "choices": [
+      "Par un frisson intense",
+      "Par une vasoconstriction cutanée",
+      "Par une sudation et une vasodilatation",
+      "En augmentant la température de consigne"
+    ],
+    "answer": "Par une sudation et une vasodilatation",
+    "explanation": "Quand la valeur de consigne revient à la normale, la température centrale est trop élevée. La phase de défervescence se caractérise donc par des 'réactions de lutte contre le chaud: sudation, vasodilatation'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Le transfert de chaleur par conduction est le plus important lorsque le corps est en contact avec :",
+    "choices": [
+      "L'air",
+      "Les vêtements",
+      "L'eau",
+      "Un autre corps humain"
+    ],
+    "answer": "L'eau",
+    "explanation": "Le transfert par conduction peut augmenter lorsqu'une partie importante du corps est en contact 'avec un corps conducteur de la chaleur comme l'eau'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "À quelle température le coeur risque-t-il de fibriller en cas d'hypothermie ?",
+    "choices": [
+      "33 °C",
+      "30 °C",
+      "28 °C",
+      "25 °C"
+    ],
+    "answer": "28 °C",
+    "explanation": "Le texte indique que 'Vers 28 °C le coeur fibrille et le sujet meurt'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "L'homéothermie est une propriété de :",
+    "choices": [
+      "Chaque tissu isolé",
+      "L'organisme entier",
+      "Uniquement le système nerveux",
+      "Uniquement le sang"
+    ],
+    "answer": "L'organisme entier",
+    "explanation": "L'homéothermie est une 'propriété de l'organisme entier et non des tissus (la température d'un tissus isolé varie avec celle de l'environnement)'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Quelle est la conséquence d'une exposition prolongée à une ambiance chaude quand l'eau disponible est insuffisante ?",
+    "choices": [
+      "Une sudation accrue",
+      "Une hypothermie",
+      "Une déshydratation cellulaire et une hyperthermie progressive",
+      "Une amélioration de la perception"
+    ],
+    "answer": "Une déshydratation cellulaire et une hyperthermie progressive",
+    "explanation": "Si l'eau est insuffisante, la sudation provoque 'une sécheresse des muqueuses et une déshydratation cellulaire; une hyperthermie progressive s'installe'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Le débit sanguin cutané de la main augmente très rapidement lorsque la température du bain passe de :",
+    "choices": [
+      "15 à 25 °C",
+      "25 à 35 °C",
+      "35 à 44 °C",
+      "Il n'augmente jamais"
+    ],
+    "answer": "35 à 44 °C",
+    "explanation": "Le débit sanguin cutané de la main 'reste constant entre 15 et 35 °C. Il s'élève très rapidement... entre 35 et 44 °C'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "La polypnée thermique est un mécanisme utilisé par :",
+    "choices": [
+      "L'homme pour lutter contre le chaud",
+      "Les espèces dépourvues de glandes sudoripares comme les chiens",
+      "Tous les mammifères pour lutter contre le froid",
+      "Les poikilothermes"
+    ],
+    "answer": "Les espèces dépourvues de glandes sudoripares comme les chiens",
+    "explanation": "L'évaporation pulmonaire est utilisée par les 'espèces animales dépourvues de glandes sudoripares (chiens, chats) qui l'augmentent par le phénomène de polypnée thermique'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Les réactions thermorégulatrices cessent lorsque :",
+    "choices": [
+      "La température extérieure est stable",
+      "La température cutanée est normale",
+      "La température centrale revient à son niveau normal",
+      "Le sujet s'endort"
+    ],
+    "answer": "La température centrale revient à son niveau normal",
+    "explanation": "Les réactions thermorégulatrices physiologiques 'ne cessent que lorsque la température centrale revient à son niveau normal'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "La thermogenèse ne peut pas s'abaisser en dessous de quel niveau ?",
+    "choices": [
+      "Zéro",
+      "Celui de l'activité musculaire intense",
+      "Celui du métabolisme de base",
+      "Celui de la température ambiante"
+    ],
+    "answer": "Celui du métabolisme de base",
+    "explanation": "La production de chaleur 'ne peut s'abaisser au dessous d'une limite minimale (le métabolisme de base)'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Dans quel but l'hypothermie provoquée est-elle parfois utilisée en chirurgie ?",
+    "choices": [
+      "Pour augmenter le métabolisme des tissus",
+      "Pour maintenir les tissus en survie prolongée sans apport d'oxygène",
+      "Pour accélérer la cicatrisation",
+      "Pour prévenir les infections"
+    ],
+    "answer": "Pour maintenir les tissus en survie prolongée sans apport d'oxygène",
+    "explanation": "Au voisinage de 25 °C, les besoins métaboliques sont très réduits, 'les tissus peuvent être ainsi maintenus en survie prolongée sans apport d'oxygène', ce qui est utilisé pour certaines interventions."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "L'hypothalamus antérieur commande les réactions de :",
+    "choices": [
+      "Lutte contre le froid",
+      "Lutte contre le chaud",
+      "Production d'hormones thyroïdiennes",
+      "Contraction musculaire"
+    ],
+    "answer": "Lutte contre le chaud",
+    "explanation": "L'hypothalamus antérieur commande les réactions de 'lutte contre le chaud (vasodilatation, sudation)'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "La thermolyse est sous la dépendance principale de quel système nerveux ?",
+    "choices": [
+      "Le système nerveux somatique",
+      "Le système nerveux végétatif",
+      "Le système nerveux central uniquement",
+      "Le système nerveux entérique"
+    ],
+    "answer": "Le système nerveux végétatif",
+    "explanation": "L'adaptation de la thermolyse aux besoins 'est sous la dépendance du système nerveux végétatif'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Le transfert de chaleur par radiation est proportionnel à :",
+    "choices": [
+      "La différence simple des températures",
+      "La puissance 4 des températures absolues des corps",
+      "La pression atmosphérique",
+      "L'humidité de l'air"
+    ],
+    "answer": "La puissance 4 des températures absolues des corps",
+    "explanation": "Les échanges de chaleur (R) par radiation 'sont proportionnels à la puissance 4 des températures absolues des corps (R = k3 (T1^4 - T2^4))'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Quelle est la principale fonction thermorégulatrice des vêtements ?",
+    "choices": [
+      "Produire de la chaleur",
+      "Augmenter la thermolyse",
+      "Diminuer la thermolyse (limiter les pertes de chaleur)",
+      "Absorber la sueur"
+    ],
+    "answer": "Diminuer la thermolyse (limiter les pertes de chaleur)",
+    "explanation": "Les réactions thermogénétiques sont efficaces contre le froid, mais 'la diminution de la thermolyse est faible... sauf par des moyens artificiels (vêtements)'."
+  },
+  {
+    "directory": "/thermoregulation/year_1/",
+    "topic": "La Thermorégulation",
+    "year": "1",
+    "question": "Laquelle de ces réactions est une réaction comportementale à l'exposition au froid ?",
+    "choices": [
+      "Frisson",
+      "Vasoconstriction",
+      "Augmenter l'épaisseur de ses vêtements",
+      "Sudation"
+    ],
+    "answer": "Augmenter l'épaisseur de ses vêtements",
+    "explanation": "Le texte cite les 'réactions comportementales' pour lutter contre le froid, comme 'en augmentant l'épaisseur de ses vêtements'."
+  }
+]
