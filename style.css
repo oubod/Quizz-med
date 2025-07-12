@@ -1,32 +1,113 @@
-/* Custom button feedback styles for correct/incorrect choices */
-.correct {
-    background-color: #22c55e !important;
-    border-color: #16a34a !important;
-    color: white !important;
+/* --- App Theme Variables --- */
+:root {
+    --app-primary: #2C2A8A;
+    --app-secondary: #3B38A3;
+    --app-accent: #F5B82E;
+    --app-text-primary: #FFFFFF;
+    --app-text-secondary: #D0D0FF;
+    --app-text-dark: #000000;
+    --app-disabled: #8D99AE;
+    --app-success: #28a745;
+    --app-danger: #dc3545;
+    --font-primary: 'Inter', sans-serif;
 }
 
-.incorrect {
-    background-color: #ef4444 !important;
-    border-color: #dc2626 !important;
-    color: white !important;
+/* --- Base Body Styles --- */
+body {
+    font-family: var(--font-primary);
+    background-color: var(--app-primary);
+    color: var(--app-text-primary);
 }
 
-/* --- NEW: Screen transition animations --- */
+/* --- Screen Transitions --- */
 .screen {
+    flex-grow: 1;
+    overflow-y: auto;
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    padding: 1.5rem; /* 24px */
 }
 
 .screen.hidden {
+    display: none;
     opacity: 0;
     transform: scale(0.98);
     pointer-events: none;
     position: absolute; /* Prevents layout shifts during transitions */
 }
 
-/* --- NEW: Bookmark button styling --- */
+/* --- Reusable Components --- */
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color: var(--app-primary);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 0;
+    background-color: var(--app-secondary);
+    border-top: 1px solid #4a47b5; /* Slightly lighter border */
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    color: var(--app-text-secondary);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.nav-item.active, .nav-item:hover {
+    color: var(--app-accent);
+}
+
+.nav-item.active {
+    background-color: rgba(245, 184, 46, 0.1); /* Subtle accent background */
+}
+
+.nav-icon {
+    width: 24px;
+    height: 24px;
+}
+
+/* --- Custom button feedback styles for correct/incorrect choices --- */
+.correct {
+    background-color: var(--app-success) !important;
+    border-color: var(--app-success) !important;
+    color: var(--app-text-primary) !important;
+}
+
+.incorrect {
+    background-color: var(--app-danger) !important;
+    border-color: var(--app-danger) !important;
+    color: var(--app-text-primary) !important;
+}
+
+/* --- Bookmark button styling --- */
 .bookmark-btn {
     transition: color 0.2s ease-in-out;
+    background: none;
+    border: none;
+    color: var(--app-text-secondary);
+    cursor: pointer;
 }
+
 .bookmark-btn.bookmarked {
-    color: #f59e0b; /* Tailwind's amber-500 */
+    color: var(--app-accent);
 }

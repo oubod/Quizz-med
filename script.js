@@ -1,9 +1,13 @@
 // --- DOM Elements ---
+const appTitle = document.getElementById('app-title');
+const allScreens = document.querySelectorAll('.screen');
 const startScreen = document.getElementById('start-screen');
 const quizScreen = document.getElementById('quiz-screen');
 const endScreen = document.getElementById('end-screen');
-const allScreens = document.querySelectorAll('.screen');
+const bookmarksScreen = document.getElementById('bookmarks-screen');
+const profileScreen = document.getElementById('profile-screen');
 
+// Buttons
 const startBtn = document.getElementById('start-btn');
 const restartBtn = document.getElementById('restart-btn');
 const nextBtn = document.getElementById('next-btn');
@@ -12,20 +16,33 @@ const dailyChallengeBtn = document.getElementById('daily-challenge-btn');
 const startBookmarkedBtn = document.getElementById('start-bookmarked-btn');
 const reviewMistakesBtn = document.getElementById('review-mistakes-btn');
 
+// Navigation
+const navHome = document.getElementById('nav-home');
+const navDaily = document.getElementById('nav-daily');
+const navBookmarks = document.getElementById('nav-bookmarks');
+const navProfile = document.getElementById('nav-profile');
+const navItems = document.querySelectorAll('.nav-item');
+
+// Topic Selection
 const yearSelect = document.getElementById('year-select');
 const moduleSelect = document.getElementById('module-select');
 const topicSelect = document.getElementById('topic-select');
 const questionCountSelect = document.getElementById('question-count-select');
+const timerModeSelect = document.getElementById('timer-mode-select');
 
-const scoreEl = document.getElementById('score');
-const timerEl = document.getElementById('timer');
-const questionCounterEl = document.getElementById('question-counter');
+// Quiz Display
+const scoreEl = document.getElementById('score'); // Note: This element is not in the new HTML
+const timerEl = document.getElementById('timer'); // Note: This element is not in the new HTML
+const questionCounterEl = document.getElementById('question-counter'); // Note: This element is not in the new HTML
 const questionImageEl = document.getElementById('question-image');
 const questionTextEl = document.getElementById('question-text');
 const choicesContainer = document.getElementById('choices-container');
 const explanationBox = document.getElementById('explanation-box');
 const explanationText = document.getElementById('explanation-text');
 const finalScoreEl = document.getElementById('final-score');
+
+// Bookmarks Display
+const bookmarksList = document.getElementById('bookmarks-list');
 
 // --- State Variables ---
 let quizStructure = {};
@@ -48,22 +65,54 @@ const playSound = (sound) => {
     }
 };
 
-const showScreen = (screenId) => {
+const showScreen = (screenId, title = "Hello, Oub!") => {
+    appTitle.textContent = title;
     allScreens.forEach(screen => {
-        screen.classList.add('hidden');
+        // Using 'display' none instead of 'hidden' class to avoid layout shifts with flexbox
+        screen.style.display = 'none';
     });
-    document.getElementById(screenId).classList.remove('hidden');
+    const activeScreen = document.getElementById(screenId);
+    if (activeScreen) {
+        activeScreen.style.display = 'flex'; // Or 'block' if flex is not always desired
+    }
+
+    // Update active nav item
+    navItems.forEach(item => {
+        const screenName = item.id.split('-')[1]; // e.g., 'nav-home' -> 'home'
+        item.classList.toggle('active', `${screenName}-screen` === screenId);
+    });
 };
 
 const loadBookmarks = () => {
     const saved = localStorage.getItem('medQuizBookmarks');
     bookmarkedQuestions = saved ? JSON.parse(saved) : [];
-    startBookmarkedBtn.classList.toggle('hidden', bookmarkedQuestions.length === 0);
+    updateBookmarksView();
 };
 
 const saveBookmarks = () => {
     localStorage.setItem('medQuizBookmarks', JSON.stringify(bookmarkedQuestions));
-    startBookmarkedBtn.classList.toggle('hidden', bookmarkedQuestions.length === 0);
+    updateBookmarksView();
+};
+
+const updateBookmarksView = () => {
+    bookmarksList.innerHTML = '';
+    if (bookmarkedQuestions.length === 0) {
+        bookmarksList.innerHTML = `<p class="text-app-text-secondary text-center">You haven't bookmarked any questions yet.</p>`;
+        startBookmarkedBtn.classList.add('hidden');
+        return;
+    }
+
+    startBookmarkedBtn.classList.remove('hidden');
+    const bookmarkedFullQuestions = masterQuestionList.filter(q =>
+        bookmarkedQuestions.includes(q.question)
+    );
+
+    bookmarkedFullQuestions.forEach(q => {
+        const item = document.createElement('div');
+        item.className = 'bg-app-secondary p-4 rounded-lg';
+        item.textContent = q.question;
+        bookmarksList.appendChild(item);
+    });
 };
 
 // --- Data Loading ---
@@ -74,7 +123,8 @@ async function initializeApp() {
         if (!response.ok) throw new Error('Manifest not found');
         quizStructure = await response.json();
         populateYears();
-        preloadAllQuestions(); // Preload for daily/bookmarked quizzes
+        await preloadAllQuestions(); // Preload for daily/bookmarked quizzes
+        updateBookmarksView(); // Now call this to populate the view initially
     } catch (error) {
         console.error("Could not initialize app:", error);
         alert("Failed to load critical app data. Please check your connection or the data files.");
@@ -148,10 +198,10 @@ function setupAndStartQuiz(questionArray, mode = "standard") {
     currentQuestionIndex = 0;
     score = 0;
     incorrectlyAnswered = [];
-    scoreEl.textContent = 0;
     reviewMistakesBtn.classList.add('hidden');
 
-    showScreen('quiz-screen');
+    const quizTitle = mode === 'daily' ? 'Daily Challenge' : 'Topic Quiz';
+    showScreen('quiz-screen', quizTitle);
     displayQuestion();
 }
 
@@ -203,19 +253,24 @@ function displayQuestion() {
         return;
     }
     
-    resetTimer();
-    startTimer();
+    // Timer logic can be re-integrated here if desired
+    // resetTimer();
+    // if (timerModeSelect.value === 'on') {
+    //     startTimer();
+    // }
 
     const question = questions[currentQuestionIndex];
-    questionCounterEl.textContent = `${currentQuestionIndex + 1}/${questions.length}`;
+    // Update dynamic header for quiz screen
+    appTitle.textContent = `Q: ${currentQuestionIndex + 1}/${questions.length}`;
+
     questionTextEl.textContent = question.question;
 
     // Handle image
     if (question.image) {
         questionImageEl.src = question.image;
-        questionImageEl.classList.remove('hidden');
+        questionImageEl.style.display = 'block';
     } else {
-        questionImageEl.classList.add('hidden');
+        questionImageEl.style.display = 'none';
     }
 
     // Handle bookmark status
@@ -225,21 +280,24 @@ function displayQuestion() {
     question.choices.forEach(choice => {
         const button = document.createElement('button');
         button.textContent = choice;
-        button.className = 'w-full p-4 text-left font-semibold rounded-lg bg-slate-700 hover:bg-slate-600 transition-colors';
+        // Updated classes for new design system
+        button.className = 'w-full p-4 text-left font-semibold rounded-lg transition-colors';
+        button.style.backgroundColor = 'var(--app-primary)';
+        button.onmouseover = () => button.style.backgroundColor = '#4a47b5';
+        button.onmouseout = () => button.style.backgroundColor = 'var(--app-primary)';
         button.onclick = () => { playSound('click'); checkAnswer(choice, button); };
         choicesContainer.appendChild(button);
     });
 }
 
 function checkAnswer(selectedChoice, buttonEl) {
-    clearInterval(timer);
+    // clearInterval(timer);
     const question = questions[currentQuestionIndex];
     const isCorrect = selectedChoice === question.answer;
 
     if (isCorrect) {
         playSound('correct');
-        score += 100 + (timeLeft * 10);
-        scoreEl.textContent = score;
+        score += 100; // Simplified scoring
     } else {
         playSound('incorrect');
         incorrectlyAnswered.push(question);
@@ -248,14 +306,16 @@ function checkAnswer(selectedChoice, buttonEl) {
 
     document.querySelectorAll('#choices-container button').forEach(button => {
         button.disabled = true;
+        button.onmouseover = null; // Disable hover effects
+        button.onmouseout = null;
         if (button.textContent === question.answer) {
             button.classList.add('correct');
         }
     });
 
     explanationText.textContent = question.explanation;
-    explanationBox.classList.remove('hidden');
-    nextBtn.classList.remove('hidden');
+    explanationBox.style.display = 'block';
+    nextBtn.style.display = 'block';
 }
 
 function toggleBookmark() {
@@ -285,9 +345,11 @@ function resetTimer() { /* Unchanged */ }
 function endQuiz() {
     finalScoreEl.textContent = score;
     if(incorrectlyAnswered.length > 0) {
-        reviewMistakesBtn.classList.remove('hidden');
+        reviewMistakesBtn.style.display = 'block';
+    } else {
+        reviewMistakesBtn.style.display = 'none';
     }
-    showScreen('end-screen');
+    showScreen('end-screen', 'Quiz Finished');
 }
 
 function restartQuiz() {
@@ -297,10 +359,18 @@ function restartQuiz() {
 }
 
 // --- Event Listeners ---
+// Topic Selection
 yearSelect.addEventListener('change', () => populateModules(yearSelect.value));
 moduleSelect.addEventListener('change', () => populateTopics(yearSelect.value, moduleSelect.value));
-topicSelect.addEventListener('change', () => { startBtn.disabled = !topicSelect.value; });
+topicSelect.addEventListener('change', () => {
+    const isTopicSelected = !!topicSelect.value;
+    startBtn.disabled = !isTopicSelected;
+    startBtn.style.backgroundColor = isTopicSelected ? 'var(--app-accent)' : 'var(--app-disabled)';
+    startBtn.style.color = isTopicSelected ? 'var(--app-text-dark)' : 'var(--app-text-primary)';
+});
 
+
+// Quiz Flow
 startBtn.addEventListener('click', startTopicQuiz);
 restartBtn.addEventListener('click', restartQuiz);
 nextBtn.addEventListener('click', handleNextQuestion);
@@ -309,6 +379,15 @@ dailyChallengeBtn.addEventListener('click', startDailyChallenge);
 startBookmarkedBtn.addEventListener('click', startBookmarkedQuiz);
 reviewMistakesBtn.addEventListener('click', startReviewQuiz);
 
+// Navigation
+navHome.addEventListener('click', () => showScreen('start-screen'));
+navDaily.addEventListener('click', startDailyChallenge); // Or a dedicated daily screen
+navBookmarks.addEventListener('click', () => showScreen('bookmarks-screen', 'Bookmarks'));
+navProfile.addEventListener('click', () => showScreen('profile-screen', 'Profile'));
+
 
 // --- Initialize App ---
-initializeApp();
+document.addEventListener('DOMContentLoaded', () => {
+    showScreen('start-screen');
+    initializeApp();
+});

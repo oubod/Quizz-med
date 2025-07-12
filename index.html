@@ -12,90 +12,155 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body class="bg-slate-900 text-white flex items-center justify-center min-h-screen font-[Poppins] overflow-hidden">
+<body class="bg-slate-900 text-white flex items-center justify-center min-h-screen font-sans antialiased overflow-hidden">
 
-    <!-- Container for all screens to handle transitions -->
-    <div class="relative w-full max-w-2xl mx-auto p-4">
+    <!-- App container -->
+    <div class="w-full max-w-sm mx-auto h-screen bg-app-primary text-white font-sans flex flex-col" style="background-color: var(--app-primary);">
 
-        <!-- Start Screen -->
-        <div id="start-screen" class="screen text-center">
-            <h1 class="text-4xl font-bold mb-2">Medical Faculty Trivia</h1>
-            <p class="text-slate-400 mb-8">Select a topic or try a challenge!</p>
-            
-            <div class="grid grid-cols-1 gap-4 w-full max-w-sm mx-auto">
-                <!-- NEW: Daily Challenge and Bookmarked Buttons -->
-                <button id="daily-challenge-btn" class="w-full bg-amber-600 hover:bg-amber-700 font-bold p-3 rounded-lg text-lg">★ Daily Challenge</button>
-                <button id="start-bookmarked-btn" class="w-full bg-sky-800 hover:bg-sky-900 font-bold p-3 rounded-lg text-lg">📚 My Bookmarks</button>
-                
-                <hr class="border-slate-700 my-2"/>
+        <!-- App Header -->
+        <header class="app-header">
+            <h1 id="app-title" class="text-xl font-bold">Hello, Oub!</h1>
+            <button id="settings-btn">
+                <img src="assets/icons/settings.svg" alt="Settings" class="w-6 h-6">
+            </button>
+        </header>
 
-                <!-- Topic Selection -->
-                <div class="w-full text-left">
-                    <label for="year-select" class="text-sm font-medium text-slate-400 mb-1">Year</label>
-                    <select id="year-select" class="bg-slate-800 p-3 rounded-lg w-full focus:outline-none ring-2 ring-transparent focus:ring-sky-500"></select>
+        <!-- Main Content -->
+        <main class="flex-grow overflow-y-auto">
+            <!-- Container for all screens to handle transitions -->
+            <div class="relative w-full h-full">
+
+                <!-- Start Screen -->
+                <div id="start-screen" class="screen flex flex-col items-center text-center">
+                    <img src="assets/images/waving_cactus_mascot.png" alt="Waving Cactus" class="w-32 h-32 mb-4">
+                    <h2 class="text-2xl font-bold">Medical Faculty Trivia</h2>
+                    <p class="text-app-text-secondary mb-6">Ready for a challenge?</p>
+
+                    <!-- Stats -->
+                    <div class="w-full flex justify-around bg-app-secondary p-4 rounded-2xl mb-6">
+                        <div class="text-center">
+                            <p class="text-2xl font-bold">0</p>
+                            <p class="text-xs text-app-text-secondary">Day Streak</p>
+                        </div>
+                        <div class="w-px bg-app-primary"></div>
+                        <div class="text-center">
+                            <p class="text-2xl font-bold">0/5</p>
+                            <p class="text-xs text-app-text-secondary">Achievements</p>
+                        </div>
+                    </div>
+
+                    <!-- Daily Challenge -->
+                    <button id="daily-challenge-btn" class="w-full bg-app-accent text-app-text-dark font-bold p-4 rounded-full text-base mb-6">
+                        ★ Daily Challenge
+                    </button>
+
+                    <!-- Topic Selection Form -->
+                    <div class="w-full bg-app-secondary p-6 rounded-2xl text-left">
+                        <div class="grid grid-cols-1 gap-4">
+                            <div>
+                                <label for="year-select" class="text-sm font-medium text-app-text-secondary mb-1">Year</label>
+                                <select id="year-select" class="bg-slate-800 p-3 rounded-lg w-full focus:outline-none ring-2 ring-transparent focus:ring-app-accent"></select>
+                            </div>
+                            <div>
+                                <label for="module-select" class="text-sm font-medium text-app-text-secondary mb-1">Module</label>
+                                <select id="module-select" disabled class="bg-slate-800 p-3 rounded-lg w-full focus:outline-none ring-2 ring-transparent focus:ring-app-accent disabled:opacity-50"></select>
+                            </div>
+                            <div>
+                                <label for="topic-select" class="text-sm font-medium text-app-text-secondary mb-1">Topic</label>
+                                <select id="topic-select" disabled class="bg-slate-800 p-3 rounded-lg w-full focus:outline-none ring-2 ring-transparent focus:ring-app-accent disabled:opacity-50"></select>
+                            </div>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div>
+                                    <label for="question-count-select" class="text-sm font-medium text-app-text-secondary mb-1">Questions</label>
+                                    <select id="question-count-select" class="bg-slate-800 p-3 rounded-lg w-full focus:outline-none ring-2 ring-transparent focus:ring-app-accent">
+                                        <option value="5">5</option>
+                                        <option value="10" selected>10</option>
+                                        <option value="20">20</option>
+                                        <option value="all">All</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="timer-mode-select" class="text-sm font-medium text-app-text-secondary mb-1">Timer</label>
+                                    <select id="timer-mode-select" class="bg-slate-800 p-3 rounded-lg w-full focus:outline-none ring-2 ring-transparent focus:ring-app-accent">
+                                        <option value="on">On</option>
+                                        <option value="off">Off</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <button id="start-btn" disabled class="w-full bg-app-disabled font-bold py-4 rounded-full text-base mt-6 disabled:cursor-not-allowed">Start Topic Quiz</button>
+                    </div>
                 </div>
-                <div class="w-full text-left">
-                    <label for="module-select" class="text-sm font-medium text-slate-400 mb-1">Module</label>
-                    <select id="module-select" disabled class="bg-slate-800 p-3 rounded-lg w-full focus:outline-none ring-2 ring-transparent focus:ring-sky-500 disabled:opacity-50"></select>
+
+                <!-- Quiz Screen -->
+                <div id="quiz-screen" class="screen hidden">
+                    <!-- Quiz header will be dynamically populated -->
+                    <div class="bg-app-secondary p-6 rounded-lg shadow-lg relative">
+                        <button id="bookmark-btn" class="bookmark-btn absolute top-4 right-4 text-2xl">★</button>
+
+                        <img id="question-image" src="" alt="Question-related image" class="hidden max-h-48 w-auto mx-auto mb-4 rounded-lg bg-slate-700"/>
+
+                        <h2 id="question-text" class="text-xl font-semibold mb-6 text-center">Loading...</h2>
+                        <div id="choices-container" class="grid grid-cols-1 gap-3"></div>
+
+                        <div id="explanation-box" class="hidden mt-6 p-4 bg-slate-700 rounded-lg">
+                            <p class="font-bold">Explanation:</p>
+                            <p id="explanation-text" class="text-slate-300"></p>
+                        </div>
+                    </div>
+                    <div class="text-center mt-4">
+                        <button id="next-btn" class="hidden w-full bg-app-accent text-app-text-dark font-bold py-4 px-10 rounded-full">Next</button>
+                    </div>
                 </div>
-                <div class="w-full text-left">
-                    <label for="topic-select" class="text-sm font-medium text-slate-400 mb-1">Topic</label>
-                    <select id="topic-select" disabled class="bg-slate-800 p-3 rounded-lg w-full focus:outline-none ring-2 ring-transparent focus:ring-sky-500 disabled:opacity-50"></select>
+
+                <!-- End Screen -->
+                <div id="end-screen" class="screen hidden flex-col items-center justify-center text-center">
+                    <h2 class="text-4xl font-bold mb-2">Quiz Finished!</h2>
+                    <p class="text-lg mb-6">Your Final Score: <span id="final-score" class="text-app-accent font-bold">0</span></p>
+
+                    <button id="review-mistakes-btn" class="hidden bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-8 rounded-full text-base mb-4">Review My Mistakes</button>
+                    <button id="restart-btn" class="bg-app-secondary hover:bg-opacity-80 text-white font-bold py-3 px-8 rounded-full text-base">Play Again</button>
                 </div>
-                <div class="w-full text-left">
-                    <label for="question-count-select" class="text-sm font-medium text-slate-400 mb-1">Questions</label>
-                    <select id="question-count-select" class="bg-slate-800 p-3 rounded-lg w-full focus:outline-none ring-2 ring-transparent focus:ring-sky-500">
-                        <option value="5">5</option>
-                        <option value="10" selected>10</option>
-                        <option value="20">20</option>
-                        <option value="all">All</option>
-                    </select>
+
+                 <!-- Bookmarks Screen -->
+                 <div id="bookmarks-screen" class="screen hidden">
+                    <h2 class="text-2xl font-bold mb-4">Bookmarked Questions</h2>
+                    <div id="bookmarks-list" class="space-y-3"></div>
+                    <button id="start-bookmarked-btn" class="hidden w-full bg-app-accent text-app-text-dark font-bold p-4 rounded-full text-base mt-6">
+                        Start Bookmarked Quiz
+                    </button>
                 </div>
-                <button id="start-btn" disabled class="bg-sky-600 hover:bg-sky-700 font-bold py-3 rounded-lg text-xl w-full mt-2 disabled:bg-slate-700 disabled:cursor-not-allowed">Start Topic Quiz</button>
+
+                <!-- Profile Screen -->
+                <div id="profile-screen" class="screen hidden text-center">
+                    <h2 class="text-2xl font-bold">Profile & Stats</h2>
+                    <!-- Profile content here -->
+                </div>
+
             </div>
-        </div>
+        </main>
 
-        <!-- Quiz Screen -->
-        <div id="quiz-screen" class="screen hidden">
-            <div class="flex justify-between items-center mb-4">
-                <p class="text-lg">Score: <span id="score" class="font-bold">0</span></p>
-                <div class="bg-slate-800 text-sky-400 font-bold rounded-full w-16 h-16 flex items-center justify-center text-2xl">
-                    <span id="timer">10</span>
-                </div>
-                <p class="text-lg">Q: <span id="question-counter">1/10</span></p>
-            </div>
-            <div class="bg-slate-800 p-6 rounded-lg shadow-lg">
-                <!-- NEW: Bookmark Button -->
-                <button id="bookmark-btn" class="bookmark-btn absolute top-2 right-2 text-2xl text-slate-500 hover:text-amber-400">★</button>
-
-                <!-- NEW: Question Image -->
-                <img id="question-image" src="" alt="Question-related image" class="hidden max-h-60 w-auto mx-auto mb-4 rounded-lg bg-slate-700"/>
-
-                <h2 id="question-text" class="text-2xl font-semibold mb-6 text-center">Loading...</h2>
-                <div id="choices-container" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
-                
-                <div id="explanation-box" class="hidden mt-6 p-4 bg-slate-700 rounded-lg">
-                    <p class="font-bold">Explanation:</p>
-                    <p id="explanation-text" class="text-slate-300"></p>
-                </div>
-            </div>
-            <div class="text-center mt-4">
-                <button id="next-btn" class="hidden bg-sky-600 hover:bg-sky-700 text-white font-bold py-2 px-10 rounded-lg">Next</button>
-            </div>
-        </div>
-
-        <!-- End Screen -->
-        <div id="end-screen" class="screen hidden text-center">
-            <h2 class="text-5xl font-bold mb-4">Quiz Finished!</h2>
-            <p class="text-2xl mb-8">Your Final Score: <span id="final-score" class="text-sky-400 font-bold">0</span></p>
-            
-            <!-- NEW: Review Mistakes Button -->
-            <button id="review-mistakes-btn" class="hidden bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-12 rounded-lg text-xl mb-4">Review My Mistakes</button>
-            
-            <button id="restart-btn" class="bg-sky-600 hover:bg-sky-700 text-white font-bold py-3 px-12 rounded-lg text-xl">Play Again</button>
-        </div>
+        <!-- Bottom Navigation -->
+        <nav class="bottom-nav">
+            <button id="nav-home" class="nav-item active">
+                <img src="assets/icons/home.svg" alt="Home" class="nav-icon">
+                <span>Home</span>
+            </button>
+            <button id="nav-daily" class="nav-item">
+                <img src="assets/icons/calendar.svg" alt="Daily" class="nav-icon">
+                <span>Daily</span>
+            </button>
+            <button id="nav-bookmarks" class="nav-item">
+                <img src="assets/icons/bookmark.svg" alt="Bookmarks" class="nav-icon">
+                <span>Bookmarks</span>
+            </button>
+            <button id="nav-profile" class="nav-item">
+                <img src="assets/icons/user.svg" alt="Profile" class="nav-icon">
+                <span>Profile</span>
+            </button>
+        </nav>
     </div>
 
     <!-- Main App Script -->
