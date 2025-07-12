@@ -1,0 +1,15 @@
+[
+  {
+    "question": "What is the normal PR interval on an ECG?",
+    "choices": ["<120ms", "120-200ms", "200-300ms", ">300ms"],
+    "answer": "120-200ms",
+    "explanation": "A normal PR interval, representing atrial depolarization and AV node conduction, is 120–200ms."
+  },
+  {
+    "question": "What classic electrolyte abnormality is suggested by the peaked T-waves in this ECG?",
+    "image": "data/images/ecg_hyperkalemia.png",
+    "choices": ["Hypokalemia", "Hyperkalemia", "Hyponatremia", "Hypercalcemia"],
+    "answer": "Hyperkalemia",
+    "explanation": "Hyperkalemia (high potassium) can cause tall, peaked T-waves, widened QRS, and other ECG changes."
+  }
+]
